@@ -36,5 +36,6 @@ You should read this page and follow the instructions if you're joining the proj
 
 ### Next steps for *Developers*
 
-1. **Deploy:** The best way to familiarise yourself with the codebase is to have a go at deploying either an SRE to an existing SHM, or if time permits, a new SHM and attached SRE. Click on the `Deployment` tab and in the [DSH documentation](https://alan-turing-institute.github.io/data-safe-haven/) and follow the guides available there.
-2. **Open issues:** 
+1. **Deploy:** The best way to familiarise yourself with the codebase is to have a go at deploying either an SRE to an existing SHM, or if time permits, a new SHM and attached SRE. Click on the `Deployment` tab and in the [DSH documentation](https://alan-turing-institute.github.io/data-safe-haven/) and follow the guides available there. Either choose the latest release docs or try `develop` if you're feeling adventurous!
+    - Note: When you're done with any test SHM/SREs, you should follow the "Tear down" instructions in the respective guides.
+2. **Open issues:** If you notice any bugs in the Safe Haven code when deploying an SHM or SRE, open them [on the main repo](https://github.com/alan-turing-institute/data-safe-haven/issues).
