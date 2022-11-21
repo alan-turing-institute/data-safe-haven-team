@@ -14,6 +14,7 @@ New starters with an `@turing.ac.uk` email should be able to find the email addr
 - [Data Safe Haven repo](https://github.com/alan-turing-institute/data-safe-haven)
 - [Team project board](https://github.com/orgs/alan-turing-institute/projects/40/views/1)
 - [DSH user and deployment documentation main page](https://alan-turing-institute.github.io/data-safe-haven/)
+- [Turing Sharepoint link](https://thealanturininstitute.sharepoint.com/sites/SafeHaven)
 
 ## New starters checklist
 
@@ -27,7 +28,10 @@ You should read this page and follow the instructions if you're joining the proj
 2. **Read up:** On the [documentation site](https://alan-turing-institute.github.io/data-safe-haven), click the `Overview` tab, where you will find links to resources that explain what Data Safe Haven is and why someone would want to use it.
     - In particular, it's worth studying the [diagram](https://figshare.com/articles/poster/Data_Safe_Havens_in_the_Cloud/11815224) which displays the overall architecture of DSH, including the distinction between the Safe Haven Management (SHM) and Secure Research Environments (SREs) and the data classification system.
 3. **Access:** We have internal discussions about the project via Slack and manage our work via a combination of GitHub and Microsoft Sharepoint:
-    - Ensure you have access to the Alan Turing Institute Slack workspace and join the following channels: `#data-safe-haven` and `#data-safe-haven-team` (the latter is private and you may need to request a team member)
+    - **Slack:** Ensure you have access to the Alan Turing Institute Slack workspace and join the following channels: `#data-safe-haven` and `#data-safe-haven-team` (the latter is private and you may need to request a team member to add you, see [contacts](#contacts)).
+    - **Slack:** You can also join the external-facing Slack workspace called `Turing Data Safe Haven`, used for release announcements and other communications with the community of DSH users. Ask a team member to add you (see [contacts](#contacts)).
+    - **Sharepoint:** Internal documents are stored on [sharepoint](https://thealanturininstitute.sharepoint.com/sites/SafeHaven). You will need to have your Turing SSO set up. Ask a team member to add you to the group with access rights (see [contacts](#contacts)).
+    - **GitHub:** We use a GitHub [project board](https://github.com/orgs/alan-turing-institute/projects/40/views/1) to manage who is working on what. [Familiarise yourself](https://docs.github.com/en/github-ae@latest/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) if you haven't used one before and check you can add issues to the `data-safe-haven-team` or `data-safe-haven` repos.
 4. **Explore:** Ask one of the existing Data Safe Haven team to create a non-privileged user account in any test SRE that may be set up, so you can log in explore it from a user perspective and familiarise yourself with how it works.
 
 ### Next steps for *Developers*
