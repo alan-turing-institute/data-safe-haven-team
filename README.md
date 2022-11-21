@@ -4,10 +4,14 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 
 ## Contacts
 
-The existing members of the teams are as follows.
+The DSH team includes a longer list of people at The Alan Turing Institute, but the people you should contact with queries about the below, are as follows:
 
+- James Robinson
+- Jim Madge
+- Ed Chalstrey
+- Matt Craddock
 
-New starters with an `@turing.ac.uk` email should be able to find the email addresses of the above via Microsoft Outlook, if they have any queries.
+New starters with a `@turing.ac.uk` email should be able to find the email addresses of the above via Microsoft Outlook, if they have any queries.
 
 ## Useful links
 
