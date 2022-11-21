@@ -43,11 +43,11 @@ You should read this page and follow the instructions if you're joining the proj
 
 ## Contacts
 
-The DSH team includes a longer list of people at The Alan Turing Institute, but the people you should contact with queries about the below, are as follows:
+The DSH team includes a longer list of people at The Alan Turing Institute, but the people you should contact with queries about the information in this README are as follows:
 
 - James Robinson
 - Jim Madge
 - Ed Chalstrey
 - Matt Craddock
 
-New starters with a `@turing.ac.uk` email should be able to find the email addresses of the above via Microsoft Outlook, if they have any queries.
+Turing new starters with a `@turing.ac.uk` email should be able to find the email addresses of the above via Microsoft Outlook, if they have any queries.
