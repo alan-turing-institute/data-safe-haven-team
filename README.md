@@ -23,7 +23,7 @@ Welcome to the Data Safe Haven team! 🎉
 
 You should read this page and follow the instructions if you're joining the project for the first time at The Alan Turing Institute.
 
-### First steps for **all starters**
+### First steps for *all starters*
 
 1. **Bookmark** this page and the other [useful links](#useful-links) above
 2. **Read up:** On the [documentation site](https://alan-turing-institute.github.io/data-safe-haven), click the `Overview` tab, where you will find links to resources that explain what Data Safe Haven is and why someone would want to use it.
