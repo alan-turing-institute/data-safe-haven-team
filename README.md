@@ -7,3 +7,7 @@
 - [DSH user and deployment documentation main page](https://alan-turing-institute.github.io/data-safe-haven/)
 
 ## New starters checklist
+
+Welcome to the Data Safe Haven team! 🎉
+
+You should read this page and follow the instructions if you're joining the project for the first time at The Alan Turing Institute.
