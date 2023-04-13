@@ -12,10 +12,28 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 
 ## Useful links
 
-- [Data Safe Haven repo](https://github.com/alan-turing-institute/data-safe-haven)
-- [Team project board](https://github.com/orgs/alan-turing-institute/projects/40/views/1)
-- [DSH user and deployment documentation main page](https://alan-turing-institute.github.io/data-safe-haven/)
-- [Turing Sharepoint link](https://thealanturininstitute.sharepoint.com/sites/SafeHaven)
+### Data Safe Haven Project
+
+- [DSH repo](https://github.com/alan-turing-institute/data-safe-haven) (public) which hosts the open source codebase (and the docs code)
+- [DSH docs](https://alan-turing-institute.github.io/data-safe-haven/) (public) which includes user and deployment documentation
+- [DSH team repo (this repo)](https://github.com/alan-turing-institute/data-safe-haven-team) (public) used for team mangement and issues not related to the codebase
+- [DSH Team project board](https://github.com/orgs/alan-turing-institute/projects/40/views/1) (private) where the the issues from the above repos that the team intend to work on are organised
+- [Turing DSH Sharepoint link](https://thealanturininstitute.sharepoint.com/sites/SafeHaven) (private)
+
+### Trusted Research Environments Service Area (TRESA)
+
+- [Turing TRE docs](https://alan-turing-institute.github.io/trusted-research/) (public) which contains all the information on processes for managing "production" instances of DSH at Turing and the relevant people and tasks
+- [Trusted research repo](https://github.com/alan-turing-institute/trusted-research) (private) which contains the code for the Turing TRE docs and issues for the 2 project boards below
+- [TRESA - SRE board](https://github.com/orgs/alan-turing-institute/projects/25/views/1?layout=board) (private) which contains info of all the current/future/past SRE deployments at Turing under the production (prod4) SHM
+- [TRESA management board](https://github.com/orgs/alan-turing-institute/projects/52/views/1?layout=board) (private) which is for managing service area general issues
+
+### Standardised Architecture for Trusted Research Environments (SATRE)
+
+- [SA-TRE](https://github.com/sa-tre) GitHub org
+- [SATRE team repo](https://github.com/sa-tre/satre-team) (public) project management repo
+- [SATRE spec doc repo](https://github.com/sa-tre/satre-specification) repo used for hosting/writing the specification doc/ reference architecture (work package 1)
+- [SATRE backlog board](https://github.com/orgs/sa-tre/projects/1) for managing issues from the above repos
+
 
 ## New starters checklist
 
