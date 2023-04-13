@@ -31,8 +31,8 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 
 - [SA-TRE](https://github.com/sa-tre) GitHub org
 - [SATRE team repo](https://github.com/sa-tre/satre-team) (public) project management repo
-- [SATRE spec doc repo](https://github.com/sa-tre/satre-specification) repo used for hosting/writing the specification doc/ reference architecture (work package 1)
-- [SATRE backlog board](https://github.com/orgs/sa-tre/projects/1) for managing issues from the above repos
+- [SATRE spec doc repo](https://github.com/sa-tre/satre-specification) (public) repo used for hosting/writing the specification doc/ reference architecture (work package 1)
+- [SATRE backlog board](https://github.com/orgs/sa-tre/projects/1) (public) for managing issues from the above repos
 
 
 ## New starters checklist
