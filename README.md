@@ -29,7 +29,8 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 
 ### Standardised Architecture for Trusted Research Environments (SATRE)
 
-- [SA-TRE](https://github.com/sa-tre) GitHub org
+- [SATRE proposal](https://thealanturininstitute.sharepoint.com/sites/SafeHaven/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSafeHaven%2FShared%20Documents%2FExternal%20Funding%20Applications%2F2%2E0%20Applications%20%2D%20Other%20org%20as%20lead%2FDARE%20Phase%201b%2F2022%2D12%2D14%20SATRE%20Proposal%2Epdf&viewid=10151919%2Deeef%2D4a8b%2Db4c0%2D26a3b155773b&parent=%2Fsites%2FSafeHaven%2FShared%20Documents%2FExternal%20Funding%20Applications%2F2%2E0%20Applications%20%2D%20Other%20org%20as%20lead%2FDARE%20Phase%201b) (private) link to proposal doc in DSH sharepoint
+- [SA-TRE](https://github.com/sa-tre) (public) GitHub org
 - [SATRE team repo](https://github.com/sa-tre/satre-team) (public) project management repo
 - [SATRE spec doc repo](https://github.com/sa-tre/satre-specification) (public) repo used for hosting/writing the specification doc/ reference architecture (work package 1)
 - [SATRE backlog board](https://github.com/orgs/sa-tre/projects/1) (public) for managing issues from the above repos
