@@ -15,7 +15,7 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 ### Data Safe Haven Project
 
 - [DSH repo](https://github.com/alan-turing-institute/data-safe-haven) (public) which hosts the open source codebase (and the docs code)
-- [DSH docs](https://alan-turing-institute.github.io/data-safe-haven/) (public) which includes user and deployment documentation
+- [DSH docs](https://data-safe-haven.readthedocs.io/en/develop/index.html) (public) which includes user and deployment documentation
 - [DSH team repo (this repo)](https://github.com/alan-turing-institute/data-safe-haven-team) (public) used for team mangement and issues not related to the codebase
 - [DSH Team project board](https://github.com/orgs/alan-turing-institute/projects/40/views/1) (private) where the the issues from the above repos that the team intend to work on are organised
 - [Turing DSH Sharepoint link](https://thealanturininstitute.sharepoint.com/sites/SafeHaven) (private)
@@ -45,7 +45,7 @@ You should read this page and follow the instructions if you're joining the proj
 ### First steps for *all starters*
 
 1. **Bookmark** this page and the other [useful links](#useful-links) above
-2. **Read up:** On the [documentation site](https://alan-turing-institute.github.io/data-safe-haven), click the `Overview` tab, where you will find links to resources that explain what Data Safe Haven is and why someone would want to use it.
+2. **Read up:** On the [documentation site](https://data-safe-haven.readthedocs.io/en/develop/index.html), click the `Overview` tab, where you will find links to resources that explain what Data Safe Haven is and why someone would want to use it.
     - In particular, it's worth studying the [diagram](https://figshare.com/articles/poster/Data_Safe_Havens_in_the_Cloud/11815224) which displays the overall architecture of DSH, including the distinction between the Safe Haven Management (SHM) and Secure Research Environments (SREs) and the data classification system.
 3. **Access:** We have internal discussions about the project via Slack and manage our work via a combination of GitHub and Microsoft Sharepoint:
     - **Slack:** Ensure you have access to the Alan Turing Institute Slack workspace and join the following channels: `#data-safe-haven` and `#data-safe-haven-team` (the latter is private and you may need to request a team member to add you, see [contacts](#contacts)).
