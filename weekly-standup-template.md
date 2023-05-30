@@ -21,7 +21,7 @@ Please fill these items out before the meeting
 
 ### What I've done this week
 
-<!-- 
+<!--
 #### Your name here
 
 - Closed issue X
@@ -30,7 +30,9 @@ Please fill these items out before the meeting
 
 ### Things that are blocking me
 
-<!-- Things you'd like to discuss in person with other team members -->
+<!--
+Things you'd like to discuss in person with other team members
+-->
 
 ## Synchronous items
 
