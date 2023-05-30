@@ -5,7 +5,7 @@ author:
   - DSH team
 abstract: |
   Catch up with progress on DSH and plan next steps
-keywords: []
+tags: [dsh, standup]
 # Pandoc LaTeX variables
 papersize: a4
 fontfamily: fourier
