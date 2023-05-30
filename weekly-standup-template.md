@@ -62,6 +62,7 @@ Other issues can be dealt with in coworking time.
 
 ### Actions
 
-| Owner | Action |
-|-------|--------|
+| Owner             | Action                               |
+| -------           | --------                             |
 | Meeting organiser | Open meeting record for next meeting |
+| Meeting organiser | Save meeting record (sharepoint)     |
