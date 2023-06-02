@@ -38,8 +38,9 @@ Issues may span across repositories when necessary
 ## Checklist
 - [ ] This Story have been agreed with project members, it tackles prioritised work
   - [ ] If not: Label as ForPrioritisation so it discussed in the next monthly meeting, do not set a status  
+- [ ] I have filled in the Team Accountabe field
 - [ ] I have included this Story in the agreed upon Milestone, set status as Planned
-  - [ ] If not: set status as Backlog, to be Planned via weekly meetings/discussions
+  - [ ] If not: set status as Backlog, to be Planned via weekly meetings or async discussions
 - [ ] The work to be done is likely to span over a month
 - [ ] I have broken down the work in monthly issues and added them above
 - [ ] I have labeled this issue according to its main project: SATRE, TRESA, CORE DSH (ELA) or other (please agree and create a new label if necessary)
