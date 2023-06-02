@@ -2,7 +2,7 @@
 name: Weekly Standup Issue
 about: Planning work for the week, communicate progress and blockers
 title: ''
-labels: Management
+labels: 
 assignees: ''
 
 ---
