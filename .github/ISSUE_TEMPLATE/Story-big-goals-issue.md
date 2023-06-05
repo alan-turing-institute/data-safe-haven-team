@@ -44,4 +44,5 @@ Issues may span across repositories when necessary
 - [ ] The work to be done is likely to span over a month
 - [ ] I have broken down the work in monthly issues and added them above
 - [ ] I have labeled this issue according to its main project: SATRE, TRESA, CORE DSH (ELA) or other (please agree and create a new label if necessary)
-- [ ] I have stimated the total effort and added it in the body (under Details) but left the issue field blank
+- [ ] If known: sum the total effort (points) of tracked issues and add it on the body
+- [ ] Select a Story level of effort in the project fields
