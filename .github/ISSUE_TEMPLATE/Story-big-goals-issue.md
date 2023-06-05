@@ -21,9 +21,9 @@ When will this be considered as succesfully completed?
   - Accountable team or person:
   - Responsible team or person:
   - Informed and consulted people:
-- Estimated effort
- - High/Medium/Low (initial scale before, to be dropped)
- - Story points (Above 10, sum of monthly issues effort)
+- Estimated effort:
+  - High/Medium/Low (initial scale before, to be dropped)
+  - Story points (Above 10, sum of monthly issues effort)
 
 ## Task and issue breakdown
 Breakdown in specific tasks of maximum a month duration, tasks and issues may be added as necessary
