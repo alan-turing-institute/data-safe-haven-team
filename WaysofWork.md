@@ -58,6 +58,9 @@ The next monthly meeting should be longer, at least two hours, and focused on th
 
 Stories are only created in this repo (data-safe-haven-team) and are "issues of issues",
 they contain and reflect a 'Piece of Work' or goal agreed as necessary for the success of the project during an all-hands meeting or discussion (typically a Monthly meeting).
+Stories will typically span longer than a month, while they do not have a defined maximum duration an usefull reference may be a quarter (they can take longer but we may want to consider deifning further intermediate goals). 
+
+Stories should not be created without consensus, if you DO NEED to create one to reflect a big piece of work you are for certain doing then add the tag 'ForPrioritisation' and take it to the team. 
 
 It is the responsibility of the Accountable team or person, with help from the PM where necessary, to create and complete a story.
 
@@ -72,6 +75,6 @@ In the body of the issue:
 - Checklist: it will take you through these same steps.
 
 Issue and project fields:
--
+- 
 
 
