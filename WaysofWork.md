@@ -1,8 +1,8 @@
 # onBOARDing document: Issues, Milestones and Projects for the DSH team
 V: Beta
-This document lays out how to create and use this repo and associated project board for the tracking and orgnaisation of work relating to DSH project, attending to its multi-repository nature.
+This document lays out how to create and use this repo and associated project board for the tracking and organisation of work relating to DSH project, attending to its multi-repository nature.
 
-The proposed structure responds to an ask from the project team to increase communicaiton, organizaitona and collaboration with the least possible ammount of meeting time or fixed synchronous co-working time.
+The proposed structure responds to an ask from the project team to increase communicaiton, organizaiton and collaboration with the least possible ammount of meeting time or fixed synchronous co-working time.
 
 This is a first proposal so please do propose changes via PR.
 
@@ -20,14 +20,17 @@ https://docs.github.com/en/issues/planning-and-tracking-with-projects/understand
 
 #### Tasks or standard issues
 These are issues as normally used, they are created in their corresponding repository (most likely data-safe-haven, TRESA, SATRE, TPS PM or this same one).
-When created in another repository try to still apply these rules as much as possible but do attend first to specific issue requirements present there 
+When created in another repository try to still apply these rules as much as possible but do attend first to specific issue requirements present there. 
 
 - Duration: strive to create issues that do not (or are not expected to) exceed a month, 
 - Add to the Project [DSH unified board proposal](https://github.com/orgs/alan-turing-institute/projects/111) during creation or afterwards
 - Mention in the body or comment the Story this issue contributes to if possible
 - Create the issue
 - Fill the following project fields via the dropdown menu (you can also go to the [project table view](https://github.com/orgs/alan-turing-institute/projects/111/views/3) for it)
-  - Set Status: see Board for more details
+  - Set Status:
+    - No Status: if this issue has no clear Story and it has not being agreed as necessary
+    - Backlog: if it has been agreed as necessary work
+    - Planned: agreed and we know when to address it or by when it needs done 
   - Points (effort): assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assing a 1 or 10 (cannot be merged or split) do so
   - Add planned dates when known
   - Story Effort: leave blank, does not apply to base issues
@@ -51,8 +54,24 @@ This situation may arise in the begining, while we fully complete the roadmap an
 If this happen regularly it should be addressed, either there is a deviation from plans and goals or these are loosing validity.
 The next monthly meeting should be longer, at least two hours, and focused on the roadmap rather than progress.
 
-#### Story
+#### Story issues
 
+Stories are only created in this repo (data-safe-haven-team) and are "issues of issues",
+they contain and reflect a 'Piece of Work' or goal agreed as necessary for the success of the project during an all-hands meeting or discussion (typically a Monthly meeting).
 
+It is the responsibility of the Accountable team or person, with help from the PM where necessary, to create and complete a story.
+
+In the body of the issue:
+- Specify the goal this story refers to
+- Describe what the work is and what it will achieve
+- Define what would need to be achieved to consider the goals met, or the story as done
+- In details:
+  - Complete the RACI list, a team or person should always be accountable (ensures the necessary work is done), often some other team or person will be responsible (has an active role in the success).
+  - Add details of the estimated effort this will take (you can later updated it, even better if you come back to it after closing and reflect estimated vs actual effort it took)
+- Task and issue breakdown, this is why stories exist please complete and keep up to date: add all issues across repositories that contribute to this goal 
+- Checklist: it will take you through these same steps.
+
+Issue and project fields:
+-
 
 
