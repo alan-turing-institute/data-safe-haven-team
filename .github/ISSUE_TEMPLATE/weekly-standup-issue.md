@@ -43,11 +43,11 @@ Things you'd like to discuss in person with other team members
 ### Things I plan to work on next week
 
 
-- Worked/Closed issue alan-turing-institute/data-safe-haven-team#X
-- Worked/Closed issue alan-turing-institute/data-safe-haven#X
-- Worked/Closed issue alan-turing-institute/trusted-research
-- Worked/Closed issue sa-tre/satre-specification#X
-- Worked/Closed issue sa-tre/satre-team#X
+- issue alan-turing-institute/data-safe-haven-team#X
+- issue alan-turing-institute/data-safe-haven#X
+- issue alan-turing-institute/trusted-research
+- issue sa-tre/satre-specification#X
+- issue sa-tre/satre-team#X
 
 ## Synchronous items
 
