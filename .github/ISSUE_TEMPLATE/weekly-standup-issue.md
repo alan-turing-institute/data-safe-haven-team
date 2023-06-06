@@ -13,6 +13,9 @@ Purpose of this issue is to better communicate and coordinate with DSH team memb
 
 It should reflect what was done during the week, blockers and serve to plan work for the following week minimising the need for synchronous meeting time
 
+RPM will be responsible to create and update it each week,
+everyone is responsible to update issues worked on and planned and report in the collaborative note [here](https://hackmd.io/3KNjlfj-Sn-giEk8DOnqyA)
+
 ## Asynchronous items
 
 
