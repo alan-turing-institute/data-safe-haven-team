@@ -19,10 +19,9 @@ It should reflect what was done during the week, blockers and serve to plan work
 Please fill these items out before the meeting
 
 
-### What I've done this week
+### What we have done this week
 
-
-#### Your name here
+#### Issues
 
 - Worked/Closed issue alan-turing-institute/data-safe-haven-team#X
 - Worked/Closed issue alan-turing-institute/data-safe-haven#X
@@ -30,18 +29,18 @@ Please fill these items out before the meeting
 - Worked/Closed issue sa-tre/satre-specification#X
 - Worked/Closed issue sa-tre/satre-team#X
 
+#### Discussions
 - Discussed problem Y
 
 
 
-### Things that are blocking me
+#### Blockers & solutions
 
 
 Things you'd like to discuss in person with other team members
 
 
-### Things I plan to work on next week
-
+### What we plan to work on this week
 
 - issue alan-turing-institute/data-safe-haven-team#X
 - issue alan-turing-institute/data-safe-haven#X
