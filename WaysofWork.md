@@ -179,12 +179,35 @@ The main fields have been presented above but are furhter listed and explained h
 - Actual start and Actual end: this are to register when an issue is actually addressed and closed, subject to revision how to best use them or their utility
 - Other fields: project fields are highly configurable, speak to you RPM and team to discuss any needs.
 
+In any view changing the filters will allow you to quickly view issues and effort by team, subproject or time period. The Story label will allow to filter and distingush between stories and the rest of issues.
+
 #### Roadmap - Story
+
+This is the main view for the long term vision and resource planning, 
+by default it is organised by team accountable and shows only the stories each is accountable for and when they are planned for (Planned start date and Planned end date).
+
+Dragging and dropping a story in the calendar will automatically fill in or modify the planned start and end.
+
 
 #### Roadmap - Tasks
 
+Similar to the above but representing only task level issues,
+this view uses iterations as date fields instead of planned dates.
+
+It allows to quickly view the total effort (as a sum of points) that each team has in their plate.
+
 #### Board
 
+Likely to be the most day to day view, it shows issues by status.
+For simplicity only one view exists, where task level issues and stories cause confussion use the Story label to filter.
+
+What statuses to use and how can evolve with use, the most important rule to follow is to respect the backlog as agreed upon work.
+
 #### Table
+
+How to best use it will be discussed and developed together, no direct or immediate use yet (do suggest!)
+
+#### Graphs
+To be developed
 
 
