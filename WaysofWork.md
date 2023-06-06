@@ -2,7 +2,7 @@
 V: Beta
 This document lays out how to create and use this repo and associated project board for the tracking and organisation of work relating to DSH project, attending to its multi-repository nature.
 
-The proposed structure responds to an ask from the project team to increase communicaiton, organizaiton and collaboration with the least possible ammount of meeting time or fixed synchronous co-working time.
+The proposed structure responds to an ask from the project team to increase communication, organization and collaboration with the least possible amount of meeting time or fixed synchronous co-working time.
 
 This is a first proposal so please do propose changes via PR.
 
@@ -31,7 +31,7 @@ When created in another repository try to still apply these rules as much as pos
     - No Status: if this issue has no clear Story and it has not being agreed as necessary
     - Backlog: if it has been agreed as necessary work
     - Planned: agreed and we know when to address it or by when it needs done 
-  - Points (effort): assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assing a 1 or 10 (cannot be merged or split) do so
+  - Points (effort): assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assign a 1 or 10 (cannot be merged or split) do so
   - Add planned dates when known
   - Story Effort: leave blank, does not apply to base issues
   - Team Accountable: who is the momentum generator for this task?
@@ -49,18 +49,18 @@ During the next monthly meeting the whole team will discuss its prioritisation,
 or review the project roadmap if it turns out it is not reflected the actual work being carried out or necessary for the project's success.
 
 ```
-This situation may arise in the begining, while we fully complete the roadmap and configure the repository, after that it should be rare.
+This situation may arise in the beginning, while we fully complete the roadmap and configure the repository, after that it should be rare.
 ```
 If this happen regularly it should be addressed, either there is a deviation from plans and goals or these are loosing validity.
 The next monthly meeting should be longer, at least two hours, and focused on the roadmap rather than progress.
 
-At any given moment the number of active stories you are directly working on should be farily limitted, do not worry about having to keep many in mind to choose the right one (take it to the RPM otherwise and they will help out)
+At any given moment the number of active stories you are directly working on should be fairly limited, do not worry about having to keep many in mind to choose the right one (take it to the RPM otherwise and they will help out)
 
 #### Story issues
 
 Stories are only created in this repo (data-safe-haven-team) and are "issues of issues",
 they contain and reflect a 'Piece of Work' or goal agreed as necessary for the success of the project during an all-hands meeting or discussion (typically a Monthly meeting).
-Stories will typically span longer than a month, while they do not have a defined maximum duration an usefull reference may be a quarter (they can take longer but we may want to consider deifning further intermediate goals). 
+Stories will typically span longer than a month, while they do not have a defined maximum duration an useful reference may be a quarter (they can take longer but we may want to consider defining further intermediate goals). 
 
 Stories should not be created without consensus, if you DO NEED to create one to reflect a big piece of work you are for certain doing then add the tag 'ForPrioritisation' and take it to the team. 
 
@@ -78,7 +78,7 @@ In the body of the issue:
 
 Issue fields:
 - Assignees: include at least the main accountable person
-- Labels: Story, always use this label as it used in the project board and roadmao to filter and distinguish issues from stories
+- Labels: Story, always use this label as it used in the project board and roadmap to filter and distinguish issues from stories
   -  ForPrioritisation: use this always that you have created a story that still needs to be discussed and approved
   -  Funding/project: Core DSH (ELA), SATRE, TRESA
   -  Milestone: Choose a milestone by typing the team accountable and then selecting the time period when it should be addressed.
@@ -90,7 +90,7 @@ Issue fields:
     - No Status: when you need to create the story but it has not yet been discussed and approved
     - Backlog: approved as necessary work for the project success, but no clarity on when to address
     - Planned: approved and planned, it has an associated milestone
-  - Story effort: select if the overall effort is low, med or high (*the interval will change as become better at stimating effort)
+  - Story effort: select if the overall effort is low, med or high (*the interval will change as become better at estimating effort)
   - Team Accountable: select the team
   - Project/Funding: select the funding source or subproject this story belongs to (repetitive but useful to fill in both)
   Other project fields:
@@ -105,7 +105,7 @@ Issue fields:
 Creating an issue of issue or meta issue may seem confusing, 
 and some aspects of it may be (the importance of the label Story lies here, because the project views are configured to provide clarity based on it).
 Yet they are necessary to keep an organised overview of goals and progress while:
-- Allowing day to day issues to be created as it is best for the person, team or repo taclking them. This way we do not need to unify criteria, which may prove difficult when some tasks are very managerial/contractual and others are bugs
+- Allowing day to day issues to be created as it is best for the person, team or repo tackling them. This way we do not need to unify criteria, which may prove difficult when some tasks are very managerial/contractual and others are bugs
 - Being able to assign team and people
 - Reflect discussions and progress within
 - Reflecting them in a roadmap
@@ -124,12 +124,12 @@ They will open on Thursdays and close the following Friday (*automation pending*
 
 From Thursdays and before the weekly meeting (Monday 10 AM) each team member will have to:
 - Make updates in the issues they have worked on via comments
-- Change their status in the project where appropiatte
-- Update fields where appropiatte
+- Change their status in the project where appropiate
+- Update fields where appropiate
 - Fill in the meeting collaborative note here: https://hackmd.io/3KNjlfj-Sn-giEk8DOnqyA
 
 The weekly standup will then take place, discussing blockers and planning work.
-Team members should update the collaborative note as appropiatte to reflect plans for the week and any agreed actions
+Team members should update the collaborative note as appropiate to reflect plans for the week and any agreed actions
 
 The RPM will:
 - Update the weekly issue body to reflect the team overall work for the last week and plans for this week
@@ -158,7 +158,7 @@ This project is associated to the data-safe-haven-team repo,
 but is designed to reflect work across any number of (ATI or public) repositories.
 To do this stories and project fields are key (we cannot modify labels or milestones in repositories we do not own, but can do what we want with project fields).
 
-The main fields have been presented above but are furhter listed and explained here, they can be adapted and changed as the needs of the porject changes.
+The main fields have been presented above but are further listed and explained here, they can be adapted and changed as the needs of the project changes.
 
 - Status: Main way of tracking issues and stories progress
   - No Status: issues (of any kind) can be created at any moment if needed, but until they are agreed as necessary they should remain without status. It is important for effective coordination and resource management that nothing is added to Backlog, especially stories, until discussed.
@@ -169,17 +169,17 @@ The main fields have been presented above but are furhter listed and explained h
   - For Review: Issues, specially stories, that have been completed and are ready to be presented as part of progress made before being closed. Not every issue will need to stop here before closing (Done), in particular task level issues are likely to be closed directly following your own criteria (still good to ask your team and tell about it in the weekly meeting)
   - Done: over and done with, This will be used to periodically build the reports
 - Points (effort): currently only applies to task level issues, in a subjective way they measure effort for each task from 1 to 10. This allows each task in each repository to keep the format and form they need to have but unify at a team level what effort they entail, and therefore track total effort by team (this takes a wee while, as we collectively figure out what we can do in each period, but then is very effective)
-  - Assigning effort: assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assing a 1 or 10 (cannot be merged or split) do so.
+  - Assigning effort: assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assign a 1 or 10 (cannot be merged or split) do so.
 - Story Effort: currently only applying to stories, simple effort scale for stories that will need to evolve sooner than later. It works to plan work and asses capacity, as an heuristic to start with no team should have more than 2 High effort and a Medium effort in any given quarter.
-  - Assigning effort: High means it will for certain keep the team busy for a whole quarter (or we are quite uncertain on what needs done, figuring that out will take time), Medium means we are confident we cana ccomplish the story well within the quarter and have clarity about it, Low is low hanging fruit that will be easily accomplished this quarter. As an heuristic you can consider that H=2M=4L
+  - Assigning effort: High means it will for certain keep the team busy for a whole quarter (or we are quite uncertain on what needs done, figuring that out will take time), Medium means we are confident we can sccomplish the story well within the quarter and have clarity about it, Low is low hanging fruit that will be easily accomplished this quarter. As an heuristic you can consider that H=2M=4L
 - Team Accountable: select the team who will lead for this goal or task, it is important to fill in because it allows to generate graphs and calculate effort by team
 - Project/Funding: what is either the source of funding or the sub-project it belongs to?
 - Planned start date and Planned end date: this are the dates that currently the roadmap shows, they are especially important for stories (so we do not spend too much time planning small tasks)
-- Iteration: these are cycles of work currently configured to last for a month, they are most useful for task level issues, and allow the Roadmap-Tasks view to show tasks distrubuted in time without you having to exactly define dates. As you plan work for the week or month you can "drop" them in the corresponding iteration in the Roadmap-Tasks and move them as necessary
+- Iteration: these are cycles of work currently configured to last for a month, they are most useful for task level issues, and allow the Roadmap-Tasks view to show tasks distributed in time without you having to exactly define dates. As you plan work for the week or month you can "drop" them in the corresponding iteration in the Roadmap-Tasks and move them as necessary
 - Actual start and Actual end: this are to register when an issue is actually addressed and closed, subject to revision how to best use them or their utility
 - Other fields: project fields are highly configurable, speak to you RPM and team to discuss any needs.
 
-In any view changing the filters will allow you to quickly view issues and effort by team, subproject or time period. The Story label will allow to filter and distingush between stories and the rest of issues.
+In any view changing the filters will allow you to quickly view issues and effort by team, subproject or time period. The Story label will allow to filter and distinguish between stories and the rest of issues.
 
 #### Roadmap - Story
 
@@ -199,7 +199,7 @@ It allows to quickly view the total effort (as a sum of points) that each team h
 #### Board
 
 Likely to be the most day to day view, it shows issues by status.
-For simplicity only one view exists, where task level issues and stories cause confussion use the Story label to filter.
+For simplicity only one view exists, where task level issues and stories cause confusion use the Story label to filter.
 
 What statuses to use and how can evolve with use, the most important rule to follow is to respect the backlog as agreed upon work.
 
