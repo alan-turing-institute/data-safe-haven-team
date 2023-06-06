@@ -210,4 +210,13 @@ How to best use it will be discussed and developed together, no direct or immedi
 #### Graphs
 To be developed
 
+### Milestones
+
+Milestones allow to group issues of any kind and associate them to a specific delivery,
+currently they have been created by team and quarter.
+
+They are not heavily used yet as the information they offer is also contained via project fields (Planned end data + Team Accountable) yet they offer a good visual for the roadmap and allow to quickly track the progress (as completed issues out of milestone totals) of each time for a specific deadline.
+There is room to improve their use if wanted.
+
+In addition to the team's milestones there is an ongoing milestone (to the project's end) for meetings and other formalities that involve the whole team.
 
