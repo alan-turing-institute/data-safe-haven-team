@@ -110,7 +110,7 @@ Yet they are necessary to keep an organised overview of goals and progress while
 - Reflect discussions and progress within
 - Reflecting them in a roadmap
 
-**Why not milestones?** Because they are much more information limited, cannot be shown in the same way in boards or roadmaps and are repository bound.
+**Why not milestones?** Because they are much more information limited, cannot be shown in the same way in boards or roadmaps and are repository bound. In summary they are a deprecated feature that do not allow the analysis and tracking we require
 
 #### Planning & Report (meeting outputs)
 
@@ -119,32 +119,43 @@ Monthly and quarterly issues will have associated PRs in which the team is expec
 
 ##### Weekly issue
 
-This will be used to reflect issues where progress was made or blockers arose during the previous week and track issues or work planned for the week.
-They will open on Thursdays and close the following Friday (*automation pending*).
+Purpose of this issue is to better communicate and coordinate with DSH team members directly working on project tasks.
+
+It should reflect what was done during the week, blockers and serve to plan work for the following week minimising the need for synchronous meeting time
+
+RPM will be responsible to create and update it each week,
+everyone is responsible to update issues worked on and planned and report in the collaborative note here
+
+The issue will be permanent and updated via comments to avoid drowing the repo, meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. This issue will therefore only track status of issues so PM can maintian the team's Project.
 
 From Thursdays and before the weekly meeting (Monday 10 AM) each team member will have to:
 - Make updates in the issues they have worked on via comments
 - Change their status in the project where appropiate
 - Update fields where appropiate
-- Fill in the meeting collaborative note here: https://hackmd.io/3KNjlfj-Sn-giEk8DOnqyA
+- Fill in the meeting collaborative note here: https://hackmd.io/nPewceMuQcmXD7jfqYFpzw?edit
 
 The weekly standup will then take place, discussing blockers and planning work.
 Team members should update the collaborative note as appropiate to reflect plans for the week and any agreed actions
 
 The RPM will:
-- Update the weekly issue body to reflect the team overall work for the last week and plans for this week
+- Update the weekly issue to reflect the team overall work for the last week and plans for this week
 - Review roadmap and boards to ensure it reflects the current project status
 - Add any necessary points for discussion for the monthly meeting
 
 A member of the REG team will be asked to archive the meeting minute in the collaborative note in Sharepoint [here](https://thealanturininstitute.sharepoint.com/sites/SafeHaven/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSafeHaven%2FShared%20Documents%2FMeetings&viewid=10151919%2Deeef%2D4a8b%2Db4c0%2D26a3b155773b)
 
-##### Monthly issue (WIP)
+##### Monthly issue
 
 The monthly issue will be used to update the [month by month report](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/Reports/Monthly.md),
 as well as put together the agenda for the monthly meeting.
 
 After the monthly meeting the RPM will reflect in the issue any necessary updates to roadmap, stories or issues.
 It will allocate responsibility across teams to make those updates effective.
+
+```
+Potentially monthly issues will be reduced to their PR without creating an issue to keep the repo cleaner.
+
+```
 
 ##### Open discussion
 
@@ -213,10 +224,70 @@ To be developed
 ### Milestones
 
 Milestones allow to group issues of any kind and associate them to a specific delivery,
-currently they have been created by team and quarter.
+currently they have been created by quarter and end of exsitng funding/subproject.
 
 They are not heavily used yet as the information they offer is also contained via project fields (Planned end data + Team Accountable) yet they offer a good visual for the roadmap and allow to quickly track the progress (as completed issues out of milestone totals) of each time for a specific deadline.
 There is room to improve their use if wanted.
 
 In addition to the team's milestones there is an ongoing milestone (to the project's end) for meetings and other formalities that involve the whole team.
 
+## Meetings & Co-working
+
+Synchronous meeting has been minimised according to team's preference and due to the already meeting intensive schedule,
+therefore the focus is in maintaining up to date repositories and communicating in advance via written reports.
+
+Meeting time should be focus on collaboration and group decisions.
+
+### Weekly meeting
+Key facts
+- Mondays 10.30 to 11
+- Attended by Project working team
+- Purpose:
+  - communicate work done and plans (Async)
+  - address blockers
+  - plan the week and co-working time
+  - (If needed) reasign work
+  - (If needed) Contribute discussion points for Monthly meeting, or elevate decisions
+
+These meetings are the main way for the team to coordinate,
+they are attended by all team members accountable for carrying out the work to deliver the project.
+
+It's asynchronous elements are as important as the actual meeting time and require everyone to update their issues and stories.
+
+The weekly meeting is the time to discuss and agree any new work or reprioritise existing work.
+This is not expected to happen each week,
+yet it is likely that after monthly meetings or main milestones (quarters, end of funding) this becomes the focus of the meeting.
+It is during this meeting that any inclussion of issues in the backlog is discussed (and elevated to the Monthly when necessary), 
+and when issues are taken from the backlog into planned work.
+
+### Weekly coworking
+Key facts
+- Wednesdays 09.30 to 10.30
+- Attended by Project working team
+- Purpose: work together in issues identified during weekly
+
+Co-working time is an unstructured hour for synchronous work
+
+### Monthly meeting
+Key facts
+- Second Monday of the month 13.00 to 14.00
+- Attended by whole DSH members and invited stakeholders
+- Purpose:
+  - Show progress and work
+  - Receive feedback and approve deliverables
+  - Address project blockers
+  - Reprioritise goals (stories) and review roadmap
+  - Approve changes to the Backlog
+ 
+Meeting structure:
+- RPM: welcome and agenda
+- RPM: Project updates at a glance
+- Accountable teams:
+  - REG update, including issues for discussion (blockers, backlog, roadmap changes)
+  - RAM update, including issues for discussion (blockers, backlog, roadmap changes) 
+  - RCM update, including issues for discussion (blockers, backlog, roadmap changes)
+  - RPM update, including issues for discussion (blockers, backlog, roadmap changes)
+- PI and stakeholders: feedback
+- All Decision and actions for Blockers, backlog, roadmap
+
+This meeting
