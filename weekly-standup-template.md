@@ -66,6 +66,7 @@ Current repos are:
 1. Address blockers
 2. Plan coworking sessions
 3. Consider prioritisation (potentially assign new issues)
+4. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
 
 <!--
 Please do not add additional agenda items.
