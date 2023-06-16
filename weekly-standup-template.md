@@ -15,15 +15,25 @@ colorlinks: true
 
 ## Asynchronous items
 
+Remember to first update the relevant issues and Stories on GH
 <!--
 Please fill these items out before the meeting
 -->
 
 ### What I've done this week
 
+Please include full details for Stories or issues, either link or as org/repo#number
+Current repos are:
+- alan-turing-institute/data-safe-haven-team#X
+- alan-turing-institute/data-safe-haven#X
+- alan-turing-institute/trusted-research#x
+- sa-tre/satre-specification#X
+- sa-tre/satre-team#X
+
 <!--
 #### Your name here
 
+- Worked on Story Z
 - Closed issue X
 - Discussed problem Y
 -->
@@ -32,6 +42,21 @@ Please fill these items out before the meeting
 
 <!--
 Things you'd like to discuss in person with other team members
+-->
+
+### Pans for the week
+Please include full details for Stories or issues, either link or as org/repo#number
+Current repos are:
+- alan-turing-institute/data-safe-haven-team#X
+- alan-turing-institute/data-safe-haven#X
+- alan-turing-institute/trusted-research#x
+- sa-tre/satre-specification#X
+- sa-tre/satre-team#X
+<!--
+#### Your name here
+
+- Work on Story Z
+- by addressing issues X
 -->
 
 ## Synchronous items
