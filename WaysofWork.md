@@ -280,6 +280,7 @@ Key facts
   - Approve changes to the Backlog
  
 Meeting structure:
+- Update Report Pull Request (Async)
 - RPM: welcome and agenda
 - RPM: Project updates at a glance
 - Accountable teams:
@@ -290,4 +291,11 @@ Meeting structure:
 - PI and stakeholders: feedback
 - All Decision and actions for Blockers, backlog, roadmap
 
-This meeting
+This meeting is how we communicate work and make any decisions regarding the overall goals of the project,
+it is the time to elevate blockers or important changes to the roadmap or backlog (any inclussion of a story issue should be addressed and discussed).
+
+As with weeklys and to make use of the synchronous times this meetings have a strong asynchronous component,
+each team will update their stories and make changes to a monthly report PR that the RPM will prepare in advance.
+
+All attendees should make the time to read over the report and prepare their questions and feedback.
+
