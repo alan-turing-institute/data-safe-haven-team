@@ -59,9 +59,9 @@ It may also be things you would like the help or input of the team on.
 ### Agenda
 
 1. Address blockers
-2. Plan coworking sessions
-3. Plans for the week --- task priotisiation
-4. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
+1. Plan coworking sessions
+1. Plans for the week — task priotisiation
+1. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
 
 <!--
 Please do not add additional agenda items.
