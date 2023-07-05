@@ -41,7 +41,17 @@ Please include full details for stories or issues and include links.
 ### Things that are blocking me
 
 <!--
-Things you'd like to discuss in person with other team members
+Please use the template below to report things that are blocking you.
+This may be things out of your control that you need to raise attention to.
+It may also be things you would like the help or input of the team on.
+-->
+
+<!--
+#### Your name here
+
+- I don't understand bug X
+- I don't feel I have the authority to do Y
+- I want advice on issue Z
 -->
 
 ## Synchronous items
