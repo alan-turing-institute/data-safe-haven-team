@@ -51,7 +51,7 @@ Current repos are:
 Things you'd like to discuss in person with other team members
 -->
 
-### Pans for the week
+### Plans for the week
 Please include full details for Stories or issues, either link or as org/repo#number
 Current repos are:
 - alan-turing-institute/data-safe-haven-team#X
