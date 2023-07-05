@@ -27,7 +27,7 @@ Remember to first update the relevant issues and stories on the project board: h
 Please use the template below to report what you have been working on.
 Try to update this as you work.
 
-Please include full details for stories or issues and include links
+Please include full details for stories or issues and include links.
 
 Current repos are:
 - alan-turing-institute/data-safe-haven-team#X
@@ -83,15 +83,21 @@ Other issues can be dealt with in coworking time.
 
 #### Plans for the week
 
-Please include full details for Stories or issues, either link or as org/repo#number
+<!--
+Please use the template below to report what you expect or want to work on this week.
+
+Please include full details for stories or issues and include links.
+
 Current repos are:
 - alan-turing-institute/data-safe-haven-team#X
 - alan-turing-institute/data-safe-haven#X
 - alan-turing-institute/trusted-research#x
 - sa-tre/satre-specification#X
 - sa-tre/satre-team#X
+-->
+
 <!--
-#### Your name here
+##### Your name here
 
 - Work on Story Z
 - by addressing issues X
