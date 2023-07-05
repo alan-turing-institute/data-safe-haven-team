@@ -51,7 +51,38 @@ Current repos are:
 Things you'd like to discuss in person with other team members
 -->
 
-### Plans for the week
+## Synchronous items
+
+### Agenda
+
+1. Address blockers
+2. Plan coworking sessions
+3. Plans for the week --- task priotisiation
+4. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
+
+<!--
+Please do not add additional agenda items.
+Other issues can be dealt with in coworking time.
+-->
+
+### Present
+
+- List of people present
+
+### Notes
+
+#### Blockers
+
+- Blocker
+  - Address the blocker
+
+#### Coworking session suggestions
+
+- Suggestion
+- Suggestion
+
+#### Plans for the week
+
 Please include full details for Stories or issues, either link or as org/repo#number
 Current repos are:
 - alan-turing-institute/data-safe-haven-team#X
@@ -66,36 +97,11 @@ Current repos are:
 - by addressing issues X
 -->
 
-## Synchronous items
-
-### Agenda
-
-1. Address blockers
-2. Plan coworking sessions
-3. Consider prioritisation (potentially assign new issues)
-4. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
-
-<!--
-Please do not add additional agenda items.
-Other issues can be dealt with in coworking time.
--->
-
-### Present
-
-- List of people present
-
-### Notes
-
-- Summary of discussion points
-- Use subsections if appropriate
-
-### Decisions
-
-- Record any decisions made during the meeting
-
 ### Actions
 
-| Owner             | Action                               |
-| -------           | --------                             |
-| Meeting organiser | Open meeting record for next meeting |
-| Meeting organiser | Save meeting record (sharepoint)     |
+| Owner                              | Action                                          |
+| -------                            | --------                                        |
+| Meeting organiser                  | Open meeting record for next meeting            |
+| Meeting organiser                  | Save meeting record (sharepoint)                |
+| Technical lead and project manager | Compare actual effort against project board     |
+| Technical lead and project manager | Compare plan for the week against project board |
