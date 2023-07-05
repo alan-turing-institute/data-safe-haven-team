@@ -105,5 +105,5 @@ Please include full details for stories or issues and include links.
 | -------                            | --------                                        |
 | Meeting organiser                  | Open meeting record for next meeting            |
 | Meeting organiser                  | Save meeting record (sharepoint)                |
-| Technical lead and project manager | Compare actual effort against project board     |
+| Technical lead and project manager | Compare actual effort against project board & team capacity    |
 | Technical lead and project manager | Compare plan for the week against project board |
