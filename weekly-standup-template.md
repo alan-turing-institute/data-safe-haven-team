@@ -15,9 +15,10 @@ colorlinks: true
 
 ## Asynchronous items
 
-Remember to first update the relevant issues and Stories on GH
 <!--
-Please fill these items out before the meeting
+Please fill these items out before the meeting.
+
+Remember to first update the relevant issues and stories on the project board: https://github.com/orgs/alan-turing-institute/projects/111
 -->
 
 ### What I've done this week
