@@ -28,14 +28,20 @@ Please use the template below to report what you have been working on.
 Try to update this as you work.
 
 Please include full details for stories or issues and include links.
+
+Please indicate any work that is new, or otherwise not included on the project board.
+For example, this may be an emergent task, providing support or expertise to other teams.
 -->
 
 <!--
 #### Your name here
 
-- Worked on Story Z
-- Closed issue X
-- Discussed problem Y
+- Contributed to Story X
+    - Worked on task α
+    - Closed issue β
+    - Discussed problem γ
+- **NEW** Provided advice to Team Y
+- **NEW** Worked on non-story feature Z
 -->
 
 ### Things that are blocking me
