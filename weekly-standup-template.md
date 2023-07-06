@@ -27,7 +27,8 @@ Remember to first update the relevant issues and stories on the project board: h
 Please use the template below to report what you have been working on.
 Try to update this as you work.
 
-Please include full details for stories or issues and include links.
+Please reference stories and the individual tasks/issues.
+Please include links.
 
 Please indicate any work that is new, or otherwise not included on the project board.
 For example, this may be an emergent task, providing support or expertise to other teams.
@@ -113,14 +114,16 @@ Add suggestions brought up in the meeting.
 <!--
 Please use the template below to report what you expect or want to work on this week.
 
-Please include full details for stories or issues and include links.
+Please reference stories and the individual tasks/issues.
+Please include links.
 -->
 
 <!--
 ##### Your name here
 
-- Work on Story X
-    - by addressing issue Y
+- Contribute to  Story X
+  - Focus on task α
+  - Close issue β
 -->
 
 ### Actions
