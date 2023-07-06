@@ -125,9 +125,9 @@ Please include full details for stories or issues and include links.
 
 ### Actions
 
-| Owner                              | Action                                          |
-| -------                            | --------                                        |
-| Meeting organiser                  | Open meeting record for next meeting            |
-| Meeting organiser                  | Save meeting record (sharepoint)                |
-| Technical lead and project manager | Compare actual effort against project board & team capacity    |
-| Technical lead and project manager | Compare plan for the week against project board |
+| Owner                              | Action                                                        |
+| -------                            | --------                                                      |
+| Meeting organiser                  | Open meeting record for next meeting                          |
+| Meeting organiser                  | Save meeting record (sharepoint)                              |
+| Technical lead and project manager | Compare actual effort against project board and team capacity |
+| Technical lead and project manager | Compare plan for the week against project board               |
