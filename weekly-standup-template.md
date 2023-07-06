@@ -119,8 +119,8 @@ Please include full details for stories or issues and include links.
 <!--
 ##### Your name here
 
-- Work on Story Z
-- by addressing issues X
+- Work on Story X
+    - by addressing issue Y
 -->
 
 ### Actions
