@@ -54,6 +54,19 @@ It may also be things you would like the help or input of the team on.
 - I want advice on issue Z
 -->
 
+### Coworking session suggestions
+
+<!--
+Please suggest co working sessions for next week.
+Good coworking session tasks may need, or benefit, from multiple team members working synchronously.
+Coworking time can also be used to 'block out' time for focused work.
+-->
+
+<!--
+- Suggestion
+- Suggestion
+-->
+
 ## Synchronous items
 
 ### Agenda
@@ -80,6 +93,11 @@ Other issues can be dealt with in coworking time.
   - Address the blocker
 
 #### Coworking session suggestions
+
+<!--
+Please copy the asynchronously completed suggested from above here.
+Add suggestions brought up in the meeting.
+-->
 
 - Suggestion
 - Suggestion
