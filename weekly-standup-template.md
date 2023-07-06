@@ -15,48 +15,63 @@ colorlinks: true
 
 ## Asynchronous items
 
-Remember to first update the relevant issues and Stories on GH
 <!--
-Please fill these items out before the meeting
+Please fill these items out before the meeting.
+
+Remember to first update the relevant issues and stories on the project board: https://github.com/orgs/alan-turing-institute/projects/111
 -->
 
 ### What I've done this week
 
-Please include full details for Stories or issues, either link or as org/repo#number
-Current repos are:
-- alan-turing-institute/data-safe-haven-team#X
-- alan-turing-institute/data-safe-haven#X
-- alan-turing-institute/trusted-research#x
-- sa-tre/satre-specification#X
-- sa-tre/satre-team#X
+<!--
+Please use the template below to report what you have been working on.
+Try to update this as you work.
+
+Please reference stories and the individual tasks/issues.
+Please include links.
+
+Please indicate any work that is new, or otherwise not included on the project board.
+For example, this may be an emergent task, providing support or expertise to other teams.
+-->
 
 <!--
 #### Your name here
 
-- Worked on Story Z
-- Closed issue X
-- Discussed problem Y
+- Contributed to Story X
+    - Worked on task α
+    - Closed issue β
+    - Discussed problem γ
+- **NEW** Provided advice to Team Y
+- **NEW** Worked on non-story feature Z
 -->
 
 ### Things that are blocking me
 
 <!--
-Things you'd like to discuss in person with other team members
+Please use the template below to report things that are blocking you.
+This may be things out of your control that you need to raise attention to.
+It may also be things you would like the help or input of the team on.
 -->
 
-### Pans for the week
-Please include full details for Stories or issues, either link or as org/repo#number
-Current repos are:
-- alan-turing-institute/data-safe-haven-team#X
-- alan-turing-institute/data-safe-haven#X
-- alan-turing-institute/trusted-research#x
-- sa-tre/satre-specification#X
-- sa-tre/satre-team#X
 <!--
 #### Your name here
 
-- Work on Story Z
-- by addressing issues X
+- I don't understand bug X
+- I don't feel I have the authority to do Y
+- I want advice on issue Z
+-->
+
+### Coworking session suggestions
+
+<!--
+Please suggest co working sessions for next week.
+Good coworking session tasks may need, or benefit, from multiple team members working synchronously.
+Coworking time can also be used to 'block out' time for focused work.
+-->
+
+<!--
+- Suggestion
+- Suggestion
 -->
 
 ## Synchronous items
@@ -64,9 +79,9 @@ Current repos are:
 ### Agenda
 
 1. Address blockers
-2. Plan coworking sessions
-3. Consider prioritisation (potentially assign new issues)
-4. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
+1. Plan coworking sessions
+1. Plans for the week — task priotisiation
+1. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
 
 <!--
 Please do not add additional agenda items.
@@ -79,16 +94,43 @@ Other issues can be dealt with in coworking time.
 
 ### Notes
 
-- Summary of discussion points
-- Use subsections if appropriate
+#### Blockers
 
-### Decisions
+- Blocker
+  - Address the blocker
 
-- Record any decisions made during the meeting
+#### Coworking session suggestions
+
+<!--
+Please copy the asynchronously completed suggested from above here.
+Add suggestions brought up in the meeting.
+-->
+
+- Suggestion
+- Suggestion
+
+#### Plans for the week
+
+<!--
+Please use the template below to report what you expect or want to work on this week.
+
+Please reference stories and the individual tasks/issues.
+Please include links.
+-->
+
+<!--
+##### Your name here
+
+- Contribute to  Story X
+  - Focus on task α
+  - Close issue β
+-->
 
 ### Actions
 
-| Owner             | Action                               |
-| -------           | --------                             |
-| Meeting organiser | Open meeting record for next meeting |
-| Meeting organiser | Save meeting record (sharepoint)     |
+| Owner                              | Action                                                        |
+| -------                            | --------                                                      |
+| Meeting organiser                  | Open meeting record for next meeting                          |
+| Meeting organiser                  | Save meeting record (sharepoint)                              |
+| Technical lead and project manager | Compare actual effort against project board and team capacity |
+| Technical lead and project manager | Compare plan for the week against project board               |
