@@ -89,13 +89,14 @@ Issue fields:
     - No Status: when you need to create the story but it has not yet been discussed and approved
     - Backlog: approved as necessary work for the project success, but no clarity on when to address
     - Planned: approved and planned, it has an associated milestone
+  - Planned start and Planned End date: do fill when known
+  - FTE estimate: person time proportion that this story will take while active, minimum 0.05
   - Story effort: select if the overall effort is low, med or high (*the interval will change as become better at estimating effort)
   - Team Accountable: select the team
   - Project/Funding: select the funding source or subproject this story belongs to (repetitive but useful to fill in both)
   Other project fields:
   - Iteration: no need to fill
   - Points (effort): no need to fill
-  - Planned start and Planned End date: do fill when known
   - Actual start: Fill in (here or via boards) when you start working on this story (*this field and how to use it need revision*)
   - Actual end: add the date when closing the story, or report it closure so the RPM can add it (*to be revised, ideally to automate when closing*)
 
