@@ -239,7 +239,7 @@ Meeting time should be focus on collaboration and group decisions.
 
 ### Weekly meeting
 Key facts
-- Mondays 10.30 to 11
+- Mondays 10.00 to 10.30
 - Attended by Project working team
 - Purpose:
   - communicate work done and plans (Async)
@@ -288,7 +288,7 @@ Meeting structure:
   - RCM update, including issues for discussion (blockers, backlog, roadmap changes)
   - RPM update, including issues for discussion (blockers, backlog, roadmap changes)
 - PI and stakeholders: feedback
-- All Decision and actions for Blockers, backlog, roadmap
+- All: Decision and actions for Blockers, backlog, roadmap
 
 This meeting is how we communicate work and make any decisions regarding the overall goals of the project,
 it is the time to elevate blockers or important changes to the roadmap or backlog (any inclussion of a story issue should be addressed and discussed).
