@@ -32,7 +32,10 @@ When created in another repository try to still apply these rules as much as pos
     - Backlog: if it has been agreed as necessary work
     - Planned: agreed and we know when to address it or by when it needs done 
   - Points (effort): assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assign a 1 or 10 (cannot be merged or split) do so
+  - FTE: estimate % of person time while ongoing this issue will take, for example 2 people dedicating 1 day a week, wiht an issue duration of a month would be about 0.26.
+    - Important! Update this when closing
   - Add planned dates when known
+  - Add actual dates when closing
   - Story Effort: leave blank, does not apply to base issues
   - Team Accountable: who is the momentum generator for this task?
   - Project/Funding: which project within DSH does this task belong to?
@@ -64,6 +67,8 @@ Stories will typically span longer than a month, while they do not have a define
 Stories should not be created without consensus, if you DO NEED to create one to reflect a big piece of work you are for certain doing then add the tag 'ForPrioritisation' and take it to the team. 
 
 It is the responsibility of the Accountable team or person, with help from the RPM where necessary, to create and complete a story.
+
+Active stories are expected to be updated at least once a month via a comment on their progress
 
 In the body of the issue:
 - Specify the goal this story refers to
@@ -199,6 +204,7 @@ by default it is organised by team accountable and shows only the stories each i
 
 Dragging and dropping a story in the calendar will automatically fill in or modify the planned start and end.
 
+Creating a new issue from this view will automatically have its accountable team filled.
 
 #### Roadmap - Tasks
 
@@ -211,8 +217,18 @@ It allows to quickly view the total effort (as a sum of points) that each team h
 
 Likely to be the most day to day view, it shows issues by status.
 For simplicity only one view exists, where task level issues and stories cause confusion use the Story label to filter.
+By default it is filtered to show only tasks.
 
 What statuses to use and how can evolve with use, the most important rule to follow is to respect the backlog as agreed upon work.
+
+It is recommended task issues are updated weekly.
+
+#### Workload
+
+A table view filtered so workload can be analysed,
+by default grouped by Accountable Team and filtered by planned stories.
+
+It shows the sum of current FTE.
 
 #### Table
 
