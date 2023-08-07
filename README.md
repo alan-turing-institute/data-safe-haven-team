@@ -9,6 +9,7 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
     - [First steps](#first-steps-for-all-starters)
     - [Developer steps](#next-steps-for-developers)
 - [Contacts](#contacts)
+- [Releases](#releases)
 
 ## Useful links
 
@@ -72,3 +73,9 @@ The DSH team includes a longer list of people at The Alan Turing Institute, but 
 - Matt Craddock
 
 Turing new starters with a `@turing.ac.uk` email should be able to find the email addresses of the above via Microsoft Outlook, if they have any queries.
+
+## Releases
+
+Follow the guidance on the [README of the Data Safe Haven repo](https://github.com/edwardchalstrey1/data-safe-haven#cake-releases).
+
+When ticking off the tasks on the release checklist issue you create, save all the logs it asks you to save in Sharepoint under `release_logs`. Copy the templates folder to your new release name and fill in the templates accordingly. You can use `markdown2pdf.sh` to build the PDF versions that get attached to the release.
