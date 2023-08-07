@@ -23,7 +23,7 @@ These are issues as normally used, they are created in their corresponding repos
 When created in another repository try to still apply these rules as much as possible but do attend first to specific issue requirements present there. 
 
 - Duration: strive to create issues that do not (or are not expected to) exceed a month, 
-- Add to the Project [DSH unified board proposal](https://github.com/orgs/alan-turing-institute/projects/111) during creation or afterwards
+- Add to the Project [DSH unified board proposal](https://github.com/orgs/alan-turing-institute/projects/111) during creation or afterwards, do this even if you have not time to fill any further fields.
 - Mention in the body or comment the Story this issue contributes to if possible
 - Create the issue
 - Fill the following project fields via the dropdown menu (you can also go to the [project table view](https://github.com/orgs/alan-turing-institute/projects/111/views/3) for it)
@@ -37,18 +37,18 @@ When created in another repository try to still apply these rules as much as pos
   - Add planned dates when known
   - Add actual dates when closing
   - Story Effort: leave blank, does not apply to base issues
-  - Team Accountable: who is the momentum generator for this task?
-  - Project/Funding: which project within DSH does this task belong to?
+  - Team Accountable: leave blank, this is already in the Story (But do add an assignee)
+  - Project/Funding: leave blank, already in Story
 
 ##### **I do not know what Story this issue belongs to**, Should I create this issue?**
 All work and the related issue should clearly contribute to agreed upon goals, and their corresponding stories.
 If you are unable to assign an issue to a story consider whether to create it in the first place,
-if you think it is work that the project needs add it for discussion during the next weekly meeting or open a thread in the corresponding channel.
+if you think it is work that the project needs add it for discussion during the next weekly meeting, you can add it in the blockers section, or open a thread in the corresponding channel if you need to address it earlier.
 
 When the team agrees that it is indeed necessary create the issue, include the label 'For Prioritisation' (if created in this repository), add it to the project and do not set a status, never include it in Backlog, Planned or any other status at this stage.
 
-During the next monthly meeting the whole team will discuss its prioritisation,
-or review the project roadmap if it turns out it is not reflected the actual work being carried out or necessary for the project's success.
+If the issue is still Story-less by the next monthly meeting the whole team will discuss its prioritisation,
+or review the project roadmap if it turns out it is not reflecting the actual work being carried out or necessary for the project's success.
 
 ```
 This situation may arise in the beginning, while we fully complete the roadmap and configure the repository, after that it should be rare.
@@ -57,6 +57,7 @@ If this happen regularly it should be addressed, either there is a deviation fro
 The next monthly meeting should be longer, at least two hours, and focused on the roadmap rather than progress.
 
 At any given moment the number of active stories you are directly working on should be fairly limited, do not worry about having to keep many in mind to choose the right one (take it to the RPM otherwise and they will help out)
+
 
 #### Story issues
 
@@ -68,7 +69,7 @@ Stories should not be created without consensus, if you DO NEED to create one to
 
 It is the responsibility of the Accountable team or person, with help from the RPM where necessary, to create and complete a story.
 
-Active stories are expected to be updated at least once a month via a comment on their progress
+Active stories are expected to be updated at least once a month by the RPM with help from the Accountable person, updates will be based on issue updates and the weekly reports done by the team in the weekly meeting notes.
 
 In the body of the issue:
 - Specify the goal this story refers to
