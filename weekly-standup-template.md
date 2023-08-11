@@ -33,6 +33,8 @@ Please include links.
 
 Please indicate any work that is new, or otherwise not included on the project board.
 For example, this may be an emergent task, providing support or expertise to other teams.
+
+When pertinent, for example as you close an issue or finish something, include details of what was achieved.
 -->
 
 <!--
@@ -44,6 +46,7 @@ For example, this may be an emergent task, providing support or expertise to oth
     - Discussed problem γ
 - **OTHER** Provided advice to Team Y
 - **NEW** Worked on non-story feature Z
+- (Optional) Highlights and shout-out: This week I would like to highlight the progress on xx which is important because yy
 -->
 
 ### Things that are blocking me
