@@ -102,7 +102,7 @@ Other issues can be dealt with in coworking time.
 
 <!--
 - Blocker
-  - Plan how and when to solve to the blocker
+  - Plan how and when to solve the blocker
 -->
 
 #### Plans for the week
