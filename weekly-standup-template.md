@@ -26,8 +26,9 @@ Remember to first update the relevant issues and stories on the project board: h
 <!--
 Please use the template below to report what you have been working on.
 Try to update this as you work.
+Please don't leave this until shortly before the meeting.
 
-Please reference stories and the individual tasks/issues.
+Group pieces of work into stories.
 Please include links.
 
 Please indicate any work that is new, or otherwise not included on the project board.
