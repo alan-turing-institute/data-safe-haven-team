@@ -26,8 +26,9 @@ Remember to first update the relevant issues and stories on the project board: h
 <!--
 Please use the template below to report what you have been working on.
 Try to update this as you work.
+Please don't leave this until shortly before the meeting.
 
-Please reference stories and the individual tasks/issues.
+Group pieces of work into stories.
 Please include links.
 
 Please indicate any work that is new, or otherwise not included on the project board.
@@ -37,11 +38,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 <!--
 #### Your name here
 
-- Contributed to Story X
-    - Worked on task α
-    - Closed issue β
+- Contributed to [Story X](https://...)
+    - Worked on [task α](https://...)
+    - Closed [issue β](https://...)
     - Discussed problem γ
-- **NEW** Provided advice to Team Y
+- **OTHER** Provided advice to Team Y
 - **NEW** Worked on non-story feature Z
 -->
 
@@ -78,59 +79,57 @@ Coworking time can also be used to 'block out' time for focused work.
 
 ### Agenda
 
-1. Address blockers
-1. Plan coworking sessions
-1. Plans for the week — task priotisiation
-1. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
-
 <!--
 Please do not add additional agenda items.
 Other issues can be dealt with in coworking time.
 -->
 
+1. Identify blockers and arrange to solve.
+   Do not spend time fixing problems in this meeting.
+1. Write plans for the week.
+   Meeting organisers leads a group discussion on task prioritisation.
+
 ### Present
 
-- List of people present
+<!--
+- Harry Lime
+- Sam Spade
+-->
 
 ### Notes
 
 #### Blockers
 
-- Blocker
-  - Address the blocker
-
-#### Coworking session suggestions
-
 <!--
-Please copy the asynchronously completed suggested from above here.
-Add suggestions brought up in the meeting.
+- Blocker
+  - Plan how and when to solve the blocker
 -->
-
-- Suggestion
-- Suggestion
 
 #### Plans for the week
 
 <!--
 Please use the template below to report what you expect or want to work on this week.
-
-Please reference stories and the individual tasks/issues.
-Please include links.
+Try to focus on task-level items rather than broad areas or stories.
+This will make it clear to the team what everyone is hoping to work on.
 -->
 
 <!--
 ##### Your name here
 
-- Contribute to  Story X
-  - Focus on task α
-  - Close issue β
+- Focus on task α
+- Fix bug β
+- Merge PR γ
 -->
 
 ### Actions
 
-| Owner                              | Action                                                        |
-| -------                            | --------                                                      |
-| Meeting organiser                  | Open meeting record for next meeting                          |
-| Meeting organiser                  | Save meeting record (sharepoint)                              |
-| Technical lead and project manager | Compare actual effort against project board and team capacity |
-| Technical lead and project manager | Compare plan for the week against project board               |
+<!--
+Actions are static.
+The actions here should not be used to assign work.
+-->
+
+| Owner             | Action                               |
+| -------           | --------                             |
+| Meeting organiser | Open meeting record for next meeting |
+| Meeting organiser | Save meeting record (sharepoint)     |
+| Project manager   | Produce digest for monthly meeting   |
