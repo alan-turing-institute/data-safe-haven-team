@@ -91,24 +91,19 @@ Other issues can be dealt with in coworking time.
 
 ### Present
 
-- List of people present
+<!--
+- Harry Lime
+- Sam Spade
+-->
 
 ### Notes
 
 #### Blockers
 
-- Blocker
-  - Address the blocker
-
-#### Coworking session suggestions
-
 <!--
-Please copy the asynchronously completed suggested from above here.
-Add suggestions brought up in the meeting.
+- Blocker
+  - Plan how and when to solve to the blocker
 -->
-
-- Suggestion
-- Suggestion
 
 #### Plans for the week
 
