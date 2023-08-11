@@ -129,9 +129,13 @@ Please include links.
 
 ### Actions
 
-| Owner                              | Action                                                        |
-| -------                            | --------                                                      |
-| Meeting organiser                  | Open meeting record for next meeting                          |
-| Meeting organiser                  | Save meeting record (sharepoint)                              |
-| Technical lead and project manager | Compare actual effort against project board and team capacity |
-| Technical lead and project manager | Compare plan for the week against project board               |
+<!--
+Actions are static.
+The actions here should not be used to assign work.
+-->
+
+| Owner             | Action                               |
+| -------           | --------                             |
+| Meeting organiser | Open meeting record for next meeting |
+| Meeting organiser | Save meeting record (sharepoint)     |
+| Project manager   | Produce digest for monthly meeting   |
