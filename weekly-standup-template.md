@@ -80,7 +80,7 @@ Coworking time can also be used to 'block out' time for focused work.
 
 1. Address blockers
 1. Plan coworking sessions
-1. Plans for the week — task priotisiation
+1. Plans for the week — task prioritisation
 1. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
 
 <!--
