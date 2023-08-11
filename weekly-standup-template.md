@@ -109,17 +109,16 @@ Other issues can be dealt with in coworking time.
 
 <!--
 Please use the template below to report what you expect or want to work on this week.
-
-Please reference stories and the individual tasks/issues.
-Please include links.
+Try to focus on task-level items rather than broad areas or stories.
+This will make it clear to the team what everyone is hoping to work on.
 -->
 
 <!--
 ##### Your name here
 
-- Contribute to [Story X](https://...)
-  - Focus on [task α](https://...)
-  - Close [issue β](https://...)
+- Focus on task α
+- Fix bug β
+- Merge PR γ
 -->
 
 ### Actions
