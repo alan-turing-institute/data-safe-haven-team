@@ -79,15 +79,15 @@ Coworking time can also be used to 'block out' time for focused work.
 
 ### Agenda
 
-1. Address blockers
-1. Plan coworking sessions
-1. Plans for the week — task prioritisation
-1. (Only if needed) Contribute discussion points for Monthly meeting, or elevate decisions
-
 <!--
 Please do not add additional agenda items.
 Other issues can be dealt with in coworking time.
 -->
+
+1. Identify blockers and arrange to solve.
+   Do not spend time fixing problems in this meeting.
+1. Write plans for the week.
+   Meeting organisers leads a group discussion on task prioritisation.
 
 ### Present
 
