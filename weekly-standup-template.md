@@ -37,11 +37,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 <!--
 #### Your name here
 
-- Contributed to Story X
-    - Worked on task α
-    - Closed issue β
+- Contributed to [Story X](https://...)
+    - Worked on [task α](https://...)
+    - Closed [issue β](https://...)
     - Discussed problem γ
-- **NEW** Provided advice to Team Y
+- **OTHER** Provided advice to Team Y
 - **NEW** Worked on non-story feature Z
 -->
 
@@ -121,9 +121,9 @@ Please include links.
 <!--
 ##### Your name here
 
-- Contribute to  Story X
-  - Focus on task α
-  - Close issue β
+- Contribute to [Story X](https://...)
+  - Focus on [task α](https://...)
+  - Close [issue β](https://...)
 -->
 
 ### Actions
