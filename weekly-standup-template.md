@@ -322,6 +322,28 @@ For example, this may be an emergent task, providing support or expertise to oth
   - Draft PR to fix bug [created](https://)
 -->
 
+#### Other
+
+##### Non-story work
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://)
+  - Draft PR to fix bug [created](https://)
+-->
+
 ### Things that are blocking me
 
 <!--
