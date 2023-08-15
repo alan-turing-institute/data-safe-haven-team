@@ -37,7 +37,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 -->
 
 <!--
-##### [Story](https://...)
+##### [Story](https://…)
 
 ###### People and time
 
@@ -47,11 +47,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 ###### Updates
 
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 #### REG-accountable
@@ -69,11 +69,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [Codebase maintenance](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
@@ -89,11 +89,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [Identify and implement core IAC changes](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
@@ -109,11 +109,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [Manage codebase releases and testing](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
@@ -129,11 +129,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 #### RAM-accountable
@@ -151,11 +151,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [Stakeholder landscape review](https://github.com/alan-turing-institute/data-safe-haven-team/issues/30)
@@ -171,11 +171,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 #### RCM-accountable
@@ -193,11 +193,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [Review current communication streams](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35)
@@ -213,11 +213,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [UK TRE Community leadership](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
@@ -233,11 +233,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 #### RPM-accountable
@@ -255,11 +255,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [Manage project reporting, impact capture, ways of work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/54)
@@ -275,11 +275,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [SATRE agreements, budgets and invoices](https://github.com/alan-turing-institute/data-safe-haven-team/issues/38)
@@ -295,11 +295,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ##### [TRESA costs and cost recovery](https://github.com/alan-turing-institute/data-safe-haven-team/issues/36)
@@ -315,11 +315,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 #### Other
@@ -337,11 +337,11 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Added feature α
-  - Implemented in [PR](https://)
+  - Implemented in [PR](https://…)
 - Working on bug β
   - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://)
-  - Draft PR to fix bug [created](https://)
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ### Things that are blocking me
