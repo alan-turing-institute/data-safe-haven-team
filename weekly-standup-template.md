@@ -17,33 +17,331 @@ colorlinks: true
 
 <!--
 Please fill these items out before the meeting.
-
-Remember to first update the relevant issues and stories on the project board: https://github.com/orgs/alan-turing-institute/projects/111
 -->
 
-### What I've done this week
+### What We've done this week
 
 <!--
-Please use the template below to report what you have been working on.
+Please use the templates below to report what you have been working on.
 Try to update this as you work.
 Please don't leave this until shortly before the meeting.
 
-Group pieces of work into stories.
+Add your name to any story you have worked on and include a rough estimate of the time spent.
+
+Add pieces of work into stories to the relevant stories.
+Add some brief context to explain what the work does and why we did it.
 Please include links.
 
-Please indicate any work that is new, or otherwise not included on the project board.
+Work that is not related to a story can go in the 'Other' section.
 For example, this may be an emergent task, providing support or expertise to other teams.
 -->
 
 <!--
-#### Your name here
+##### [Story](https://…)
 
-- Contributed to [Story X](https://...)
-    - Worked on [task α](https://...)
-    - Closed [issue β](https://...)
-    - Discussed problem γ
-- **OTHER** Provided advice to Team Y
-- **NEW** Worked on non-story feature Z
+###### People and time
+
+- Harry Lime (x hours)
+- Sam Space (y hours)
+
+###### Updates
+
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### REG-accountable
+
+##### [Co-create a TRE standard](https://github.com/alan-turing-institute/data-safe-haven-team/issues/23)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [Codebase maintenance](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [Identify and implement core IAC changes](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [Manage codebase releases and testing](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### RAM-accountable
+
+##### [Project strategy and ways of work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/43)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [Stakeholder landscape review](https://github.com/alan-turing-institute/data-safe-haven-team/issues/30)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### RCM-accountable
+
+##### [Community standard support](https://github.com/alan-turing-institute/data-safe-haven-team/issues/25)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [Review current communication streams](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [UK TRE Community leadership](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### RPM-accountable
+
+##### [Contracts, legal and budget work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/53)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [Manage project reporting, impact capture, ways of work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/54)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [SATRE agreements, budgets and invoices](https://github.com/alan-turing-institute/data-safe-haven-team/issues/38)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [TRESA costs and cost recovery](https://github.com/alan-turing-institute/data-safe-haven-team/issues/36)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### Other
+
+##### Non-story work
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
 -->
 
 ### Things that are blocking me
