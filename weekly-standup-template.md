@@ -32,7 +32,7 @@ Add pieces of work into stories to the relevant stories.
 Add some brief context to explain what the work does and why we did it.
 Please include links.
 
-Work that not related to a story can go in the 'Other' section.
+Work that is not related to a story can go in the 'Other' section.
 For example, this may be an emergent task, providing support or expertise to other teams.
 -->
 
