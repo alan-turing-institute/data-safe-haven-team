@@ -158,47 +158,7 @@ For example, this may be an emergent task, providing support or expertise to oth
   - Draft PR to fix bug [created](https://…)
 -->
 
-##### [Stakeholder landscape review](https://github.com/alan-turing-institute/data-safe-haven-team/issues/30)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Space (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
 #### RCM-accountable
-
-##### [Community standard support](https://github.com/alan-turing-institute/data-safe-haven-team/issues/25)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Space (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
 
 ##### [Review current communication streams](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35)
 
@@ -263,26 +223,6 @@ For example, this may be an emergent task, providing support or expertise to oth
 -->
 
 ##### [Manage project reporting, impact capture, ways of work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/54)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Space (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-##### [SATRE agreements, budgets and invoices](https://github.com/alan-turing-institute/data-safe-haven-team/issues/38)
 
 ###### People and time
 
