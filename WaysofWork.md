@@ -1,15 +1,16 @@
 # onBOARDing document: Issues, Milestones and Projects for the DSH team
-V: Beta
+V: 1
 This document lays out how to create and use this repo and associated project board for the tracking and organisation of work relating to DSH project, attending to its multi-repository nature.
 
 The proposed structure responds to an ask from the project team to increase communication, organization and collaboration with the least possible amount of meeting time or fixed synchronous co-working time.
 
-This is a first proposal so please do propose changes via PR.
-
 ## Main elements
 
-### Issues
-of which there are 3 types
+- Stories: issues reflecting the project strategic goals, planning and reporting is done based on them
+- GH Project Roadmap and board: showing all stories by accountable team, when they are planned and their status
+- Ceremonies: time spent together as a team for meetings and co-work
+
+### Stories and other issues
 
 ```
 Some details on how issues and stories are linked together will vary after GH releases Tracked & Tracked By and Tasklist features,
@@ -17,63 +18,23 @@ currently in private beta:
 https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-tracks-and-tracked-by-fields
 ```
 
-
-#### Tasks or standard issues
-These are issues as normally used, they are created in their corresponding repository (most likely data-safe-haven, TRESA, SATRE, TPS PM or this same one).
-When created in another repository try to still apply these rules as much as possible but do attend first to specific issue requirements present there. 
-
-- Duration: strive to create issues that do not (or are not expected to) exceed a month, 
-- Add to the Project [DSH unified board proposal](https://github.com/orgs/alan-turing-institute/projects/111) during creation or afterwards
-- Mention in the body or comment the Story this issue contributes to if possible
-- Create the issue
-- Fill the following project fields via the dropdown menu (you can also go to the [project table view](https://github.com/orgs/alan-turing-institute/projects/111/views/3) for it)
-  - Set Status:
-    - No Status: if this issue has no clear Story and it has not being agreed as necessary
-    - Backlog: if it has been agreed as necessary work
-    - Planned: agreed and we know when to address it or by when it needs done 
-  - Points (effort): assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assign a 1 or 10 (cannot be merged or split) do so
-  - Add planned dates when known
-  - Story Effort: leave blank, does not apply to base issues
-  - Team Accountable: who is the momentum generator for this task?
-  - Project/Funding: which project within DSH does this task belong to?
-
-##### **I do not know what Story this issue belongs to**, Should I create this issue?**
-All work and the related issue should clearly contribute to agreed upon goals, and their corresponding stories.
-If you are unable to assign an issue to a story consider whether to create it in the first place,
-if you think it is work that the project needs add it for discussion during the next weekly meeting or open a thread in the corresponding channel.
-
-When the team agrees that it is indeed necessary create the issue, include the label 'For Prioritisation' (if created in this repository), add it to the project and do not set a status, never include it in Backlog, Planned or any other status at this stage.
-
-During the next monthly meeting the whole team will discuss its prioritisation,
-or review the project roadmap if it turns out it is not reflected the actual work being carried out or necessary for the project's success.
-
-```
-This situation may arise in the beginning, while we fully complete the roadmap and configure the repository, after that it should be rare.
-```
-If this happen regularly it should be addressed, either there is a deviation from plans and goals or these are loosing validity.
-The next monthly meeting should be longer, at least two hours, and focused on the roadmap rather than progress.
-
-At any given moment the number of active stories you are directly working on should be fairly limited, do not worry about having to keep many in mind to choose the right one (take it to the RPM otherwise and they will help out)
-
 #### Story issues
 
 Stories are only created in this repo (data-safe-haven-team) and are "issues of issues",
 they contain and reflect a 'Piece of Work' or goal agreed as necessary for the success of the project during an all-hands meeting or discussion (typically a Monthly meeting).
 Stories will typically span longer than a month, while they do not have a defined maximum duration an useful reference may be a quarter (they can take longer but we may want to consider defining further intermediate goals). 
 
-Stories should not be created without consensus, if you DO NEED to create one to reflect a big piece of work you are for certain doing then add the tag 'ForPrioritisation' and take it to the team. 
-
-It is the responsibility of the Accountable team or person, with help from the RPM where necessary, to create and complete a story.
+##### Content and project fields
 
 In the body of the issue:
-- Specify the goal this story refers to
-- Describe what the work is and what it will achieve
+- The goal this story refers to
+- What the work is and what it will achieve
 - Define what would need to be achieved to consider the goals met, or the story as done
-- In details:
-  - Complete the RACI list, a team or person should always be accountable (ensures the necessary work is done), often some other team or person will be responsible (has an active role in the success).
-  - Add details of the estimated effort this will take (you can later updated it, even better if you come back to it after closing and reflect estimated vs actual effort it took)
-- Task and issue breakdown, this is why stories exist please complete and keep up to date: add all issues across repositories that contribute to this goal 
-- Checklist: it will take you through these same steps.
+- Details:
+  - RACI list, though Accountable is also captured in project fields it allows to reflect the whole list
+  - Estimated effort, broken by team. Also duplicated in project fields for the Accountable team but allowing furhter detail in the body.
+- Task and issue breakdown: all issues and important references for work done that contribute to this goal 
+- Checklist
 
 Issue fields:
 - Assignees: include at least the main accountable person
@@ -84,21 +45,66 @@ Issue fields:
     -  No clear milestone?: It is okay, but please do mark its status in the project correctly. If the story is not approved it will have no status, if it has been approved to work on but not decided when then it will be 
   - Project: DSH unified board proposal
   
-  Main project fields, strive to complete when creating:
+  Main project fields:
   - Status:
     - No Status: when you need to create the story but it has not yet been discussed and approved
     - Backlog: approved as necessary work for the project success, but no clarity on when to address
     - Planned: approved and planned, it has an associated milestone
   - Planned start and Planned End date: do fill when known
   - FTE estimate: person time proportion that this story will take while active, minimum 0.05
-  - Story effort: select if the overall effort is low, med or high (*the interval will change as become better at estimating effort)
   - Team Accountable: select the team
   - Project/Funding: select the funding source or subproject this story belongs to (repetitive but useful to fill in both)
+  - Monthly FTE: Re-evaluated monthly it serves to plan the month ahead during monthly planning, rather than the overall effort it represents what the next month looks like. Also helps identify if the above needs reassessment
   Other project fields:
-  - Iteration: no need to fill
-  - Points (effort): no need to fill
-  - Actual start: Fill in (here or via boards) when you start working on this story (*this field and how to use it need revision*)
-  - Actual end: add the date when closing the story, or report it closure so the RPM can add it (*to be revised, ideally to automate when closing*)
+  - Iteration: no need to fill, it is there to experiment with effort tracking and analysis
+  
+
+##### Using stories
+
+**Story creation**
+Stories should not be created without consensus, if you DO NEED to create one to reflect a big piece of work you are for certain doing then add the tag 'ForPrioritisation' and take it to the team. 
+
+To create a story open an issue and select the Story template, provide a comprenhensive title but especially include a comprenhensive description of what the goal is and what work is required. 
+Include any issues (from this repository or others) or relevant links to associated tasks and work when there are.
+
+Then fill in the project fields as best as possible:
+- Project or funding it relates to
+- Accountable team
+- FTE estimate
+- Status: if it has been discussed when the story will be addressed set it as 'Planned' or 'In Progress' otherwise set as 'Backlog'
+
+It is the responsibility of the Accountable team or person, with help from the RPM where necessary, to create and complete a story.
+
+**Monthly planning**
+
+At the end of each month the team will use stories and roadmap to plan the coming month, assigning effort in FTE to each story under 'Monthly FTE'. 
+This is the right time to update the scope of the story or associated work
+
+**Progress reporting**
+The research project manager will update at least monthly the main comment to reflect the progress and updates reported during weekly meetings.
+
+Stories' status will then be updated accordingly to mark them as having updates, blockers, or requiring furhter discussion.
+The RPM will later return them to their previous status (likely 'In progress')
+
+During monthly review meeting the team will go through the stories and share updates based on what reporting is written on them.
+
+#### Tasks and other issues from your day to day
+Stories are thought to link and group to our day to day work, allowing to report at a more aggregated level.
+It is not required to create issues for every task but do so every time it is appropiatte.
+
+Link issues, milestones or other documents and links to stories to which they contribute to.
+
+Despite this try to ask the following question each time you start a task: does it contribute to an ongoing or planned story?
+
+##### **I do not know what Story this issue belongs to**, Should I create this issue?**
+All work and the related issue should clearly contribute to agreed upon goals, and their corresponding stories.
+If you are unable to assign an issue to a story consider whether to create it in the first place,
+if you think it is work that the project needs add it for discussion during the next weekly meeting or open a thread in the corresponding channel.
+
+When the team agrees that it is indeed necessary create the issue, include the label 'For Prioritisation' (if created in this repository), add it to the project and do not set a status, never include it in Backlog, Planned or any other status at this stage.
+
+If this happen regularly it should be addressed, either there is a deviation from plans and goals or these are loosing validity.
+The next monthly meeting should be longer, at least two hours, and focused on the roadmap rather than progress.
 
 ##### Do we need stories? Discussion point
 
@@ -112,56 +118,7 @@ Yet they are necessary to keep an organised overview of goals and progress while
 
 **Why not milestones?** Because they are much more information limited, cannot be shown in the same way in boards or roadmaps and are repository bound. In summary they are a deprecated feature that do not allow the analysis and tracking we require
 
-#### Planning & Report (meeting outputs)
 
-These issues will be primarly maintained by the RPM and be used to reflect the planned work and progress made either weekly, monthly or quarterly.
-Monthly and quarterly issues will have associated PRs in which the team is expected to take part.
-
-##### Weekly issue
-
-Purpose of this issue is to better communicate and coordinate with DSH team members directly working on project tasks.
-
-It should reflect what was done during the week, blockers and serve to plan work for the following week minimising the need for synchronous meeting time
-
-RPM will be responsible to create and update it each week,
-everyone is responsible to update issues worked on and planned and report in the collaborative note here
-
-The issue will be permanent and updated via comments to avoid drowing the repo, meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. This issue will therefore only track status of issues so PM can maintian the team's Project.
-
-From Thursdays and before the weekly meeting (Monday 10 AM) each team member will have to:
-- Make updates in the issues they have worked on via comments
-- Change their status in the project where appropiate
-- Update fields where appropiate
-- Fill in the meeting collaborative note here: https://hackmd.io/nPewceMuQcmXD7jfqYFpzw?edit
-
-The weekly standup will then take place, discussing blockers and planning work.
-Team members should update the collaborative note as appropiate to reflect plans for the week and any agreed actions
-
-The RPM will:
-- Update the weekly issue to reflect the team overall work for the last week and plans for this week
-- Review roadmap and boards to ensure it reflects the current project status
-- Add any necessary points for discussion for the monthly meeting
-
-A member of the REG team will be asked to archive the meeting minute in the collaborative note in Sharepoint [here](https://thealanturininstitute.sharepoint.com/sites/SafeHaven/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSafeHaven%2FShared%20Documents%2FMeetings&viewid=10151919%2Deeef%2D4a8b%2Db4c0%2D26a3b155773b)
-
-##### Monthly issue
-
-The monthly issue will be used to update the [month by month report](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/Reports/Monthly.md),
-as well as put together the agenda for the monthly meeting.
-
-After the monthly meeting the RPM will reflect in the issue any necessary updates to roadmap, stories or issues.
-It will allocate responsibility across teams to make those updates effective.
-
-```
-Potentially monthly issues will be reduced to their PR without creating an issue to keep the repo cleaner.
-
-```
-
-##### Open discussion
-
-How to best use these issues is up for discussion,
-they are necessary to better link directly to work done and so they can be part of the roadmap and be reflected as work (they represent a lot of what we do!),
-but there is ample room for change as we use them.
 
 ### Project: Unified board proposal
 
@@ -296,6 +253,53 @@ it is the time to elevate blockers or important changes to the roadmap or backlo
 
 As with weeklys and to make use of the synchronous times this meetings have a strong asynchronous component,
 each team will update their stories and make changes to a monthly report PR that the RPM will prepare in advance.
+
+
+#### Planning & Report (meeting outputs)
+
+These issues will be primarly maintained by the RPM and be used to reflect the planned work and progress made either weekly, monthly or quarterly.
+Monthly and quarterly issues will have associated PRs in which the team is expected to take part.
+
+##### Weekly issue
+
+Purpose of this issue is to better communicate and coordinate with DSH team members directly working on project tasks.
+
+It should reflect what was done during the week, blockers and serve to plan work for the following week minimising the need for synchronous meeting time
+
+RPM will be responsible to create and update it each week,
+everyone is responsible to update issues worked on and planned and report in the collaborative note here
+
+The issue will be permanent and updated via comments to avoid drowing the repo, meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. This issue will therefore only track status of issues so PM can maintian the team's Project.
+
+From Thursdays and before the weekly meeting (Monday 10 AM) each team member will have to:
+- Make updates in the issues they have worked on via comments
+- Change their status in the project where appropiate
+- Update fields where appropiate
+- Fill in the meeting collaborative note here: https://hackmd.io/nPewceMuQcmXD7jfqYFpzw?edit
+
+The weekly standup will then take place, discussing blockers and planning work.
+Team members should update the collaborative note as appropiate to reflect plans for the week and any agreed actions
+
+The RPM will:
+- Update the weekly issue to reflect the team overall work for the last week and plans for this week
+- Review roadmap and boards to ensure it reflects the current project status
+- Add any necessary points for discussion for the monthly meeting
+
+A member of the REG team will be asked to archive the meeting minute in the collaborative note in Sharepoint [here](https://thealanturininstitute.sharepoint.com/sites/SafeHaven/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSafeHaven%2FShared%20Documents%2FMeetings&viewid=10151919%2Deeef%2D4a8b%2Db4c0%2D26a3b155773b)
+
+##### Monthly issue
+
+The monthly issue will be used to update the [month by month report](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/Reports/Monthly.md),
+as well as put together the agenda for the monthly meeting.
+
+After the monthly meeting the RPM will reflect in the issue any necessary updates to roadmap, stories or issues.
+It will allocate responsibility across teams to make those updates effective.
+
+```
+Potentially monthly issues will be reduced to their PR without creating an issue to keep the repo cleaner.
+
+```
+
 
 All attendees should make the time to read over the report and prepare their questions and feedback.
 
