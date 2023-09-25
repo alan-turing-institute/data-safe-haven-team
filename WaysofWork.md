@@ -4,6 +4,39 @@ This document lays out how to create and use this repo and associated project bo
 
 The proposed structure responds to an ask from the project team to increase communication, organization and collaboration with the least possible amount of meeting time or fixed synchronous co-working time.
 
+## Ways of work principles
+
+Ways of work is not only about reporting.
+It needs to help team members work better together and make your work visible.
+Process should be adjusted if they do not do this.
+
+Ways of work process should adhere to the following principles,
+
+- You should only have to report in one place
+- Reporting should not be an unreasonable burden
+- What we collect must be useful and must not be busywork
+  Ways this may be helpful could include
+  - Preventing duplication of effort or clashing
+  - Promoting collaborative work
+  - Providing a place to ask for help or lend assistance
+- Ways of work make work and workload visible
+- Each role's responsibilities related to ways of work are clear
+  - All team members
+    - Report work, group work into stories, include links whenever possible
+    - Report blockers and ask for help
+    - Discuss and propose what to work on in the short term
+    - Be aware of other team members' work
+  - Project management
+    - Process reports
+    - Assess workload and prioritise effort
+    - Produce necessary metrics
+  - Project Leaders
+    - Strategic level steering (in monthly meetings)
+    - Ensure project continuity
+      Using data gathered from reporting to create
+      - Reports to funders and stakeholders
+      - Applications for future funding
+
 ## Main elements
 
 - Stories: issues reflecting the project strategic goals, planning and reporting is done based on them
@@ -51,6 +84,7 @@ Issue fields:
     - Backlog: approved as necessary work for the project success, but no clarity on when to address
     - Planned: approved and planned, it has an associated milestone
   - Planned start and Planned End date: do fill when known
+  - Actual start: currently unused but potentially useful in comparing plans with reality
   - FTE estimate: person time proportion that this story will take while active, minimum 0.05
   - Team Accountable: select the team
   - Project/Funding: select the funding source or subproject this story belongs to (repetitive but useful to fill in both)
@@ -120,8 +154,7 @@ Yet they are necessary to keep an organised overview of goals and progress while
 
 
 
-### Project: Unified board proposal
-
+### Project: Unified board
 This project is associated to the data-safe-haven-team repo, 
 but is designed to reflect work across any number of (ATI or public) repositories.
 To do this stories and project fields are key (we cannot modify labels or milestones in repositories we do not own, but can do what we want with project fields).
@@ -132,19 +165,16 @@ The main fields have been presented above but are further listed and explained h
   - No Status: issues (of any kind) can be created at any moment if needed, but until they are agreed as necessary they should remain without status. It is important for effective coordination and resource management that nothing is added to Backlog, especially stories, until discussed.
   - Backlog: this will be the status for any agreed but unplanned work, task level issues will be easier to agree on but stories will need at least an all hands slack discussion and likely a monthly or strategy meeting.
   - Planned: issues will be here once they have a planned start date, end date or associated Milestone 
-  - Todo-Monthly: issues planned for this month, will make the most sense for task level issues. Stories are likely to be best placed as In Progress as soon as their issues start to be worked on
   - In Progress: issues we are actively working on
-  - For Review: Issues, specially stories, that have been completed and are ready to be presented as part of progress made before being closed. Not every issue will need to stop here before closing (Done), in particular task level issues are likely to be closed directly following your own criteria (still good to ask your team and tell about it in the weekly meeting)
+  - Blocked: stories that require help, or to elevate actions. Progress cannot be made
+  - Updates: stories to present during the monthly review meeting but which do not require further action
+  - For Discussion: stories that need to be brought to the attention of everyone including project leadership/stakeholders during the monthly review meeting
   - Done: over and done with, This will be used to periodically build the reports
-- Points (effort): currently only applies to task level issues, in a subjective way they measure effort for each task from 1 to 10. This allows each task in each repository to keep the format and form they need to have but unify at a team level what effort they entail, and therefore track total effort by team (this takes a wee while, as we collectively figure out what we can do in each period, but then is very effective)
-  - Assigning effort: assign a value effort from 2 to 9. A value of 1 typically means that the task is so short it would be better merged with another, a 10 means that it is probably best split in more than one issue (maybe it needs to be a story instead of an issue); if you really want to assign a 1 or 10 (cannot be merged or split) do so.
-- Story Effort: currently only applying to stories, simple effort scale for stories that will need to evolve sooner than later. It works to plan work and asses capacity, as an heuristic to start with no team should have more than 2 High effort and a Medium effort in any given quarter.
-  - Assigning effort: High means it will for certain keep the team busy for a whole quarter (or we are quite uncertain on what needs done, figuring that out will take time), Medium means we are confident we can sccomplish the story well within the quarter and have clarity about it, Low is low hanging fruit that will be easily accomplished this quarter. As an heuristic you can consider that H=2M=4L
+- FTE estimate: overall effort from the Accountable team that we estimate the story to require in order to be complete
+- Monthly FTE: Re-evaluated monthly it serves to plan the month ahead during monthly planning, rather than the overall effort it represents what the next month looks like. Also helps identify if the above needs reassessment
 - Team Accountable: select the team who will lead for this goal or task, it is important to fill in because it allows to generate graphs and calculate effort by team
 - Project/Funding: what is either the source of funding or the sub-project it belongs to?
 - Planned start date and Planned end date: this are the dates that currently the roadmap shows, they are especially important for stories (so we do not spend too much time planning small tasks)
-- Iteration: these are cycles of work currently configured to last for a month, they are most useful for task level issues, and allow the Roadmap-Tasks view to show tasks distributed in time without you having to exactly define dates. As you plan work for the week or month you can "drop" them in the corresponding iteration in the Roadmap-Tasks and move them as necessary
-- Actual start and Actual end: this are to register when an issue is actually addressed and closed, subject to revision how to best use them or their utility
 - Other fields: project fields are highly configurable, speak to you RPM and team to discuss any needs.
 
 In any view changing the filters will allow you to quickly view issues and effort by team, subproject or time period. The Story label will allow to filter and distinguish between stories and the rest of issues.
@@ -156,20 +186,9 @@ by default it is organised by team accountable and shows only the stories each i
 
 Dragging and dropping a story in the calendar will automatically fill in or modify the planned start and end.
 
+#### Monthly Board
 
-#### Roadmap - Tasks
-
-Similar to the above but representing only task level issues,
-this view uses iterations as date fields instead of planned dates.
-
-It allows to quickly view the total effort (as a sum of points) that each team has in their plate.
-
-#### Board
-
-Likely to be the most day to day view, it shows issues by status.
-For simplicity only one view exists, where task level issues and stories cause confusion use the Story label to filter.
-
-What statuses to use and how can evolve with use, the most important rule to follow is to respect the backlog as agreed upon work.
+Overview of stories by status, this is the main view to be used during monthly review meetings.
 
 #### Table
 
@@ -181,7 +200,7 @@ To be developed
 ### Milestones
 
 Milestones allow to group issues of any kind and associate them to a specific delivery,
-currently they have been created by quarter and end of exsitng funding/subproject.
+currently they have been created by quarter.
 
 They are not heavily used yet as the information they offer is also contained via project fields (Planned end data + Team Accountable) yet they offer a good visual for the roadmap and allow to quickly track the progress (as completed issues out of milestone totals) of each time for a specific deadline.
 There is room to improve their use if wanted.
@@ -195,27 +214,26 @@ therefore the focus is in maintaining up to date repositories and communicating 
 
 Meeting time should be focus on collaboration and group decisions.
 
-### Weekly meeting
+### Weekly team meeting
 Key facts
 - Mondays 10.00 to 10.30
 - Attended by Project working team
-- Purpose:
-  - communicate work done and plans (Async)
-  - address blockers
-  - plan the week and co-working time
-  - (If needed) reasign work
-  - (If needed) Contribute discussion points for Monthly meeting, or elevate decisions
+- Agenda:
+  - Asynchronous items
+    - What we've done this week
+    - Things that are blocking me
+    - Coworking session suggestions
+  - Synchronous items
+    - Identify blockers and arrange to solve. Do not spend time fixing problems in this meeting
+    - Write plans for the week. Meeting organisers leads a group discussion on task prioritisation.
 
-These meetings are the main way for the team to coordinate,
+These meetings are the main way for the team to coordinate and structured around active stories,
 they are attended by all team members accountable for carrying out the work to deliver the project.
 
-It's asynchronous elements are as important as the actual meeting time and require everyone to update their issues and stories.
+Its asynchronous elements are as important as the actual meeting time and require everyone to update their issues and stories.
+It is by filling the weekly meeting that team members report about their work, for this reason it is key to provide comprenhensive updates that the RPM can take to stories for reporting.
+This way each team member needs to provide updates in a single place.
 
-The weekly meeting is the time to discuss and agree any new work or reprioritise existing work.
-This is not expected to happen each week,
-yet it is likely that after monthly meetings or main milestones (quarters, end of funding) this becomes the focus of the meeting.
-It is during this meeting that any inclussion of issues in the backlog is discussed (and elevated to the Monthly when necessary), 
-and when issues are taken from the backlog into planned work.
 
 ### Weekly coworking
 Key facts
