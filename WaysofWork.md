@@ -4,6 +4,10 @@ This document lays out how to create and use this repo and associated project bo
 
 The proposed structure responds to an ask from the project team to increase communication, organization and collaboration with the least possible amount of meeting time or fixed synchronous co-working time.
 
+These Ways of Work are inspired by Agile principles and SCRUM methodology, although readers may recognize very little from the latter in the resulting practices. The main goals are to increase communication, ensure team members are are directly involved in deciding how to carry out the project, protect their workloads and improve visibility of the project's impact.
+
+They have been developed with the team and attending to the meeting-intense research environment of the project, this made it challenging to introduce SCRUM ceremonies or make it mandatory for all team members to take part in each one. As a result asynchronous reporting have been prioritised and some ceremonies blended together. To structure asynchronous elements of ceremonies or meetings we were directly inspired by Florian Haas' post '[No, we won't have a video call for that](https://xahteiwi.eu/resources/presentations/no-we-wont-have-a-video-call-for-that/)'.
+
 ## Ways of work principles
 
 Ways of work is not only about reporting.
@@ -53,9 +57,13 @@ https://docs.github.com/en/issues/planning-and-tracking-with-projects/understand
 
 #### Story issues
 
-Stories are only created in this repo (data-safe-haven-team) and are "issues of issues",
+Stories are only created in the management repo (data-safe-haven-team) and are "issues of issues",
 they contain and reflect a 'Piece of Work' or goal agreed as necessary for the success of the project during an all-hands meeting or discussion (typically a Monthly meeting).
 Stories will typically span longer than a month, while they do not have a defined maximum duration an useful reference may be a quarter (they can take longer but we may want to consider defining further intermediate goals). 
+
+What stories to work on at any given time is decided during Planning meetings, it is also then when the effort they will require and what aspects of them to focus on are estimated. This planning and prioritisation is then brought to the Monthly meeting and shared with all stakeholders for their input.
+
+Ideally there will be no work outside Stories, yet this is not realistic in the project context and some work may arise that does not fit with any defined story. This should be tracked to ensure non-story work is minimal and does not disrupt the delivery of the planned work, if it becomes significant then the whole project team and stakeholders should be made aware and agree how to reprioritise project work.
 
 ##### Content and project fields
 
@@ -65,7 +73,7 @@ In the body of the issue:
 - Define what would need to be achieved to consider the goals met, or the story as done
 - Details:
   - RACI list, though Accountable is also captured in project fields it allows to reflect the whole list
-  - Estimated effort, broken by team. Also duplicated in project fields for the Accountable team but allowing furhter detail in the body.
+  - Estimated effort, by team. Also duplicated in project fields for the Accountable team but allowing furhter detail in the body.
 - Task and issue breakdown: all issues and important references for work done that contribute to this goal 
 - Checklist
 
@@ -75,7 +83,7 @@ Issue fields:
   -  ForPrioritisation: use this always that you have created a story that still needs to be discussed and approved
   -  Funding/project: Core DSH (ELA), SATRE, TRESA
   -  Milestone: Choose a milestone by according to the time period when it should be addressed.
-    -  No clear milestone?: It is okay, but please do mark its status in the project correctly. If the story is not approved it will have no status, if it has been approved to work on but not decided when then it will be 
+    -  No clear milestone?: It is okay, but please do mark its status in the project correctly. If the story is not approved it will have no status, if it has been approved to work on but not decided when then it will be part of the Backlog
   - Project: DSH unified board proposal
   
   Main project fields:
@@ -115,10 +123,10 @@ At the end of each month the team will use stories and roadmap to plan the comin
 This is the right time to update the scope of the story or associated work
 
 **Progress reporting**
-The research project manager will update at least monthly the main comment to reflect the progress and updates reported during weekly meetings.
+The Research Project Manager (RPM) will update at least monthly the main comment to reflect the progress and updates reported during weekly meetings.
 
 Stories' status will then be updated accordingly to mark them as having updates, blockers, or requiring furhter discussion.
-The RPM will later return them to their previous status (likely 'In progress')
+The RPM will later return them to their previous status (likely 'In progress').
 
 During monthly review meeting the team will go through the stories and share updates based on what reporting is written on them.
 
