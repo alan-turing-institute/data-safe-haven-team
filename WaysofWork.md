@@ -136,29 +136,28 @@ It is not required to create issues for every task but do so every time it is ap
 
 Link issues, milestones or other documents and links to stories to which they contribute to.
 
-Despite this try to ask the following question each time you start a task: does it contribute to an ongoing or planned story?
+Try to ask the following question each time you start a task: does it contribute to an ongoing or planned story?
 
 ##### **I do not know what Story this issue belongs to**, Should I create this issue?**
-All work and the related issue should clearly contribute to agreed upon goals, and their corresponding stories.
+All work and the related issues should clearly contribute to agreed upon goals, and their corresponding stories.
 If you are unable to assign an issue to a story consider whether to create it in the first place,
-if you think it is work that the project needs add it for discussion during the next weekly meeting or open a thread in the corresponding channel.
+if you think it is work that the project needs, add it for discussion during the next weekly meeting or open a thread in the corresponding channel.
 
-When the team agrees that it is indeed necessary create the issue, include the label 'For Prioritisation' (if created in this repository), add it to the project and do not set a status, never include it in Backlog, Planned or any other status at this stage.
 
 If this happen regularly it should be addressed, either there is a deviation from plans and goals or these are loosing validity.
-The next monthly meeting should be longer, at least two hours, and focused on the roadmap rather than progress.
+The next monthly meeting should be longer, at least two hours, and focused on the roadmap and project strategy rather than progress.
 
 ##### Do we need stories? Discussion point
 
 Creating an issue of issue or meta issue may seem confusing, 
 and some aspects of it may be (the importance of the label Story lies here, because the project views are configured to provide clarity based on it).
 Yet they are necessary to keep an organised overview of goals and progress while:
-- Allowing day to day issues to be created as it is best for the person, team or repo tackling them. This way we do not need to unify criteria, which may prove difficult when some tasks are very managerial/contractual and others are bugs
+- Allowing day to day issues to be created as it is best for the person, team or repo tackling them. This way we do not need to unify criteria, which may prove difficult when some tasks are very managerial/contractual and others are code
 - Being able to assign team and people
 - Reflect discussions and progress within
 - Reflecting them in a roadmap
 
-**Why not milestones?** Because they are much more information limited, cannot be shown in the same way in boards or roadmaps and are repository bound. In summary they are a deprecated feature that do not allow the analysis and tracking we require
+**Why not milestones?** Because they are much more information limited, cannot be shown in the same way in boards or roadmaps and are repository bound. In summary they are a deprecated feature that do not allow the analysis and tracking we require.
 
 
 
