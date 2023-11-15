@@ -8,6 +8,8 @@ These Ways of Work are inspired by Agile principles and SCRUM methodology, altho
 
 They have been developed with the team and attending to the meeting-intense research environment of the project, this made it challenging to introduce SCRUM ceremonies or make it mandatory for all team members to take part in each one. As a result asynchronous reporting have been prioritised and some ceremonies blended together. To structure asynchronous elements of ceremonies or meetings we were directly inspired by Florian Haas' post '[No, we won't have a video call for that](https://xahteiwi.eu/resources/presentations/no-we-wont-have-a-video-call-for-that/)'.
 
+It is also important to understand that this is a multifaceted and overarching project, several strands of work (or even full projects) are simultaneously carried out and have their own ways of work and tracking tools. Therefore the Ways of Work and tools developed here focus on coordination among those with minimal added effort and avoiding interfering with day-to-day work.
+
 ## Ways of work principles
 
 Ways of work is not only about reporting.
@@ -107,7 +109,7 @@ Issue fields:
 Stories should not be created without consensus, if you DO NEED to create one to reflect a big piece of work you are for certain doing then add the tag 'ForPrioritisation' and take it to the team. 
 
 To create a story open an issue and select the Story template, provide a comprenhensive title but especially include a comprenhensive description of what the goal is and what work is required. 
-Include any issues (from this repository or others) or relevant links to associated tasks and work when there are.
+Include any issues, milestones (from this repository or others) or relevant links to associated tasks and work whenever possible and sensible, the level of detail to linked work will vary with the nature of task and how they are currently tracked. 
 
 Then fill in the project fields as best as possible:
 - Project or funding it relates to
@@ -162,6 +164,14 @@ Yet they are necessary to keep an organised overview of goals and progress while
 
 
 ### Project: Unified board
+The main tool for project tracking is a unified, multi-repository, GitHub project which contains a Project Roadmap and Board among other useful views.
+While other tools roadmapping and tracking tools are avaialble, and other projects may prefer them, GitHub Projects has enough functionality and customization options while keeping all information in one single place.
+
+Here is where all stories are reflected, broken down by accountable team and showing effort estimates and planned dates.
+It also serves to quickly overview the status of stories and monthly priorities.
+
+While orginally designed to also reflect all day-to-day issues and tasks this proved too burdensome for the team, as work at that level is already managed and tracked in more specific repositories.
+
 This project is associated to the data-safe-haven-team repo, 
 but is designed to reflect work across any number of (ATI or public) repositories.
 To do this stories and project fields are key (we cannot modify labels or milestones in repositories we do not own, but can do what we want with project fields).
@@ -214,7 +224,7 @@ There is room to improve their use if wanted.
 
 In addition to the team's milestones there is an ongoing milestone (to the project's end) for meetings and other formalities that involve the whole team.
 
-## Meetings & Co-working
+## Ceremonies: Meetings & Co-working
 
 Synchronous meeting has been minimised according to team's preference and due to the already meeting intensive schedule,
 therefore the focus is in maintaining up to date repositories and communicating in advance via written reports.
@@ -246,9 +256,9 @@ This way each team member needs to provide updates in a single place.
 Key facts
 - Wednesdays 09.30 to 10.30
 - Attended by Project working team
-- Purpose: work together in issues identified during weekly
+- Purpose: work together in issues identified during weekly or which arise during the week
 
-Co-working time is an unstructured hour for synchronous work
+Co-working time is an unstructured hour for synchronous work. It has proved 
 
 ### Monthly meeting
 Key facts
