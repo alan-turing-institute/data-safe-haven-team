@@ -255,6 +255,9 @@ therefore the focus is in maintaining up to date repositories and communicating 
 
 Meeting time should be focus on collaboration and group decisions.
 
+Scheduled and fixed time together is key for fostering collaboraiton and discussion, but has also proven to provide great flexibility and capacity to address issues as they arise.
+In a setting where finding a calendar slot that everyone can make is very challenging, sometimes requiring a month or longer, having 2 weekly and 2 monthly recurrent shared times slots has proved highly benefitial.
+
 ### Weekly meeting
 Key facts
 - Mondays 10.00 to 10.30
@@ -283,7 +286,10 @@ Key facts
 - Attended by Project working team
 - Purpose: work together in issues identified during weekly
 
-Co-working time is an unstructured hour for synchronous work
+Co-working time is an unstructured hour for synchronous work.
+It allows to address matters as they arise, team members can propose any topics or task to work together on during the week or directly at the start of the meeting.
+
+It has proven useful as well to quickly address team wide discussions when a monthly meeting is still too far ahead, or to collaborative write funding applications.
 
 ### Monthly meeting
 Key facts
