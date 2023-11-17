@@ -302,7 +302,7 @@ Monthly and quarterly issues will have associated PRs in which the team is expec
 
 ##### Weekly issue
 
-Purpose of this issue is to better communicate and coordinate with DSH team members directly working on project tasks.
+The purpose of this issue is to better communicate and coordinate with DSH team members directly working on project tasks.
 
 It should reflect what was done during the week, blockers and serve to plan work for the following week minimising the need for synchronous meeting time
 
