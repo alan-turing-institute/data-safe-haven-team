@@ -151,7 +151,8 @@ If you are unable to assign an issue to a story consider whether to create it in
 If you think it is work that the project needs, add it for discussion during the next weekly meeting or open a thread in the corresponding channel.
 
 
-If this happen regularly it should be addressed, either there is a deviation from plans and goals or these are loosing validity.
+If this happens regularly, it should be addressed.
+Either there is a deviation from plans and goals or the plans and goals are losing validity.
 The next monthly meeting should be longer, at least two hours, and focused on the roadmap and project strategy rather than progress.
 
 ##### Do we need stories? Discussion point
