@@ -105,7 +105,7 @@ Issue fields:
 
 ##### Using stories
 
-**Story creation**
+###### Story creation
 Stories should not be created without consensus, if you DO NEED to create one to reflect a big piece of work you are for certain doing then add the tag 'ForPrioritisation' and take it to the team. 
 
 To create a story open an issue and select the Story template, provide a comprenhensive title but especially include a comprenhensive description of what the goal is and what work is required. 
