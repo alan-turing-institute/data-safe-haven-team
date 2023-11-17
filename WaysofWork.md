@@ -234,7 +234,7 @@ In addition to the team's milestones there is an ongoing milestone (to the proje
 
 ## Ceremonies: Meetings & Co-working
 
-Synchronous meeting has been minimised according to team's preference and due to the already meeting intensive schedule,
+Synchronous meeting has been minimised according to the team's preference and due to the already meeting-intensive schedule.
 therefore the focus is in maintaining up to date repositories and communicating in advance via written reports.
 
 Meeting time should be focus on collaboration and group decisions.
