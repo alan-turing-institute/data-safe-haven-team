@@ -13,7 +13,7 @@ It is also important to understand that this is a multifaceted project. Several 
 ## Ways of work principles
 
 Ways of work is not only about reporting.
-It needs to help team members work better together and make your work visible.
+It needs to help team members work better together and make their work visible.
 The process should be adjusted if it does not do this.
 
 Ways of work process should adhere to the following principles,
