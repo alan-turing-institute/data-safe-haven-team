@@ -61,7 +61,7 @@ https://docs.github.com/en/issues/planning-and-tracking-with-projects/understand
 
 Stories are only created in the management repo (data-safe-haven-team) and are "issues of issues",
 they contain and reflect a 'Piece of Work' or goal agreed as necessary for the success of the project during an all-hands meeting or discussion (typically a Monthly meeting).
-Stories will typically span longer than a month, while they do not have a defined maximum duration an useful reference may be a quarter (they can take longer but we may want to consider defining further intermediate goals). 
+Stories will typically span longer than a month. Although they do not have a defined maximum duration, a useful reference may be a quarter (they can take longer but we may want to consider defining further intermediate goals). 
 
 What stories to work on at any given time is decided during Planning meetings, it is also then when the effort they will require and what aspects of them to focus on are estimated. This planning and prioritisation is then brought to the Monthly meeting and shared with all stakeholders for their input.
 
