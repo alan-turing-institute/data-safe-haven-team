@@ -132,7 +132,7 @@ This is the right time to update the scope of the story or associated work
 **Progress reporting**
 The Research Project Manager (RPM) will update at least monthly the main comment to reflect the progress and updates reported during weekly meetings.
 
-Stories' status will then be updated accordingly to mark them as having updates, blockers, or requiring furhter discussion.
+Stories' status will then be updated accordingly to mark them as having updates, blockers, or requiring further discussion.
 The RPM will later return them to their previous status (likely 'In progress').
 
 During monthly review meeting the team will go through the stories and share updates based on what reporting is written on them.
