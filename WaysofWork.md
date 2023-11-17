@@ -319,6 +319,7 @@ The weekly standup will then take place, discussing blockers and planning work.
 Team members should update the collaborative note as appropiate to reflect plans for the week and any agreed actions
 
 The RPM will:
+
 - Update the weekly issue to reflect the team overall work for the last week and plans for this week
 - Review roadmap and boards to ensure it reflects the current project status
 - Add any necessary points for discussion for the monthly meeting
