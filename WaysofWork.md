@@ -307,7 +307,7 @@ The purpose of this issue is to better communicate and coordinate with DSH team 
 It should reflect what was done during the week, any blockers, and serve to plan work for the following week, minimising the need for synchronous meeting time
 
 The RPM will be responsible to create and update it each week.
-everyone is responsible to update issues worked on and planned and report in the collaborative note here
+Everyone is responsible for updating issues worked on and planned and report in the collaborative notes here.
 
 The issue will be permanent and updated via comments to avoid drowing the repo, meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. This issue will therefore only track status of issues so PM can maintian the team's Project.
 
