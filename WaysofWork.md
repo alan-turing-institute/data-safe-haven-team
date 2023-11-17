@@ -16,7 +16,7 @@ Ways of work is not only about reporting.
 It needs to help team members work better together and make their work visible.
 The process should be adjusted if it does not do this.
 
-Ways of work process should adhere to the following principles,
+The Ways of Work process should adhere to the following principles:
 
 - You should only have to report in one place
 - Reporting should not be an unreasonable burden
