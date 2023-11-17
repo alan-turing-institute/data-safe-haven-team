@@ -309,6 +309,7 @@ everyone is responsible to update issues worked on and planned and report in the
 The issue will be permanent and updated via comments to avoid drowing the repo, meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. This issue will therefore only track status of issues so PM can maintian the team's Project.
 
 From Thursdays and before the weekly meeting (Monday 10 AM) each team member will have to:
+
 - Make updates in the issues they have worked on via comments
 - Change their status in the project where appropiate
 - Update fields where appropiate
