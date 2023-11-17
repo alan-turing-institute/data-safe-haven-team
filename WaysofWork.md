@@ -337,10 +337,7 @@ as well as put together the agenda for the monthly meeting.
 After the monthly meeting the RPM will reflect in the issue any necessary updates to roadmap, stories or issues.
 It will allocate responsibility across teams to make those updates effective.
 
-```
 Potentially monthly issues will be reduced to their PR without creating an issue to keep the repo cleaner.
-
-```
 
 
 All attendees should make the time to read over the report and prepare their questions and feedback.
