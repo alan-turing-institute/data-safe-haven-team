@@ -65,7 +65,10 @@ Stories will typically span longer than a month. Although they do not have a def
 
 What stories to work on at any given time is decided during Planning meetings, it is also then when the effort they will require and what aspects of them to focus on are estimated. This planning and prioritisation is then brought to the Monthly meeting and shared with all stakeholders for their input.
 
-Ideally there will be no work outside Stories, yet this is not realistic in the project context and some work may arise that does not fit with any defined story. This should be tracked to ensure non-story work is minimal and does not disrupt the delivery of the planned work, if it becomes significant then the whole project team and stakeholders should be made aware and agree how to reprioritise project work.
+Ideally there will be no work outside Stories. 
+However, this is not realistic in the project context and some work may arise that does not fit with any defined story. 
+This should be tracked to ensure non-story work is minimal and does not disrupt the delivery of the planned work.
+If it becomes significant, then the whole project team and stakeholders should be made aware and agree how to reprioritise project work.
 
 ##### Content and project fields
 
