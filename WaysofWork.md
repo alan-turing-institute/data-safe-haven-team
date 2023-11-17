@@ -4,7 +4,7 @@ This document lays out how to create and use this repo and associated project bo
 
 The proposed structure responds to an ask from the project team to increase communication, organization and collaboration with the least possible amount of meeting time or fixed synchronous co-working time.
 
-These Ways of Work are inspired by Agile principles and SCRUM methodology, although readers may recognize very little from the latter in the resulting practices. The main goals are to increase communication, ensure team members are are directly involved in deciding how to carry out the project, protect their workloads and improve visibility of the project's impact.
+These Ways of Work are inspired by Agile principles and SCRUM methodology, although readers may recognize very little from the latter in the resulting practices. The main goals are to increase communication, ensure team members are directly involved in deciding how to carry out the project, protect their workloads and improve visibility of the project's impact.
 
 They have been developed with the team and attending to the meeting-intense research environment of the project, this made it challenging to introduce SCRUM ceremonies or make it mandatory for all team members to take part in each one. As a result asynchronous reporting have been prioritised and some ceremonies blended together. To structure asynchronous elements of ceremonies or meetings we were directly inspired by Florian Haas' presentation ['No, we won't have a video call for that'](https://xahteiwi.eu/resources/presentations/no-we-wont-have-a-video-call-for-that/).
 
