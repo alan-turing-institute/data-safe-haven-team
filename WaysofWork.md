@@ -1,5 +1,5 @@
 # onBOARDing document: Issues, Milestones and Projects for the DSH team
-V: 1
+Version: 1.0.0
 This document lays out how to create and use this repo and associated project board for the tracking and organisation of work relating to DSH project, attending to its multi-repository nature.
 
 The proposed structure responds to an ask from the project team to increase communication, organization and collaboration with the least possible amount of meeting time or fixed synchronous co-working time.
