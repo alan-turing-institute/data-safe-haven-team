@@ -85,7 +85,7 @@ In the body of the issue:
 Issue fields:
 - Assignees: include at least the main accountable person
 - Labels: Story, always use this label as it used in the project board and roadmap to filter and distinguish issues from stories
-  -  ForPrioritisation: use this always that you have created a story that still needs to be discussed and approved
+  -  ForPrioritisation: always use this when you have created a story that still needs to be discussed and approved
   -  Funding/project: Core DSH (ELA), SATRE, TRESA
   -  Milestone: Choose a milestone by according to the time period when it should be addressed.
     -  No clear milestone?: It is okay, but please do mark its status in the project correctly. If the story is not approved it will have no status, if it has been approved to work on but not decided when then it will be part of the Backlog
