@@ -159,7 +159,9 @@ Yet they are necessary to keep an organised overview of goals and progress while
 - Reflect discussions and progress within
 - Reflecting them in a roadmap
 
-**Why not milestones?** Because they are much more information limited, cannot be shown in the same way in boards or roadmaps and are repository bound. In summary they are a deprecated feature that do not allow the analysis and tracking we require.
+###### Why not milestones?
+
+Milestones are much more information limited, cannot be shown in the same way in boards or roadmaps and are repository bound. In summary they are a deprecated feature that do not allow the analysis and tracking we require.
 
 
 
