@@ -119,7 +119,7 @@ Then fill in the project fields as best as possible:
 
 It is the responsibility of the Accountable team or person, with help from the RPM where necessary, to create and complete a story.
 
-**Monthly planning**
+###### Monthly planning
 
 At the end of each month the team will use stories and roadmap to plan the coming month, assigning effort in FTE to each story under 'Monthly FTE'. 
 This is the right time to update the scope of the story or associated work
