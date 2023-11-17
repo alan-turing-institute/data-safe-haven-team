@@ -138,7 +138,7 @@ The RPM will later return them to their previous status (likely 'In progress').
 During monthly review meeting the team will go through the stories and share updates based on what reporting is written on them.
 
 #### Tasks and other issues from your day to day
-Stories are thought to link and group to our day to day work, allowing to report at a more aggregated level.
+Stories are intended to link and group to our day to day work, allowing reporting at a more aggregated level.
 It is not required to create issues for every task but do so every time it is appropiatte.
 
 Link issues, milestones or other documents and links to stories to which they contribute to.
