@@ -309,7 +309,9 @@ It should reflect what was done during the week, any blockers, and serve to plan
 The RPM will be responsible to create and update it each week.
 Everyone is responsible for updating issues worked on and planned and report in the collaborative notes here.
 
-The issue will be permanent and updated via comments to avoid drowing the repo, meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. This issue will therefore only track status of issues so PM can maintian the team's Project.
+The issue will be permanent and updated via comments to avoid drowning the repo.
+Meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. 
+This issue will therefore only track status of issues so the PM can maintain the team's Project.
 
 From Thursdays and before the weekly meeting (Monday 10 AM) each team member will have to:
 
