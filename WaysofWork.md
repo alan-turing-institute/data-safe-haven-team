@@ -257,6 +257,8 @@ This way each team member needs to provide updates in a single place.
 
 ### Weekly coworking
 Key facts
+
+
 - Wednesdays 09.30 to 10.30
 - Attended by Project working team
 - Purpose: work together in issues identified during weekly or which arise during the week
