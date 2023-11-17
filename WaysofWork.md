@@ -78,7 +78,7 @@ In the body of the issue:
 - Define what would need to be achieved to consider the goals met, or the story as done
 - Details:
   - RACI list, though Accountable is also captured in project fields it allows to reflect the whole list
-  - Estimated effort, by team. Also duplicated in project fields for the Accountable team but allowing furhter detail in the body.
+  - Estimated effort, by team. Also duplicated in project fields for the Accountable team but allowing further detail in the body.
 - Task and issue breakdown: all issues and important references for work done that contribute to this goal 
 - Checklist
 
