@@ -140,7 +140,7 @@ Link issues, milestones or other documents and links to stories to which they co
 
 Try to ask the following question each time you start a task: does it contribute to an ongoing or planned story?
 
-##### **I do not know what Story this issue belongs to**, Should I create this issue?**
+##### I do not know what Story this issue belongs to, Should I create this issue?
 All work and the related issues should clearly contribute to agreed upon goals, and their corresponding stories.
 If you are unable to assign an issue to a story consider whether to create it in the first place,
 if you think it is work that the project needs, add it for discussion during the next weekly meeting or open a thread in the corresponding channel.
