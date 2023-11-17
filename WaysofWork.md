@@ -235,6 +235,7 @@ Meeting time should be focus on collaboration and group decisions.
 
 ### Weekly team meeting
 Key facts
+
 - Mondays 10.00 to 10.30
 - Attended by Project working team
 - Agenda:
