@@ -8,7 +8,7 @@ These Ways of Work are inspired by Agile principles and SCRUM methodology, altho
 
 They have been developed with the team. The meeting-intense research environment of the project made it challenging to introduce SCRUM ceremonies or make it mandatory for all team members to take part in each one. As a result, asynchronous reporting has been prioritised and some ceremonies blended together. To structure asynchronous elements of ceremonies or meetings we were directly inspired by Florian Haas' presentation ['No, we won't have a video call for that'](https://xahteiwi.eu/resources/presentations/no-we-wont-have-a-video-call-for-that/).
 
-It is also important to understand that this is a multifaceted project, several strands of work (or even full projects) are simultaneously carried out and have their own ways of work and tracking tools. Therefore the Ways of Work and tools developed here focus on coordination among those with minimal added effort and avoiding interfering with day-to-day work.
+It is also important to understand that this is a multifaceted project. Several strands of work (or even full projects) are simultaneously carried out and have their own ways of work and tracking tools. Therefore the Ways of Work and tools developed here focus on coordination among those with minimal added effort and avoiding interfering with day-to-day work.
 
 ## Ways of work principles
 
