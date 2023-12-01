@@ -269,8 +269,18 @@ Key facts
 - Attended by Project working team
 - Purpose: work together in issues identified during weekly or which arise during the week
 
-Co-working time is an unstructured hour for synchronous work. It has proved 
+Co-working time is an unstructured hour for synchronous work.
+### Monthly Planning
 
+Key facts
+
+- Last Thursday of the month 16.00 to 16.30
+- Attended by team leads and RPM, all team members invited
+- Purpose:
+  - Prioritise stories for following month
+  - Estimate required effort
+  - Reprioritise goals (stories) and review roadmap
+  - Suggest changes to the Backlog
 ### Monthly meeting
 Key facts
 - Second Monday of the month 13.00 to 14.00
@@ -298,55 +308,59 @@ This meeting is how we communicate work and make any decisions regarding the ove
 it is the time to elevate blockers or important changes to the roadmap or backlog (any inclussion of a story issue should be addressed and discussed).
 
 As with weeklys and to make use of the synchronous times this meetings have a strong asynchronous component,
-each team will update their stories and make changes to a monthly report PR that the RPM will prepare in advance.
+The RPM will update stories based on weekly reports and prepare a monthly report PR.
+Team members are expected to support the RPM by reviewing these updates.
 
+During the meeting the RPM will present updates for all stories using the Monthly Board, allowing for questions on each.
+Then discussion will focus on those stories that have been detected to require further conversation.
 
+It is also during this meeting that the plans for the next month will be presented, inviting feedback from all stakeholders and approving it.
+After the monthly meeting the RPM will make any necessary updates to roadmap, stories or issues.
+Allocating responsibility across teams to make those updates effective.
 ### Reporting (meeting outputs)
 
-These issues will be primarly maintained by the RPM and be used to reflect the planned work and progress made either weekly, monthly or quarterly.
-Monthly and quarterly issues will have associated PRs in which the team is expected to take part.
+Reports will be primarly created and maintained by the RPM and be used to reflect the progress made either weekly, monthly or quarterly.
+Monthly and quarterly reports will be made via PRs in which the team is expected to take part, they may have associated issues as needed.
 
-##### Weekly issue
-
-The purpose of this issue is to better communicate and coordinate with DSH team members directly working on project tasks.
+#### Weekly report (meeting minute)
+The weekly report is effectively composed of the asynchronous reporting done for the Weekly Meeting and the minute from the synchronous part of the meeting.
+Its purpose is to better communicate and coordinate with DSH team members directly working on project tasks.
 
 It should reflect what was done during the week, any blockers, and serve to plan work for the following week, minimising the need for synchronous meeting time
 
-The RPM will be responsible to create and update it each week.
-Everyone is responsible for updating issues worked on and planned and report in the collaborative notes here.
+Currently the Technical Lead creates a new collaborative note for the team to update it each week.
 
-The issue will be permanent and updated via comments to avoid drowning the repo.
-Meeting minutes will not be reflected here but stored in Sharepoint and as files in this repo. 
-This issue will therefore only track status of issues so the PM can maintain the team's Project.
+The note is then archived in the project's sharepoint.
+Everyone is responsible for updating issues worked on and planned and report in the collaborative note.
+
 
 From Thursdays and before the weekly meeting (Monday 10 AM) each team member will have to:
 
 - Make updates in the issues they have worked on via comments
 - Change their status in the project where appropiate
 - Update fields where appropiate
-- Fill in the meeting collaborative note here: https://hackmd.io/nPewceMuQcmXD7jfqYFpzw?edit
+- Fill in the meeting collaborative note
 
 The weekly standup will then take place, discussing blockers and planning work.
 Team members should update the collaborative note as appropiate to reflect plans for the week and any agreed actions
 
 The RPM will:
 
-- Update the weekly issue to reflect the team overall work for the last week and plans for this week
+- Update Story issues to reflect the team overall work for the last week and plans for this week
 - Review roadmap and boards to ensure it reflects the current project status
 - Add any necessary points for discussion for the monthly meeting
 
 A member of the REG team will be asked to archive the meeting minute in the collaborative note in Sharepoint [here](https://thealanturininstitute.sharepoint.com/sites/SafeHaven/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSafeHaven%2FShared%20Documents%2FMeetings&viewid=10151919%2Deeef%2D4a8b%2Db4c0%2D26a3b155773b)
 
-##### Monthly issue
+#### Monthly report
+The way in which monthly updates are reported and communicated is still evolving, the below reflects current and desired practices.
 
-The monthly issue will be used to update the [month by month report](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/Reports/Monthly.md),
+The [month by month report](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/Reports/Monthly.md) is a permanent document in which to reflect updates from all Stories.
+The period of this report is one aspect under consideration, a lower frequency may result more appropiate.
 as well as put together the agenda for the monthly meeting.
 
-After the monthly meeting the RPM will reflect in the issue any necessary updates to roadmap, stories or issues.
-It will allocate responsibility across teams to make those updates effective.
-
-Potentially monthly issues will be reduced to their PR without creating an issue to keep the repo cleaner.
 
 
-All attendees should make the time to read over the report and prepare their questions and feedback.
+
+All attendees to the Monthly Meeting should make the time to read over the report and prepare their questions and feedback.
 
