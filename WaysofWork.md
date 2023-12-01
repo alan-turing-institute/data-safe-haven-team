@@ -139,7 +139,7 @@ During monthly review meeting the team will go through the stories and share upd
 
 #### Tasks and other issues from your day to day
 Stories are intended to link and group to our day to day work, allowing reporting at a more aggregated level.
-It is not required to create issues for every task but do so every time it is appropiatte.
+It is not required to create issues for every task but do so every time it is appropriate.
 
 Link issues, milestones or other documents and links to stories to which they contribute to.
 
