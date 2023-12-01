@@ -181,7 +181,7 @@ It also serves to quickly overview the status of stories and monthly priorities.
 While originally designed to also reflect all day-to-day issues and tasks this proved too burdensome for the team, as work at that level is already managed and tracked in more specific repositories.
 
 This project is associated to the data-safe-haven-team repo, 
-but is designed to reflect work across any number of (ATI or public) repositories.
+but is designed to reflect work across any number of (Turing or public) repositories.
 To do this stories and project fields are key (we cannot modify labels or milestones in repositories we do not own, but can do what we want with project fields).
 
 The main fields have been presented above but are further listed and explained here, they can be adapted and changed as the needs of the project changes.
