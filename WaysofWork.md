@@ -157,7 +157,7 @@ The next monthly meeting should be longer, at least two hours, and focused on th
 
 ##### Do we need stories? Discussion point
 
-Creating an issue of issue or meta issue may seem confusing, 
+Creating an issue of issues or meta issue may seem confusing, 
 and some aspects of it may be (the importance of the label Story lies here, because the project views are configured to provide clarity based on it).
 Yet they are necessary to keep an organised overview of goals and progress while:
 - Allowing day to day issues to be created as it is best for the person, team or repo tackling them. This way we do not need to unify criteria, which may prove difficult when some tasks are very managerial/contractual and others are code
