@@ -301,7 +301,7 @@ As with weeklys and to make use of the synchronous times this meetings have a st
 each team will update their stories and make changes to a monthly report PR that the RPM will prepare in advance.
 
 
-#### Planning & Report (meeting outputs)
+### Reporting (meeting outputs)
 
 These issues will be primarly maintained by the RPM and be used to reflect the planned work and progress made either weekly, monthly or quarterly.
 Monthly and quarterly issues will have associated PRs in which the team is expected to take part.
