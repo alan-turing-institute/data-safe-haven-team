@@ -178,7 +178,7 @@ While other tools roadmapping and tracking tools are avaialble, and other projec
 Here is where all stories are reflected, broken down by accountable team and showing effort estimates and planned dates.
 It also serves to quickly overview the status of stories and monthly priorities.
 
-While orginally designed to also reflect all day-to-day issues and tasks this proved too burdensome for the team, as work at that level is already managed and tracked in more specific repositories.
+While originally designed to also reflect all day-to-day issues and tasks this proved too burdensome for the team, as work at that level is already managed and tracked in more specific repositories.
 
 This project is associated to the data-safe-haven-team repo, 
 but is designed to reflect work across any number of (ATI or public) repositories.
