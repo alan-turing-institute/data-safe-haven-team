@@ -19,21 +19,18 @@ tags: dsh
 
 ## Attendees
 
-
 ### In attendance
-
 
 ### Apologies
 
-
 ## Agenda
+
 - Overview of Project updates by story
 - [name=RPM/facilitator] Last month's action points
 - Stories for discussion
 - [name=TRESA lead] TRESA updates
 - Other discussion points
 - Next month plans and priorities
-
 
 ## Project updates
 
