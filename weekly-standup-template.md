@@ -56,26 +56,6 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 #### REG-accountable
 
-##### [Co-create a TRE standard](https://github.com/alan-turing-institute/data-safe-haven-team/issues/23)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Space (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
 ##### [Codebase maintenance](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
 
 ###### People and time
@@ -139,6 +119,26 @@ For example, this may be an emergent task, providing support or expertise to oth
 #### RAM-accountable
 
 ##### [Project strategy and ways of work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/43)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [SATRE: stakeholder engagement and community buy out](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
 
 ###### People and time
 
