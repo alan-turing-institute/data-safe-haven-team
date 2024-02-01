@@ -144,7 +144,21 @@ When funding ends for the project and we have openly documented everything that 
 Documentation management have not been a story actively worked in, yet some processes have been updated and documented and needs identified.
 While the story goes beyond Production processes it is worth noting that those have been handed over to TRESA, who are already suggesting and appliying changes.
 
+### SATRE: stakeholder engagement and community buy out
+https://github.com/alan-turing-institute/data-safe-haven-team/issues/66
 
+#### Goal
+Ensure that institutions evaluate themselves against SATRE and that the momentum is maintained between funded phases
+
+At the end of the funded phase of SATRE there was a growing community interest, with institutions and stakeholders affirming they would evaluate themselves against it and contribute feedback.
+
+Without ongoing resources the necessary support to ensure that happens cannot be provided and SATRE may end up not being adopted.
+
+#### Definition of Done
+There are a number of self evlauaitons completed, there is feedback on the spec repository and, ideally, there is an active WG within the TRE Community continuing to work on it.
+
+#### Progress
+Work is folded into the [UK TRE Community](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52), already SATRE is formally becoming a UK TRE Community WG.
 
 ## Community building
 Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
@@ -203,6 +217,7 @@ All work and progress during the funded phase can be consulted in [its board](ht
   - [Report and notes](https://www.uktre.org/en/latest/events/wg_workshops/2023-12-05-december-meeting/index.html)
 - The first version of the Community Website is ready, it has been done using Hugo to balance quality and sustainability (being easily maintained and updated by the community after funding ends)
 - Governance processes are being established, striving for simplicity in this phase. The conversation and work is open and welcomes all input and feedback. This is the [most active issue](https://github.com/uk-tre/community-management/pull/54) and a good starting point
+
 
 ## Meta
 Work and stories that do not belong directly in any pillars but are necessary for all
