@@ -245,11 +245,11 @@ Through several strategy sessions we will:
 Through several team wide sessions we jointly produced a [project strategy](https://thealanturininstitute.sharepoint.com/:p:/s/SafeHaven/Ebrp4Iyc9M1NpPTgpgHdj5kB7HPvH-2gM0oNd97jJu6oxw?e=eN0ZFw)https://thealanturininstitute.sharepoint.com/:p:/s/SafeHaven/Ebrp4Iyc9M1NpPTgpgHdj5kB7HPvH-2gM0oNd97jJu6oxw?e=eN0ZFw a long, medium and short term levels.
 
 This resulting in a clear Vision & Mision that have allowed internal alignment and improved external communications
-<
-To remove barriers to working safely and effectively with sensitive data, 
+
+>To remove barriers to working safely and effectively with sensitive data, 
 by promoting and demonstrating a culture of open, community-led development
 of interoperable foundational infrastructure and governance.
->
+<
 
 We also agreed the pillars of the project and estbalished a [roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1)https://github.com/orgs/alan-turing-institute/projects/111/views/1 of the necessary work for success.
 
