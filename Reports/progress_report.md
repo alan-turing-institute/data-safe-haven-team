@@ -177,6 +177,33 @@ Direct and explicit work on this story have not been carried out (not scheduled 
 
 We are now establishing the engagement pipleline by creating an internal CRM (sharepoint based currently).
 
+### UK TRE Community leadership
+https://github.com/alan-turing-institute/data-safe-haven-team/issues/52
+
+Contributes to:
+- Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
+- Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
+
+#### Goal
+Provide a space for those involved in building, using and responsible for governance of TREs to discuss and reccomend best practices.
+- [ ] Host online working spaces, events and workshops to support the UK TRE Community
+- [ ] Share best practices i.e. for making radiology data available for researchers
+- [ ] Empower the community to help influence policy decisions
+
+#### Progress
+A lot of of effort has been put this year into the UK TRE Community, this year has seen the community mature and evolve from the original RSE TRE Community.
+Currently we are delivering a funded project to ensure its sustainability which focuses one establishing the necessary spaces and governance processes.
+
+All work and progress during the funded phase can be consulted in [its board](https://github.com/orgs/uk-tre/projects/1)
+
+- The UK TRE Community event was held in Swansea on 4 September as a RSEcon23 satellite event. The event was very well attended with around 90 people in person and 50 online (figure to be revised), attendees were active on the day and had very positive feedback.
+  - [Report and notes](https://www.uktre.org/en/latest/events/wg_workshops/2023-09-04-september-meeting/index.html#provisional-schedule)
+- We were awarded the DARE UK Community call. It was prepared and submitted to DARE UK community call, with full agreement and participation of the community itself
+- Celebrated December community event (virtual). We presented the plans and work within this funded phase, which included a vision and mission for the community
+  - [Report and notes](https://www.uktre.org/en/latest/events/wg_workshops/2023-12-05-december-meeting/index.html)
+- The first version of the Community Website is ready, it has been done using Hugo to balance quality and sustainability (being easily maintained and updated by the community after funding ends)
+- Governance processes are being established, striving for simplicity in this phase. The conversation and work is open and welcomes all input and feedback. This is the [most active issue](https://github.com/uk-tre/community-management/pull/54) and a good starting point
+
 ## Meta
 Work and stories that do not belong directly in any pillars but are necessary for all
 
