@@ -3,6 +3,8 @@
 This document contains a summary of progress across all stories in the [project roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1).
 It maps stories according to the (main) pillar and priority they contribute to.
 
+Included stories are those that were scheduled and/or prioritised over this period (February 2023-February 2024), some not scheduled stories are included when there are updates for them regardless (indirect contirbutions from other stories, relevant work recently started, or something to report in general).
+
 ## Infrastructure as code
 Running projects working with sensitive data safely
 Running cutting edge data science projects effectively
@@ -97,9 +99,117 @@ These are main references and milestones, a more complete list is available on t
 Infrastructure adhering to the latest agreed upon standard
 Identifying, co-creating and supporting a TRE standard used across TRE infrastructures
 
+### Co-create a TRE standard (SATRE)
+https://github.com/alan-turing-institute/data-safe-haven-team/issues/23
+
+Contributes to:
+- Identifying, co-creating and supporting a TRE standard used across TRE infrastructures
+
+#### Goal
+Develop the SATRE specification that UK TREs can evaluate themselves against
+
+##### Definition of done
+SATRE specification published
+
+#### Progress
+[SATRE specification](https://satre-specification.readthedocs.io/en/stable/) published, and available for contribution and reproducibility in its [open repository](https://github.com/sa-tre/satre-specification).
+
+Currently Turing and HIC have self-evaluated against it and evaluations are available openly, several conversations ongoing about other institutions doing the same and making them available.
+
+- Outputs:
+  - SATRE specification V1 and [associated technical paper](https://zenodo.org/records/10053383)
+  - Internal DARE report, link will be added and published openly
+  - [User report](https://zenodo.org/records/10066800): characterises users, with a wider notion than we started of what users are. Lays the fundation for futher usability work, going beyong technicla features and into training and documentation
+  - UK TRE Community - SATRE WG: the ongoing work and evolution of the specification is now a working group within the Uk TRE Community
+
+### Documentation management
+https://github.com/alan-turing-institute/data-safe-haven-team/issues/32
+
+Contributes to:
+- Identifying, co-creating and supporting a TRE standard used across TRE infrastructures
+- Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
+- Identifying and documenting everything that can be openly documented
+
+#### Goal
+Comprehensive and clear documentation for the DSH, SATRE & TRESA will ensure open, reproducible outputs from this project.
+- Ensure all relevant information is captured in documentation
+- Test accessibility and discoverability of docs with relevant groups
+- Iterate documentation in line with wider project work (e.g. TRESA processes, DSH updates)
+- Determine what can/can't be documented (e.g. from an IG perspective).
+
+#### Definition of Done
+When funding ends for the project and we have openly documented everything that we feel we can
+
+#### Progress
+Documentation management have not been a story actively worked in, yet some processes have been updated and documented and needs identified.
+While the story goes beyond Production processes it is worth noting that those have been handed over to TRESA, who are already suggesting and appliying changes.
+
+
+
 ## Community building
 Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
 Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 Identifying and documenting everything that can be openly documented
 
+### Stakeholder landscape review
+https://github.com/alan-turing-institute/data-safe-haven-team/issues/30
 
+Contributes to:
+- Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
+- Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
+
+#### Goal
+Across a lot of our work (DSH project, SATRE, UK TRE community) there has been a lot of discussion around who the impacted parties are, how they are categorised, what their interests/needs are etc.
+
+An effective stakeholder map showing all parties we think we should engage with will help us prioritise who to collaborate with, and strengthen our work in community building within the TRE space (which is kind of where this project is heading, above and beyond getting others to use the DSH).
+
+- [ ] Brainstorm and identify potential stakeholder groups
+- [ ] Engage different groups through interviews/workshops to better understand them
+- [ ] Create engagement pipeline & priority for different groups
+
+#### Definition of Done
+- When we have an intended end-output from engagement with our established groups (e.g. by the end of the project, we want X group to be part of the UK TRE community, we want Y group to have contributed to the DSH repo...)
+
+#### Progress
+The work done in [SATRE](https://github.com/alan-turing-institute/data-safe-haven-team/issues/23) and the [UK TRE Community](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52) have directly contributed to estbalishing a relationship with key stakeholders, identify and characterise them.
+
+Direct and explicit work on this story have not been carried out (not scheduled in this period).
+
+We are now establishing the engagement pipleline by creating an internal CRM (sharepoint based currently).
+
+## Meta
+Work and stories that do not belong directly in any pillars but are necessary for all
+
+### Project strategy and ways of work
+https://github.com/alan-turing-institute/data-safe-haven-team/issues/43
+
+#### Goal
+The aim is to develop a project strategy and revise best ways of work to achieve it
+
+Through several strategy sessions we will:
+- Define our north star (vision & mision)
+- Establish the project pilars or areas, defining what success looks like for each
+- Prioritise the measure of success, which are essential to consider the project succesful
+- Identify work required to achieve success
+- Allocate work by team
+- Produce an initial roadmap
+- Evaluate required effort for the work against team capacity
+- Develop and agree new ways of work, including meeting structure and use of project's repositories and projects
+
+#### Progress
+
+##### Strategy
+
+Through several team wide sessions we jointly produced a [project strategy](https://thealanturininstitute.sharepoint.com/:p:/s/SafeHaven/Ebrp4Iyc9M1NpPTgpgHdj5kB7HPvH-2gM0oNd97jJu6oxw?e=eN0ZFw)https://thealanturininstitute.sharepoint.com/:p:/s/SafeHaven/Ebrp4Iyc9M1NpPTgpgHdj5kB7HPvH-2gM0oNd97jJu6oxw?e=eN0ZFw a long, medium and short term levels.
+
+This resulting in a clear Vision & Mision that have allowed internal alignment and improved external communications
+<
+To remove barriers to working safely and effectively with sensitive data, 
+by promoting and demonstrating a culture of open, community-led development
+of interoperable foundational infrastructure and governance.
+>
+
+We also agreed the pillars of the project and estbalished a [roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1)https://github.com/orgs/alan-turing-institute/projects/111/views/1 of the necessary work for success.
+
+##### Ways of work
+Troughout this year we have also iterated our ways of work which are [openly available here](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/WaysofWork.md), they are focused in increased communication and work prioritisation.
