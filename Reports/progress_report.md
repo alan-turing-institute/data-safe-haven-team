@@ -218,6 +218,34 @@ All work and progress during the funded phase can be consulted in [its board](ht
 - The first version of the Community Website is ready, it has been done using Hugo to balance quality and sustainability (being easily maintained and updated by the community after funding ends)
 - Governance processes are being established, striving for simplicity in this phase. The conversation and work is open and welcomes all input and feedback. This is the [most active issue](https://github.com/uk-tre/community-management/pull/54) and a good starting point
 
+### Communication and outreach
+https://github.com/alan-turing-institute/data-safe-haven-team/issues/35
+
+Contributes to:
+- Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
+- Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
+
+#### Goal
+- Supporting the user community of the DSH codebase
+- Publicising our work via blogposts, reports or papers
+- Communicating our work through conference/workshop talks or posters 
+
+#### Progress
+This story has changed in scope along the year, work done here has been tha tof presenting DSH externally via events and talks.
+
+Yet we have identified work to be done within this story to define and establish a DSH community and user base, what this means and entails needs to be discussed and agreed yet.
+
+- We have established a shared slack channel with UCL to discuss common approaches to information governance processes
+-  [AI UK demonstration proposal](https://thealanturininstitute.sharepoint.com/:x:/s/SafeHaven/EfKD3w8Gi9NFv6JBshOkugsBOnn4v3ZdU-FTeIcy5obQcg?e=Rhq9w4)
+  - [proposal collaborative note](https://hackmd.io/AmcYdsyETU2dVgtIdfVL-g)
+  - We are following a similar format to last year but want to bring forward the community work and the satre specification. We want to have an interactive activity that blends role playing the different stakeholder groups and collectively deciding on specification features. The demo challenge last year did not work so the technical side this year will be demonstrated by a video and project members "touring" the repositories, docs and environment
+- Met with Nottingham to support them as users of the DSH codebase
+- The team worked together on the content for DSH activities on RSEcon  as well as the UK TRE community satellite event #46 . 
+- The team visited the Bennett Institute for a show and tell about DSH and OpenSafely https://github.com/alan-turing-institute/tps-project-management/issues/157
+  - No immediate collaboration but agreed to be involved in the specification and TRE community
+- For discussion: this story needs to be redefined to include external engagement or a new one created
+
+## TRESA
 
 ## Meta
 Work and stories that do not belong directly in any pillars but are necessary for all
@@ -249,7 +277,6 @@ This resulting in a clear Vision & Mision that have allowed internal alignment a
 >To remove barriers to working safely and effectively with sensitive data, 
 by promoting and demonstrating a culture of open, community-led development
 of interoperable foundational infrastructure and governance.
-<
 
 We also agreed the pillars of the project and estbalished a [roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1)https://github.com/orgs/alan-turing-institute/projects/111/views/1 of the necessary work for success.
 
