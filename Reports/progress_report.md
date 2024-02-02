@@ -246,6 +246,23 @@ Yet we have identified work to be done within this story to define and establish
 - For discussion: this story needs to be redefined to include external engagement or a new one created
 
 ## TRESA
+Over the year TRESA have increased its autonomy from the DSH research project, in terms of work ownership and management.
+Therefore TRESA stories have not been indepently updated and it is more comprenhensive to update on the service area as a whole.
+
+This warrants updating and reviewing the stories we keep under the DSH roadmap, focusing on communicating with the service area rahter than planning or prioritising for them.
+
+### Updates
+A new team of have been onboarded, who have focused on learning the ropes while simultaneously supporting the December DSG.
+With some support from the DSH team they were able to do so.
+
+We had a detailed[ handover meeting](https://hackmd.io/kh6siuZcTdCxcfYryAvypw) to go over each process, the idea is that moving forward TRESA directly owns processes and their improvement.
+
+We have also identified areas of work for TRESA to fully establish itself as a service area, these need to be elaborated into a full proposal with sprints and stories but main areas are:
+- Data protection
+- Cost and recovery model
+- Acredditation: ISO 27001 and DSPT renewal
+- Client projects management
+
 
 ## Meta
 Work and stories that do not belong directly in any pillars but are necessary for all
