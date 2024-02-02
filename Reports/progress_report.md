@@ -43,31 +43,26 @@ Ensure that codebase is kept up-to-date with bug fixes, security updates, extern
 
 #### Progress
 
-- Working on debugging PostgreSQL permissions issues
-- DBeaver driver fix https://github.com/alan-turing-institute/data-safe-haven/issues/1666
+This year saw the [4.1.0 release](https://github.com/alan-turing-institute/data-safe-haven/releases/tag/v4.1.0) with notable fixes, security and documentaiton updates.
+
+We are currently working towards a final PowerShell [version 4.2](https://github.com/alan-turing-institute/data-safe-haven/milestone/21), aim to make the release in time for next DSG and then focus exclusively on Pulumi.
+
+A more complete summary of work done is available in the story, but some key updates through the year are:
+- Database permission issue debugging as PostgreSQL user privileges were not correctly applied. Now fixed in [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1708)
+- ClamAV On-access was not running
+    - On-access virus scanning is a DSPT requirement, and this process was not running correctly.
+    - Fixed by [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1725)
 - Improve handling of file paths [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1705)
-- Checking out Azure feature retirement warnings [Issue](https://github.com/alan-turing-institute/data-safe-haven/issues/1697)
 - Investigating issues with Julia on AMD processors:  During the building of VM images for deployment in SREs, Julia created and stored compiled versions of packages that were suitable only for Intel systems, causing crashes when users wanted to use AMD systems
 - Investigating issues with DBeaver on Tier 2+ SREs:  DBeaver drivers were not installing correctly during VM building, so it tries to download them from the internet. No problem on T1, but fails on T2.
-- Testing solutions for cross-platform deployment: When deploying on Windows, some scripts fail if there are any spaces in the file path
-- There has been work to address and improve issues and bugs related to last release while preparing for release 4.2.0.
 - Factoring storage creation and account deployments out of main deployment script now allows for a more resilient process (not having to re-run everything when one fails)
-- Also MS changing Azure Directory to Microsoft Entra ID has made necessary to spend time updating documentation and code, with the increased challenge that MS themsleves have not yet ocnsitently made the change.
-- Name changing: [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1665) for changes to documentation - [Issue](https://github.com/alan-turing-institute/data-safe-haven/issues/1664) for changes to code
+- MS changed the name of Azure Directory to Microsoft Entra ID which made necessary to spend time updating documentation and code
 - Factor SHM storage creation out of main deployment script [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1673)
-- 4.2.0 milestone related issues https://github.com/alan-turing-institute/data-safe-haven/milestone/21
-- Add all contributors table to project README and docs
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1649)
-  - Helps us better recognise contributors, especially those who do not appear in the commit history
-  - Will require maintainers to upkeep the list
-- Fixed an issue where the user could provide an invalid name for storage accounts
+- Add all contributors table to project README and docs [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1649)
 - [Removal of MSRDS](https://github.com/alan-turing-institute/data-safe-haven/pull/1535) which reduces support burden and codebase complexity, instead Guacamole implementaiton is more robust and secure
 - [Removal of CoCalc](https://github.com/alan-turing-institute/data-safe-haven/pull/1554) Reduces support burden for future releases by removing a largely unused feature
-- Investigating adding arrow R package support
-- Development/features
-  - [Drop Microsoft Remote Desktop](https://github.com/alan-turing-institute/data-safe-haven/issues/1159) primarly for increased security as it shows more issues than Guacamole, in doing this several other open issues are resolved
-- Fixes/maintenance
- - Documentation improvements alan-turing-institute/data-safe-haven/pull/1484  and updates https://github.com/alan-turing-institute/data-safe-haven/pull/1535
+- [Drop Microsoft Remote Desktop](https://github.com/alan-turing-institute/data-safe-haven/issues/1159) primarly for increased security as it shows more issues than Guacamole, in doing this several other open issues are resolved
+- Documentation improvements and updates
 
 ### Identify and implement core IAC changes
 https://github.com/alan-turing-institute/data-safe-haven-team/issues/28
