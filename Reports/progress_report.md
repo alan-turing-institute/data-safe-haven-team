@@ -44,7 +44,8 @@ Ensure that codebase is kept up-to-date with bug fixes, security updates, extern
 
 This year saw the [4.1.0 release](https://github.com/alan-turing-institute/data-safe-haven/releases/tag/v4.1.0) with notable fixes, security and documentaiton updates.
 
-We are currently working towards a final PowerShell [version 4.2](https://github.com/alan-turing-institute/data-safe-haven/milestone/21), aim to make the release in time for next DSG and then focus exclusively on Pulumi.
+We are currently working towards a final PowerShell version ([Release 4.2.0 Milestone](https://github.com/alan-turing-institute/data-safe-haven/milestone/21)).
+The aim is to make the release in time for next DSG and then focus exclusively on Pulumi.
 
 A more complete summary of work done is available in the story, but some key updates through the year are:
 - Database permission issue debugging as PostgreSQL user privileges were not correctly applied. Now fixed in [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1708)
