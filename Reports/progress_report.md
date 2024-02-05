@@ -286,7 +286,7 @@ This resulting in a clear Vision & Mision that have allowed internal alignment a
 by promoting and demonstrating a culture of open, community-led development
 of interoperable foundational infrastructure and governance.
 
-We also agreed the pillars of the project and estbalished a [roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1)https://github.com/orgs/alan-turing-institute/projects/111/views/1 of the necessary work for success.
+We also agreed the pillars of the project and established a [roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1) of the necessary work for success.
 
 ##### Ways of work
 Troughout this year we have also iterated our ways of work which are [openly available here](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/WaysofWork.md), they are focused in increased communication and work prioritisation.
