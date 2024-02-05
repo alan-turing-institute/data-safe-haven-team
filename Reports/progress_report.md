@@ -203,7 +203,7 @@ Currently we are delivering a funded project to ensure its sustainability which 
 All work and progress during the funded phase can be consulted in [its board](https://github.com/orgs/uk-tre/projects/1)
 
 - The UK TRE Community event was held in Swansea on 4 September as a RSEcon23 satellite event. The event was very well attended with around 90 people in person and 50 online (figure to be revised), attendees were active on the day and had very positive feedback.
-  - [Report and notes](https://www.uktre.org/en/latest/events/wg_workshops/2023-09-04-september-meeting/index.html#provisional-schedule)
+  - [Report and notes](https://www.uktre.org/en/latest/events/wg_workshops/2023-09-04-september-meeting/index.html)
 - We were awarded the DARE UK Community call. It was prepared and submitted to DARE UK community call, with full agreement and participation of the community itself
 - Celebrated December community event (virtual). We presented the plans and work within this funded phase, which included a vision and mission for the community
   - [Report and notes](https://www.uktre.org/en/latest/events/wg_workshops/2023-12-05-december-meeting/index.html)
