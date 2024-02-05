@@ -96,8 +96,7 @@ These are main references and milestones, a more complete list is available on t
 Infrastructure adhering to the latest agreed upon standard
 Identifying, co-creating and supporting a TRE standard used across TRE infrastructures
 
-### Co-create a TRE standard (SATRE)
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/23
+### Co-create a TRE standard (SATRE): [#23](https://github.com/alan-turing-institute/data-safe-haven-team/issues/23)
 
 Contributes to:
 - Identifying, co-creating and supporting a TRE standard used across TRE infrastructures
