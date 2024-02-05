@@ -3,7 +3,7 @@
 This document contains a summary of progress across all stories in the [project roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1).
 It maps stories according to the (main) pillar and priority they contribute to.
 
-Included stories are those that were scheduled and/or prioritised over this period (February 2023-February 2024), some not scheduled stories are included when there are updates for them regardless (indirect contirbutions from other stories, relevant work recently started, or something to report in general).
+Included stories are those that were scheduled and/or prioritised over this period (February 2023-February 2024), some not scheduled stories are included when there are updates for them regardless (indirect contributions from other stories, relevant work recently started, or something to report in general).
 
 ## Infrastructure as code
 Running projects working with sensitive data safely
