@@ -67,8 +67,7 @@ A more complete summary of work done is available in the story, but some key upd
 - [Drop Microsoft Remote Desktop](https://github.com/alan-turing-institute/data-safe-haven/issues/1159) primarly for increased security as it shows more issues than Guacamole, in doing this several other open issues are resolved
 - Documentation improvements and updates
 
-### Identify and implement core IAC changes
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/28
+### Identify and implement core IAC changes: [#28](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
 
 #### Goal
 Make DSH deployment more robust and development easier through using IAC and configuration management.
