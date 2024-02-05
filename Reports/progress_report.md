@@ -259,8 +259,7 @@ We have also identified areas of work for TRESA to fully establish itself as a s
 ## Meta
 Work and stories that do not belong directly in any pillars but are necessary for all
 
-### Project strategy and ways of work
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/43
+### Project strategy and ways of working [#43](https://github.com/alan-turing-institute/data-safe-haven-team/issues/43)
 
 #### Goal
 The aim is to develop a project strategy and revise best ways of work to achieve it
