@@ -159,8 +159,7 @@ Creating resources for all stakeholders (inc. Citizens) to engage in the TRE con
 Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 Identifying and documenting everything that can be openly documented
 
-### Stakeholder landscape review
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/30
+### Stakeholder landscape review [#30](https://github.com/alan-turing-institute/data-safe-haven-team/issues/30)
 
 Contributes to:
 - Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
