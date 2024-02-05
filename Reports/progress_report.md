@@ -139,8 +139,7 @@ When funding ends for the project and we have openly documented everything that 
 Documentation management have not been a story actively worked in, yet some processes have been updated and documented and needs identified.
 While the story goes beyond Production processes it is worth noting that those have been handed over to TRESA, who are already suggesting and appliying changes.
 
-### SATRE: stakeholder engagement and community buy out
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/66
+### SATRE: stakeholder engagement and community buy out [#66](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
 
 #### Goal
 Ensure that institutions evaluate themselves against SATRE and that the momentum is maintained between funded phases
