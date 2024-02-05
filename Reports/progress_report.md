@@ -10,8 +10,8 @@ Running projects working with sensitive data safely
 Running cutting edge data science projects effectively
 
 
-### Manage codebase releases and testing
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/50
+### Manage codebase releases and testing: [#50](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
+
 
 Contributes to:
 - Running projects working with sensitive data safely
