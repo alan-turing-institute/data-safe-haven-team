@@ -53,7 +53,7 @@ A more complete summary of work done is available in the story, but some key upd
 - ClamAV On-access was not running
     - On-access virus scanning is a DSPT requirement, and this process was not running correctly.
     - Fixed by PR [#1725](https://github.com/alan-turing-institute/data-safe-haven/pull/1725).
-- Improve handling of file paths [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1705)
+- Improve handling of file paths PR [#1705](https://github.com/alan-turing-institute/data-safe-haven/pull/1705).
 - Investigating issues with Julia on AMD processors:  During the building of VM images for deployment in SREs, Julia created and stored compiled versions of packages that were suitable only for Intel systems, causing crashes when users wanted to use AMD systems
 - Investigating issues with DBeaver on Tier 2+ SREs:  DBeaver drivers were not installing correctly during VM building, so it tries to download them from the internet. No problem on T1, but fails on T2.
 - Factoring storage creation and account deployments out of main deployment script now allows for a more resilient process (not having to re-run everything when one fails)
