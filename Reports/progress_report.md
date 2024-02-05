@@ -28,8 +28,7 @@ Support for deployments of the Data Safe Haven at Turing and beyond
 - Working on [Release 4.1.0](https://github.com/alan-turing-institute/data-safe-haven/issues/1544): fixes bugs and introduces necessary updates 
 
 
-### Codebase maintenance
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/47
+### Codebase maintenance: [#47](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
 
 Contributes to:
 - Running projects working with sensitive data safely
