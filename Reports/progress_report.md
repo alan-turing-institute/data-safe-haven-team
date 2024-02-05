@@ -184,8 +184,7 @@ Direct and explicit work on this story have not been carried out (not scheduled 
 
 We are now establishing the engagement pipleline by creating an internal CRM (sharepoint based currently).
 
-### UK TRE Community leadership
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/52
+### UK TRE Community leadership [#52](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
 
 Contributes to:
 - Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
