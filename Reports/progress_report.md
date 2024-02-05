@@ -48,7 +48,8 @@ We are currently working towards a final PowerShell version ([Release 4.2.0 Mile
 The aim is to make the release in time for next DSG and then focus exclusively on Pulumi.
 
 A more complete summary of work done is available in the story, but some key updates through the year are:
-- Database permission issue debugging as PostgreSQL user privileges were not correctly applied. Now fixed in [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1708)
+- Database permission issue debugging as PostgreSQL user privileges were not correctly applied.
+    - Now fixed in PR [#1708](https://github.com/alan-turing-institute/data-safe-haven/pull/1708).
 - ClamAV On-access was not running
     - On-access virus scanning is a DSPT requirement, and this process was not running correctly.
     - Fixed by [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1725)
