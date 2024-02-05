@@ -118,8 +118,7 @@ Currently Turing and HIC have self-evaluated against it and evaluations are avai
   - [User report](https://zenodo.org/records/10066800): characterises users, with a wider notion than we started of what users are. Lays the fundation for futher usability work, going beyong technicla features and into training and documentation
   - UK TRE Community - SATRE WG: the ongoing work and evolution of the specification is now a working group within the Uk TRE Community
 
-### Documentation management
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/32
+### Documentation management [#32](https://github.com/alan-turing-institute/data-safe-haven-team/issues/32)
 
 Contributes to:
 - Identifying, co-creating and supporting a TRE standard used across TRE infrastructures
