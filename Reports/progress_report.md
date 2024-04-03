@@ -243,7 +243,8 @@ Therefore TRESA stories have not been indepently updated and it is more comprenh
 This warrants updating and reviewing the stories we keep under the DSH roadmap, focusing on communicating with the service area rather than planning or prioritising for them.
 
 ### Updates
-A new team of have been onboarded, who have focused on learning the ropes while simultaneously supporting the December DSG.
+A new team have been onboarded.
+They have focused on learning the ropes while simultaneously supporting the December DSG.
 With some support from the DSH team they were able to do so.
 
 We had a detailed[ handover meeting](https://hackmd.io/kh6siuZcTdCxcfYryAvypw) to go over each process, the idea is that moving forward TRESA directly owns processes and their improvement.
