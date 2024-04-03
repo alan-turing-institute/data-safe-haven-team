@@ -200,7 +200,7 @@ Provide a space for those involved in building, using and responsible for govern
 A lot of of effort has been put this year into the UK TRE Community, this year has seen the community mature and evolve from the original RSE TRE Community.
 Currently we are delivering a funded project to ensure its sustainability which focuses one establishing the necessary spaces and governance processes.
 
-All work and progress during the funded phase can be consulted in [its board](https://github.com/orgs/uk-tre/projects/1)
+All work and progress during the funded phase can be consulted on [the community project board](https://github.com/orgs/uk-tre/projects/1)
 
 - The UK TRE Community event was held in Swansea on 4 September as a RSEcon23 satellite event. The event was very well attended with around 90 people in person and 50 online (figure to be revised), attendees were active on the day and had very positive feedback.
   - [Report and notes](https://www.uktre.org/en/latest/events/wg_workshops/2023-09-04-september-meeting/index.html)
