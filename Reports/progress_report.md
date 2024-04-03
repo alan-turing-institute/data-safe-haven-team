@@ -191,7 +191,7 @@ Contributes to:
 - Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 
 #### Goal
-Provide a space for those involved in building, using and responsible for governance of TREs to discuss and reccomend best practices.
+Provide a space for those involved in building, using and responsible for governance of TREs to discuss and recommend best practices.
 - [ ] Host online working spaces, events and workshops to support the UK TRE Community
 - [ ] Share best practices i.e. for making radiology data available for researchers
 - [ ] Empower the community to help influence policy decisions
