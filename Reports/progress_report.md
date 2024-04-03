@@ -192,9 +192,9 @@ Contributes to:
 
 #### Goal
 Provide a space for those involved in building, using and responsible for governance of TREs to discuss and recommend best practices.
-- [ ] Host online working spaces, events and workshops to support the UK TRE Community
-- [ ] Share best practices i.e. for making radiology data available for researchers
-- [ ] Empower the community to help influence policy decisions
+- Host online working spaces, events and workshops to support the UK TRE Community
+- Share best practices i.e. for making radiology data available for researchers
+- Empower the community to help influence policy decisions
 
 #### Progress
 A lot of of effort has been put this year into the UK TRE Community, this year has seen the community mature and evolve from the original RSE TRE Community.
