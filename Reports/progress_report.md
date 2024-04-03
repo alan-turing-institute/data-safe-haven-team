@@ -210,8 +210,7 @@ All work and progress during the funded phase can be consulted on [the community
 - The first version of the Community Website is ready, it has been done using Hugo to balance quality and sustainability (being easily maintained and updated by the community after funding ends)
 - Governance processes are being established, striving for simplicity in this phase. The conversation and work is open and welcomes all input and feedback. This is the [most active issue](https://github.com/uk-tre/community-management/pull/54) and a good starting point
 
-### Communication and outreach
-https://github.com/alan-turing-institute/data-safe-haven-team/issues/35
+### Communication and outreach [#35](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35)
 
 Contributes to:
 - Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
