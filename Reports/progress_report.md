@@ -1,11 +1,13 @@
 # Data Safe Haven project report
 
+**Period: [February 2023-January 2024]**
+
 This document contains a summary of progress across all stories in the [project roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1).
 It maps stories according to the (main) pillar and priority they contribute to.
 
-Included stories are those that were scheduled and/or prioritised over this period (February 2023-February 2024), some not scheduled stories are included when there are updates for them regardless (indirect contributions from other stories, relevant work recently started, or something to report in general).
+Included stories are those that were scheduled and/or prioritised over this period (February 2023-January 2024), some not scheduled stories are included when there are updates for them regardless (indirect contributions from other stories, relevant work recently started, or something to report in general).
 
-## Infrastructure as code
+## Codebase development
 Running projects working with sensitive data safely
 Running cutting edge data science projects effectively
 
@@ -54,7 +56,8 @@ A more complete summary of work done is available in the story, but some key upd
     - On-access virus scanning is a DSPT requirement, and this process was not running correctly.
     - Fixed by PR [#1725](https://github.com/alan-turing-institute/data-safe-haven/pull/1725).
 - Improve handling of file paths PR [#1705](https://github.com/alan-turing-institute/data-safe-haven/pull/1705).
-- Investigating issues with Julia on AMD processors:  During the building of VM images for deployment in SREs, Julia created and stored compiled versions of packages that were suitable only for Intel systems, causing crashes when users wanted to use AMD systems
+- Investigating issues with Julia on AMD processors:
+    - During the building of VM images for deployment in SREs, Julia created and stored compiled versions of packages that were suitable only for Intel systems, causing crashes when users wanted to use AMD systems.
 - Investigating issues with DBeaver on Tier 2+ SREs: 
     - DBeaver drivers were not installing correctly during VM building, so it tries to download them from the internet.
       No problem on T1, but fails on T2.
@@ -111,6 +114,12 @@ SATRE specification published
 [SATRE specification](https://satre-specification.readthedocs.io/en/stable/) published, and available for contribution and reproducibility in its [open repository](https://github.com/sa-tre/satre-specification).
 
 Currently Turing and HIC have self-evaluated against it and evaluations are available openly, several conversations ongoing about other institutions doing the same and making them available.
+
+Organisations that have declared they are going through the self evaluation (at the time of reporting):
+- KCL
+- Sheffield
+- North West NHS SNSDE
+- NHS SDE technology group reviewing SATRE
 
 - Outputs:
   - SATRE specification V1 and [associated technical paper](https://zenodo.org/records/10053383)
@@ -256,7 +265,7 @@ We have also identified areas of work for TRESA to fully establish itself as a s
 - Client projects management
 
 
-## Meta
+## Project management and strategy
 Work and stories that do not belong directly in any pillars but are necessary for all
 
 ### Project strategy and ways of working [#43](https://github.com/alan-turing-institute/data-safe-haven-team/issues/43)
