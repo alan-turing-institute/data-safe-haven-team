@@ -116,7 +116,7 @@ Currently Turing and HIC have self-evaluated against it and evaluations are avai
   - SATRE specification V1 and [associated technical paper](https://zenodo.org/records/10053383)
   - Internal DARE report, link will be added and published openly
   - [User report](https://zenodo.org/records/10066800): characterises users, with a wider notion than we started of what users are. Lays the fundation for futher usability work, going beyong technicla features and into training and documentation
-  - UK TRE Community - SATRE WG: the ongoing work and evolution of the specification is now a working group within the Uk TRE Community
+  - UK TRE Community - SATRE WG: the ongoing work and evolution of the specification is now a working group within the UK TRE Community
 
 ### Documentation management [#32](https://github.com/alan-turing-institute/data-safe-haven-team/issues/32)
 
