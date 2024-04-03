@@ -170,9 +170,9 @@ Across a lot of our work (DSH project, SATRE, UK TRE community) there has been a
 
 An effective stakeholder map showing all parties we think we should engage with will help us prioritise who to collaborate with, and strengthen our work in community building within the TRE space (which is kind of where this project is heading, above and beyond getting others to use the DSH).
 
-- [ ] Brainstorm and identify potential stakeholder groups
-- [ ] Engage different groups through interviews/workshops to better understand them
-- [ ] Create engagement pipeline & priority for different groups
+- Brainstorm and identify potential stakeholder groups
+- Engage different groups through interviews/workshops to better understand them
+- Create engagement pipeline & priority for different groups
 
 #### Definition of Done
 - When we have an intended end-output from engagement with our established groups (e.g. by the end of the project, we want X group to be part of the UK TRE community, we want Y group to have contributed to the DSH repo...)
