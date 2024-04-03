@@ -222,7 +222,7 @@ Contributes to:
 - Communicating our work through conference/workshop talks or posters 
 
 #### Progress
-This story has changed in scope along the year, work done here has been tha tof presenting DSH externally via events and talks.
+This story has changed in scope along the year, work done here has been that of presenting DSH externally via events and talks.
 
 Yet we have identified work to be done within this story to define and establish a DSH community and user base, what this means and entails needs to be discussed and agreed yet.
 
