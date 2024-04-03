@@ -50,7 +50,7 @@ The aim is to make the release in time for next DSG and then focus exclusively o
 A more complete summary of work done is available in the story, but some key updates through the year are:
 - Database permission issue debugging as PostgreSQL user privileges were not correctly applied.
     - Now fixed in PR [#1708](https://github.com/alan-turing-institute/data-safe-haven/pull/1708).
-- ClamAV On-access was not running
+- ClamAV On-access was not running.
     - On-access virus scanning is a DSPT requirement, and this process was not running correctly.
     - Fixed by PR [#1725](https://github.com/alan-turing-institute/data-safe-haven/pull/1725).
 - Improve handling of file paths PR [#1705](https://github.com/alan-turing-institute/data-safe-haven/pull/1705).
