@@ -155,7 +155,7 @@ There are a number of self evlauaitons completed, there is feedback on the spec 
 Work is folded into the [UK TRE Community](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52), already SATRE is formally becoming a UK TRE Community WG.
 
 ## Community building
-Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
+Creating resources for all stakeholders (inc. members of the public) to engage in the TRE conversation
 Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 Identifying and documenting everything that can be openly documented
 
