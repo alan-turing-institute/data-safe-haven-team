@@ -289,4 +289,4 @@ of interoperable foundational infrastructure and governance.
 We also agreed the pillars of the project and established a [roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1) of the necessary work for success.
 
 ##### Ways of working
-Troughout this year we have also iterated our ways of work which are [openly available here](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/WaysofWork.md), they are focused in increased communication and work prioritisation.
+Throughout this year we have also iterated our ways of working which are openly available on GitHub in [WaysofWork.md](https://github.com/alan-turing-institute/data-safe-haven-team/blob/main/WaysofWork.md), they are focused in increased communication and work prioritisation.
