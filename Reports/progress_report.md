@@ -238,7 +238,7 @@ Yet we have identified work to be done within this story to define and establish
 
 ## TRESA
 Over the year TRESA have increased its autonomy from the DSH research project, in terms of work ownership and management.
-Therefore TRESA stories have not been indepently updated and it is more comprenhensive to update on the service area as a whole.
+Therefore TRESA stories have not been independently updated and it is more comprehensive to update on the service area as a whole.
 
 This warrants updating and reviewing the stories we keep under the DSH roadmap, focusing on communicating with the service area rather than planning or prioritising for them.
 
