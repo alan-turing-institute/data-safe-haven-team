@@ -235,3 +235,15 @@ A first effort in that direction has been the creation of a first project report
 
 As further improvement to ways of work a proposal on how to better engage with PIs was developed, but not yet discussed.
 
+### Contracts, legal and budget work [#53](https://github.com/alan-turing-institute/data-safe-haven-team/issues/53)
+
+All work related to agreements, policies, expenses, contracts, budget.
+
+#### Progress
+
+Work has focused on managing UK TRE Community grant, which included ensuring actual allocation of costs to project and workign with DARE to agree on a reprofile that allowed us to use almost the totally of funds while delivering a final event past the grant end date.
+
+Substantial work has also gone into aligning project actuals with Finance records for an appropriate management of internal and external Institute funds.
+
+
+
