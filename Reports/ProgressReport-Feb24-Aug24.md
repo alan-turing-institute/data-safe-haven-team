@@ -10,19 +10,21 @@ This section contains a summary of progress across all stories in the [project r
 It maps stories according to the (main) pillar and priority they contribute to.
 
 ### Codebase development
+
 Running projects working with sensitive data safely
 Running cutting edge data science projects effectively
 
 
 #### Manage codebase releases and testing: [#50](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
 
-
 Contributes to:
 - Running projects working with sensitive data safely
 - Running cutting edge data science projects effectively
 
+
 ##### Goal
 Support for deployments of the Data Safe Haven at Turing and beyond
+
 
 ##### Progress
 
@@ -40,11 +42,13 @@ Contributes to:
 - Running projects working with sensitive data safely
 - Running cutting edge data science projects effectively
 
+
 ##### Goal
 Ensure that codebase is kept up-to-date with bug fixes, security updates, external API changes etc.
 - Ensure that DSH code is always deployable
 - Ensure that known security issues are remediated/minimised as soon as possible
 - Ensure that documentation is up-to-date with code base
+
 
 ##### Progress
 
@@ -65,6 +69,7 @@ Worked on updating documentation to reflect Azure Active Directory name change t
 #### Identify and implement core IAC changes: [#28](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
 
 ##### Goal
+
 Make DSH deployment more robust and development easier through using IAC and configuration management.
 - Take advantage of IAC and configuration management in the DSH codebase which will
   - Make deployments faster
@@ -73,6 +78,7 @@ Make DSH deployment more robust and development easier through using IAC and con
 - Move away from non-idempotent, bespoke scripts (Powershell, bash, cloud-init)
 
 ###### Definition of done
+
 On the release of a new major version which removes legacy, script-based deployment.
 
 ##### Progress
@@ -89,6 +95,7 @@ Identifying, co-creating and supporting a TRE standard used across TRE infrastru
 #### SATRE: stakeholder engagement and community buy out [#66](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
 
 ##### Goal
+
 Ensure that institutions evaluate themselves against SATRE and that the momentum is maintained between funded phases
 
 At the end of the funded phase of SATRE there was a growing community interest, with institutions and stakeholders affirming they would evaluate themselves against it and contribute feedback.
@@ -96,6 +103,7 @@ At the end of the funded phase of SATRE there was a growing community interest, 
 Without ongoing resources the necessary support to ensure that happens cannot be provided and SATRE may end up not being adopted.
 
 ##### Definition of Done
+
 There are a number of self evlauaitons completed, there is feedback on the spec repository and, ideally, there is an active WG within the TRE Community continuing to work on it.
 
 ##### Progress
@@ -106,7 +114,9 @@ We have also seen how institutions that already have other accreditations opt to
 
 SATRE has continued to atract the interest of the community, with many attendees to its meeting wanting to be involved.
 
+
 ### Community building
+
 Creating resources for all stakeholders (inc. members of the public) to engage in the TRE conversation
 Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 Identifying and documenting everything that can be openly documented
@@ -119,6 +129,7 @@ Contributes to:
 - Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 
 ##### Goal
+
 Provide a space for those involved in building, using and responsible for governance of TREs to discuss and recommend best practices.
 - Host online working spaces, events and workshops to support the UK TRE Community
 - Share best practices i.e. for making radiology data available for researchers
@@ -147,6 +158,7 @@ Contributes to:
 - Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
 
 ##### Goal
+
 - Supporting the user community of the DSH codebase
 - Publicising our work via blogposts, reports or papers
 - Communicating our work through conference/workshop talks or posters 
@@ -156,6 +168,7 @@ Contributes to:
 AI UK has been a priority for this story and the project. Held on 19-20 March DSH had its own stand, through a likert scale exercise on TREs (and a bowl of sweets) we engaged attendees to introduce them to TREs and the work of the project which we stressed to be not only an open codebase but also the governance & standards and the community.
 
 The stand was busy on the first day and quieter on the second, in part due to its location out of sight from the rest, but that left time to properly engage in conversation with those who did (NHS England, Head of cyber-physica & digital twins at Innovate UK, Chief Exec of RSS). Overall the impression of those there has been that there was important potential leads, we have added to our private sharepoint for follow up.  
+
 
 ### TRESA
 Over the year TRESA have increased its autonomy from the DSH research project, in terms of work ownership and management.
@@ -180,6 +193,7 @@ An agreed and formal process to recharge ATI projects being served by TRESA.
 TRESA has now its own code, people time has been changed in forecast to this code and Azure subscriptions associated to it (although currently covered by core).
 
 Next step is to formalise the recharge process, projects engaging with TRESA have already been advised there will be a staff related cost in addittion to their specific subscription.
+
 
 ##### Review of requirements for security accreditation [37](https://github.com/alan-turing-institute/data-safe-haven-team/issues/37)
 
@@ -213,6 +227,7 @@ Work and stories that do not belong directly in any pillars but are necessary fo
 #### Project strategy and ways of working [#43](https://github.com/alan-turing-institute/data-safe-haven-team/issues/43)
 
 ##### Goal
+
 The aim is to develop a project strategy and revise best ways of work to achieve it
 
 Through several strategy sessions we will:
