@@ -163,8 +163,47 @@ Therefore TRESA stories have not been independently updated and it is more compr
 
 This warrants updating and reviewing the stories we keep under the DSH roadmap, focusing on communicating with the service area rather than planning or prioritising for them.
 
-### Updates
+### TRESA team updates
 
+### Other TRESA related stories
+
+(Stories and work directly impacting TRESA but still lead from the research project)
+
+#### TRESA Costs and cost recovery [#36](https://github.com/alan-turing-institute/data-safe-haven-team/issues/36)
+
+##### Goal
+
+An agreed and formal process to recharge ATI projects being served by TRESA.
+
+##### Progress
+
+TRESA has now its own code, people time has been changed in forecast to this code and Azure subscriptions associated to it (although currently covered by core).
+
+Next step is to formalise the recharge process, projects engaging with TRESA have already been advised there will be a staff related cost in addittion to their specific subscription.
+
+#### Review of requirements for security accreditation [37](https://github.com/alan-turing-institute/data-safe-haven-team/issues/37)
+
+##### Goal
+
+A clear list of requirements and necessary steps that DSH would need to take to be ISO027001 compliant.
+
+This work will include pulling a list of requirements for the specification that includes a clear idea of the steps to take and the effort involved.
+
+It also includes the work relating to DSPT certification: resubmitting and adapting answers if necessary.
+
+##### Definition of Done
+
+DSH remains DSPT compliant
+
+There is a documented plan for DSH to be ISO027001 compliant.
+
+##### Progress
+
+Revised DSPT v6 requirement, there being no effective changes for category 3 organisations (us).
+Reviewed and copied last year answers for all mandatory requirements and made progress updating links and references (ongoing).
+Held team meeting to review non mandatory requirements identifying a full list of them that could be positively answered.
+
+Issue is [here](https://github.com/alan-turing-institute/trusted-research/issues/158#issuecomment-1965134444) and document with in progress submission can be found on TRESA sharepoint (private as it contains internal information).
 
 
 ## Project management and strategy
