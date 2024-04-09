@@ -30,10 +30,14 @@ Support for deployments of the Data Safe Haven at Turing and beyond
 
 Having completed development of v4.2.0 we prepared the release which included preparing a release branch and deployment in an environment for pen testing.
 
-Extensive time was allocated to deploying and the errors/bugs that arose, as well as preparing for pen testing (this included deployment but also requesting specific tests like the removal of certain hardcoded IPs)
+Extensive time was allocated to deploying and the errors/bugs that arose,
+as well as preparing for pen testing.
+This included deployment but also requesting specific tests like changes to the network and firewall configuration.
 
-Pen testing was arranged and carried out, managing to spend within the 2023-2024 FY. iStorm kept better communications than last time and did not find concerning issues.
-- @craddm would you add here a bit on the results?
+Pen testing was arranged and carried out, managing to spend within the 2023-2024 FY.
+iSTORM kept better communications than last time and did not find concerning issues.
+All reported vulnerabilities were known to use before the test and we are confident all are mitigated by technical or process controls.
+We don't believe any of the vulnerabilities identified present a strong risk of enabling unauthorised data ingress or egress.
 
 
 #### Codebase maintenance: [#47](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
@@ -83,9 +87,15 @@ On the release of a new major version which removes legacy, script-based deploym
 
 ##### Progress
 
-Over this period the story has not been prioritised/resourced as much, focusing on identifying and scoping future work which will be a priority after v4.2 release. The DSH code repo contains milestones that reflect related and planned issues (V5.x milestones) https://github.com/alan-turing-institute/data-safe-haven/milestones.
+Over this period the story has not been prioritised instead focusing on identifying and scoping future work which will be a priority after v4.2.0 release.
+The DSH code repo contains milestones that reflect related and planned issues (v5.x.y milestones) https://github.com/alan-turing-institute/data-safe-haven/milestones.
 
-Additionally a first version of the codebase roadmap has been put in place, linking to milestone but also recording potential desired features that are not currently planned to implement. A roadmap is a desired/required document to have in place for software funding opportunities https://github.com/alan-turing-institute/data-safe-haven/blob/develop/ROADMAP.md.
+Additionally a first version of a project [roadmap](https://github.com/alan-turing-institute/data-safe-haven/blob/develop/ROADMAP.md) for DSH has been put in place.
+This links to milestones but also records potential desired features that are not currently planned.
+A roadmap provides value,
+
+- For users, to understand and have confidence in upcoming features and how to influence development.
+- For funders, to see the products longer term vision/strategy and as evidence of maturity and continuity.
 
 ### Information governance & standards
 Infrastructure adhering to the latest agreed upon standard
@@ -104,7 +114,7 @@ Without ongoing resources the necessary support to ensure that happens cannot be
 
 ##### Definition of Done
 
-There are a number of self evlauaitons completed, there is feedback on the spec repository and, ideally, there is an active WG within the TRE Community continuing to work on it.
+There are a number of self evaluaitons completed, there is feedback on the spec repository and, ideally, there is an active WG within the TRE Community continuing to work on it.
 
 ##### Progress
 
@@ -117,7 +127,7 @@ SATRE has continued to atract the interest of the community, with many attendees
 
 ### Community building
 
-Creating resources for all stakeholders (inc. members of the public) to engage in the TRE conversation
+Creating resources for all stakeholders (including members of the public) to engage in the TRE conversation
 Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 Identifying and documenting everything that can be openly documented
 
@@ -125,19 +135,21 @@ Identifying and documenting everything that can be openly documented
 #### UK TRE Community leadership [#52](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
 
 Contributes to:
-- Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
+- Creating resources for all stakeholders (including citizens) to engage in the TRE conversation
 - Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 
 ##### Goal
 
 Provide a space for those involved in building, using and responsible for governance of TREs to discuss and recommend best practices.
+
 - Host online working spaces, events and workshops to support the UK TRE Community
-- Share best practices i.e. for making radiology data available for researchers
+- Share best practices _e.g._ for making radiology data available for researchers
 - Empower the community to help influence policy decisions
 
 ##### Progress
 
 Funded phase came to an end on 31 March, along reporting it is necessary to organise and put together what we have produced but we have:
+
 - Created a first version of all governance documents. Some will include pending conversations that may turn in the next version of those documents, for example the endorsement of outputs (v1 will only have community approval). This is the issue referencing to all documents https://github.com/orgs/uk-tre/projects/1/views/1?pane=issue&itemId=53738648
 - Created a new website, not launched yet.
 - Created a public community calendar, for "official" events and all those happening in the space and that people may want to include and promote.
@@ -148,7 +160,9 @@ With funding ending we received a community request/push to ensure we put the wo
 - Documentation sprints (https://hackmd.io/ty_bEhtBTrKjmYsJEEP8Qw)
 - Working groups day (https://hackmd.io/nTAAo7fOT_quE18y0NYjnA). Which will be held on 29 April (This also implied figuring out a way to spend beyond March given it is not feasible to run the WGs day effectively before late April).
 
-Lastly we have been workign with Scriberia to use the remaining funding to produce an illustration that can represent the community in a number of ways, the most immediate one being the production of physical stand up banners for events (due to timeline DSH will cover the actual banner while DARE funds have covered the illustration itself).
+Lastly we have been working with Scriberia to use the remaining funding to produce an illustration that can represent the community in a number of ways.
+The most immediate use will be for the production of physical stand up banners for events.
+Due to timeline DSH will cover the actual banner while DARE funds have covered the illustration itself.
 
 
 #### Communication and outreach [#35](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35)
@@ -172,7 +186,7 @@ The stand was busy on the first day and quieter on the second, in part due to it
 
 ### TRESA
 Over the year TRESA have increased its autonomy from the DSH research project, in terms of work ownership and management.
-Therefore TRESA stories have not been independently updated and it is more comprehensive to update on the service area as a whole.
+Therefore, TRESA stories have not been independently updated and this section is a  comprehensive to update on the service area as a whole.
 
 This warrants updating and reviewing the stories we keep under the DSH roadmap, focusing on communicating with the service area rather than planning or prioritising for them.
 
