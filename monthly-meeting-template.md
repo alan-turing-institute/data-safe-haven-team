@@ -10,12 +10,12 @@ tags: dsh
 
 ## Schedule
 
-|   Time      |   Item   |
-|-------------|----------|
-| 0 - 10 mins  | Project update overview |
-| 10 - 15 mins | Last month actions status |
-| 15 - 50 | Agenda items and required actions |
-| 50 - 60 | Actions and delegation |
+| Time         | Item                              |
+| ------------ | --------------------------------- |
+| 0 - 10 mins  | Project update overview           |
+| 10 - 15 mins | Last month actions status         |
+| 15 - 50      | Agenda items and required actions |
+| 50 - 60      | Actions and delegation            |
 
 ## Attendees
 

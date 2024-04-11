@@ -53,7 +53,7 @@ The Ways of Work process should adhere to the following principles:
 ### Stories and other issues
 
 Some details on how issues and stories are linked together will vary after GH releases Tracked & Tracked By and Tasklist features,
-currently in [private beta]( https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-tracks-and-tracked-by-fields)
+currently in [private beta](https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-tracks-and-tracked-by-fields)
 
 #### Story issues
 
