@@ -4,10 +4,12 @@
 
 This update: 8 April 2024
 
+
 ## Progress
 
 This section contains a summary of progress across all stories in the [project roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1).
 It maps stories according to the (main) pillar and priority they contribute to.
+
 
 ### Codebase development
 
@@ -18,13 +20,12 @@ Running cutting edge data science projects effectively
 #### Manage codebase releases and testing: [#50](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
 
 Contributes to:
+
 - Running projects working with sensitive data safely
 - Running cutting edge data science projects effectively
 
-
 ##### Goal
 Support for deployments of the Data Safe Haven at Turing and beyond
-
 
 ##### Progress
 
@@ -36,36 +37,48 @@ This included deployment but also requesting specific tests like changes to the 
 
 Pen testing was arranged and carried out, managing to spend within the 2023-2024 FY.
 iSTORM kept better communications than last time and did not find concerning issues.
-All reported vulnerabilities were known to use before the test and we are confident all are mitigated by technical or process controls.
+All reported vulnerabilities were known to us before the test and we are confident all are mitigated by technical or process controls.
 We don't believe any of the vulnerabilities identified present a strong risk of enabling unauthorised data ingress or egress.
 
 
 #### Codebase maintenance: [#47](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
 
 Contributes to:
+
 - Running projects working with sensitive data safely
 - Running cutting edge data science projects effectively
 
-
 ##### Goal
 Ensure that codebase is kept up-to-date with bug fixes, security updates, external API changes etc.
+
 - Ensure that DSH code is always deployable
 - Ensure that known security issues are remediated/minimised as soon as possible
 - Ensure that documentation is up-to-date with code base
 
-
 ##### Progress
 
 Have worked on updating software used within SREs to ensure the security and functionality of the environment:
+
 - Guacamole server updated [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1741)
 - Nexus server updated [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1744)
 - CodiMD server updated [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1743)
 
-Added and tested a script to handle SAS access tokens renewal, currently expiring yearly. These are required manage access to data storage (and therefore ingress and egress). The relevant PR is here https://github.com/alan-turing-institute/data-safe-haven/pull/1739. In the process we realised SAS tokens are bound to Store Access Policies which could be modified to have no end date, we are currently considering the covenience of this approach versus potential security issues in https://github.com/alan-turing-institute/data-safe-haven/issues/1751 .
+Added and tested a script to handle SAS access tokens renewal, currently expiring yearly. 
+These are required manage access to data storage (and therefore ingress and egress). 
+The relevant PR is here https://github.com/alan-turing-institute/data-safe-haven/pull/1739. 
+In the process we realised SAS tokens are bound to Store Access Policies which could be modified to have no end date, 
+we are currently considering the covenience of this approach versus potential security issues in https://github.com/alan-turing-institute/data-safe-haven/issues/1751 .
 
-Improved use of hardcoded domain names and IPs. The hardcoded lists are difficult to maintain and are prone to going out of date, despite not fully fixing the use of these improvements have been made for the 4.2.0 release by relaxing rules where security allows. For this the team checked individuals cases and applied where possible, no security issues where found and we added this as a specific thing to pent test. Related PR is https://github.com/alan-turing-institute/data-safe-haven/pull/1745 and explanatory issue is https://github.com/alan-turing-institute/data-safe-haven/issues/1549 .
+Improved use of hardcoded domain names and IPs. 
+The hardcoded lists are difficult to maintain and are prone to going out of date, 
+despite not fully fixing the use of these improvements have been made for the 4.2.0 release by relaxing rules where security allows. 
+For this the team checked individuals cases and applied where possible,
+ no security issues where found and we added this as a specific thing to pent test. 
+ Related PR is https://github.com/alan-turing-institute/data-safe-haven/pull/1745 and explanatory issue is https://github.com/alan-turing-institute/data-safe-haven/issues/1549 .
 
-An issue with Jupyter notebooks not being able to use Python when launched from the menu was found, despite extensive work a fix was not found and decided to let it be by documenting the right workaround: launching Jupyter Notebooks from the terminal. The issue is https://github.com/alan-turing-institute/data-safe-haven/issues/1584 .
+An issue with Jupyter notebooks not being able to use Python when launched from the menu was found, 
+despite extensive work a fix was not found and decided to let it be by documenting the right workaround: launching Jupyter Notebooks from the terminal. 
+The issue is https://github.com/alan-turing-institute/data-safe-haven/issues/1584.
 
 Worked on updating documentation to reflect Azure Active Directory name change to Microsoft Entra.
 
@@ -75,6 +88,7 @@ Worked on updating documentation to reflect Azure Active Directory name change t
 ##### Goal
 
 Make DSH deployment more robust and development easier through using IAC and configuration management.
+
 - Take advantage of IAC and configuration management in the DSH codebase which will
   - Make deployments faster
   - Make deployments more reliable
@@ -97,32 +111,39 @@ A roadmap provides value,
 - For users, to understand and have confidence in upcoming features and how to influence development.
 - For funders, to see the products longer term vision/strategy and as evidence of maturity and continuity.
 
+
 ### Information governance & standards
+
 Infrastructure adhering to the latest agreed upon standard
 Identifying, co-creating and supporting a TRE standard used across TRE infrastructures
 
 
-#### SATRE: stakeholder engagement and community buy out [#66](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
+#### SATRE: stakeholder engagement and community buy in [#66](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
 
 ##### Goal
 
 Ensure that institutions evaluate themselves against SATRE and that the momentum is maintained between funded phases
 
-At the end of the funded phase of SATRE there was a growing community interest, with institutions and stakeholders affirming they would evaluate themselves against it and contribute feedback.
+At the end of the funded phase of SATRE there was a growing community interest, 
+with institutions and stakeholders affirming they would evaluate themselves against it and contribute feedback.
 
 Without ongoing resources the necessary support to ensure that happens cannot be provided and SATRE may end up not being adopted.
 
 ##### Definition of Done
 
-There are a number of self evaluaitons completed, there is feedback on the spec repository and, ideally, there is an active WG within the TRE Community continuing to work on it.
+There are a number of self evaluations completed,
+ there is feedback on the spec repository and, ideally, there is an active WG within the TRE Community continuing to work on it.
 
 ##### Progress
 
-NHS-E R&D Programme Director stated that SATRE has become the reference framework for TREs within the Subnational SDE programme, placing SATRE as a key reference for what TREs are.
+NHS-E R&D Programme Director stated during the UK TRE Community March event that SATRE has become the reference framework for TREs within the Subnational SDE programme,
+placing SATRE as a key reference for what TREs are.
+A recording of the event is available here https://youtu.be/KJVcy_ZKyVE?si=mbf64cZOLMHAxjwk and the notes of the day will be added to a report publicily available on the community website
 
 We have also seen how institutions that already have other accreditations opt to self evaluate with SATRE because it is the only one specific to TREs.
 
-SATRE has continued to atract the interest of the community, with many attendees to its meeting wanting to be involved.
+SATRE has continued to attract the interest of the community,
+with many attendees to its meeting wanting to be involved.
 
 
 ### Community building
@@ -135,6 +156,7 @@ Identifying and documenting everything that can be openly documented
 #### UK TRE Community leadership [#52](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
 
 Contributes to:
+
 - Creating resources for all stakeholders (including citizens) to engage in the TRE conversation
 - Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 
@@ -148,16 +170,22 @@ Provide a space for those involved in building, using and responsible for govern
 
 ##### Progress
 
-Funded phase came to an end on 31 March, along reporting it is necessary to organise and put together what we have produced but we have:
+Funded phase came to an end on 31 March,
+along reporting,
+ it is necessary to organise and put together what we have produced but we have:
 
 - Created a first version of all governance documents. Some will include pending conversations that may turn in the next version of those documents, for example the endorsement of outputs (v1 will only have community approval). This is the issue referencing to all documents https://github.com/orgs/uk-tre/projects/1/views/1?pane=issue&itemId=53738648
 - Created a new website, not launched yet.
 - Created a public community calendar, for "official" events and all those happening in the space and that people may want to include and promote.
 
-We celebrated the March quarterly event with very positive feedback from participants. Keynote was delivered by NHS England R&D programme Director on the subnaitonal SDEs programme, this followed a request by community members to know more about it during the December event. Full notes can be found here while we produce a report https://hackmd.io/6t-s4x-wQN6riL6gPJLuWg
+We celebrated the March quarterly event with very positive feedback from participants.
+Keynote was delivered by NHS England R&D programme Director on the subnational SDEs programme,
+this followed a request by community members to know more about it during the December event. 
+Full notes can be found here while we produce a report https://hackmd.io/6t-s4x-wQN6riL6gPJLuWg
 
-With funding ending we received a community request/push to ensure we put the workshop budget to good use. In response we elaborated two events proposals that align with the goal of this grant: finalising governance docs with the community participation and set up WGs for success.
-- Documentation sprints (https://hackmd.io/ty_bEhtBTrKjmYsJEEP8Qw)
+With funding ending we received a community request/push to ensure we put the workshop budget to good use. In response we elaborated two event proposals that align with the goal of this grant: finalising governance docs with the community participation and setting up WGs for success.
+
+- Documentation sprints (https://hackmd.io/ty_bEhtBTrKjmYsJEEP8Qw). Held across several days on 29 February, 4 March and 5 March
 - Working groups day (https://hackmd.io/nTAAo7fOT_quE18y0NYjnA). Which will be held on 29 April (This also implied figuring out a way to spend beyond March given it is not feasible to run the WGs day effectively before late April).
 
 Lastly we have been working with Scriberia to use the remaining funding to produce an illustration that can represent the community in a number of ways.
@@ -168,6 +196,7 @@ Due to timeline DSH will cover the actual banner while DARE funds have covered t
 #### Communication and outreach [#35](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35)
 
 Contributes to:
+
 - Creating and maintaining open and active communication spaces & workspaces (Slack, GH)
 - Creating resources for all stakeholders (inc. Citizens) to engage in the TRE conversation
 
@@ -179,22 +208,30 @@ Contributes to:
 
 ##### Progress
 
-AI UK has been a priority for this story and the project. Held on 19-20 March DSH had its own stand, through a likert scale exercise on TREs (and a bowl of sweets) we engaged attendees to introduce them to TREs and the work of the project which we stressed to be not only an open codebase but also the governance & standards and the community.
+AI UK has been a priority for this story and the project.
+Held on 19-20 March DSH had its own stand, through a likert scale exercise on TREs (and a bowl of sweets) we engaged attendees to introduce them to TREs and the work of the project which we stressed to be not only an open codebase but also the governance & standards and the community.
 
-The stand was busy on the first day and quieter on the second, in part due to its location out of sight from the rest, but that left time to properly engage in conversation with those who did (NHS England, Head of cyber-physica & digital twins at Innovate UK, Chief Exec of RSS). Overall the impression of those there has been that there was important potential leads, we have added to our private sharepoint for follow up.  
+The stand was busy on the first day and quieter on the second, in part due to its location out of sight from the rest,
+but that left time to properly engage in conversation with those who did (NHS England, Head of cyber-physical & digital twins at Innovate UK, Chief Exec of RSS).
+Overall the impression of those there has been that there was important potential leads even if less conversations than last year,
+ we have added to our private sharepoint for follow up.  
 
 
 ### TRESA
-Over the year TRESA have increased its autonomy from the DSH research project, in terms of work ownership and management.
-Therefore, TRESA stories have not been independently updated and this section is a  comprehensive to update on the service area as a whole.
+Over the year TRESA has increased its autonomy from the DSH research project, 
+in terms of work ownership and management.
+Therefore, TRESA stories have not been independently updated and this section is an update on the service area as a whole.
 
 This warrants updating and reviewing the stories we keep under the DSH roadmap, focusing on communicating with the service area rather than planning or prioritising for them.
 
+
 #### TRESA team updates
+
 
 #### Other TRESA related stories
 
 (Stories and work directly impacting TRESA but still lead from the research project)
+
 
 ##### TRESA Costs and cost recovery [#36](https://github.com/alan-turing-institute/data-safe-haven-team/issues/36)
 
@@ -245,6 +282,7 @@ Work and stories that do not belong directly in any pillars but are necessary fo
 The aim is to develop a project strategy and revise best ways of work to achieve it
 
 Through several strategy sessions we will:
+
 - Define our north star (vision & mision)
 - Establish the project pilars or areas, defining what success looks like for each
 - Prioritise the measure of success, which are essential to consider the project succesful
@@ -256,13 +294,15 @@ Through several strategy sessions we will:
 
 ##### Progress
 
-On 13 February the DSH had its second strategy session, based on last year's work it tried to define and prioritise specific work and activities for the project by creating milestones by project workstream. While we discussed aspects of the Community workstream in depth there was no time for other workstreams.
+On 13 February the DSH had its second strategy session, based on last year's work it tried to define and prioritise specific work and activities for the project by creating milestones by project workstream. 
+While we discussed aspects of the Community workstream in depth there was no time for other workstreams.
 
 Therefore the definition of milestones and their prioritisation needs to be continued and more effectively integrated into monthly discussions. A current priority once the FY has ended is to revisit ways of work and specifically roadmap management.
 
 A first effort in that direction has been the creation of a first project report to be used to better communicate and discuss some elements of the monthly meeting, in this way it resembles more weeklies where the asynchronous elements help make better use of the meeting time.
 
 As further improvement to ways of work a proposal on how to better engage with PIs was developed, but not yet discussed.
+
 
 #### Contracts, legal and budget work [#53](https://github.com/alan-turing-institute/data-safe-haven-team/issues/53)
 
@@ -275,17 +315,21 @@ Work has focused on managing UK TRE Community grant, which included ensuring act
 Substantial work has also gone into aligning project actuals with Finance records for an appropriate management of internal and external Institute funds.
 
 
+
 ## Plans and priorities
 
-This section contains project plans and priorities , currently focusing on work to be done over the next month it should eventually encompass longer term plans.
+This section contains project plans and priorities,
+currently focusing on work to be done over the next month it should eventually encompass longer term plans.
+
 
 ### Monthly priorities: April
 
-The list of priority stories can eb found here https://github.com/orgs/alan-turing-institute/projects/111/views/11
+The list of priority stories can be found here https://github.com/orgs/alan-turing-institute/projects/111/views/11
 
 #### Communication and outreach [35](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35) 
 
-Follow up on conversations from AI UK to keep momentum going, as resources are limited this month the work here should be to establish connections buyt any meetings or further work left for furhter ahead.
+Follow up on conversations from AI UK to keep momentum going,
+as resources are limited this month the work here should be to establish connections but any meetings or further work left for furhter ahead.
 
 #### Project Strategy and Ways of work [43](https://github.com/alan-turing-institute/data-safe-haven-team/issues/43)
 
@@ -295,9 +339,11 @@ Follow up on conversations from AI UK to keep momentum going, as resources are l
 - Revisit reports and monthlies format
 - Propose and discuss PIs WoW
 
-#### Manage codebase releases adn testing [50](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
+#### Manage codebase releases and testing [50](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
 
-This story was a March priority and the release completed, with less time dedicated there will be follow up actions. Including any fixes and also required communications about the release.
+This story was a March priority and the release completed,
+with less time dedicated there will be follow up actions.
+Including any fixes and also required communications about the release.
 
 #### Identify and implement core IAC changes [28](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
 
@@ -306,16 +352,18 @@ April work will focus on identifying and planning work within this story so it c
 #### UK TRE Community [52](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
 
 Having finalised the funding phase there is three important things to do:
+
 - Wrap up outputs, and celebrate WGs event
 - Transition and knowledge transfer: ensure the community can continue delivering work
 
-#### Manage  grant opportunities and pipeline [51](https://github.com/alan-turing-institute/data-safe-haven-team/issues/51)
+#### Manage grant opportunities and pipeline [51](https://github.com/alan-turing-institute/data-safe-haven-team/issues/51)
 
 It is a priority to at least think and plan, this story can be directly linked to PI work and how we better coordinate. So not a high resources story but still very important one
 
 #### DSPT submission [37](https://github.com/alan-turing-institute/data-safe-haven-team/issues/37)
 
-Finalise submission, it should not require intensive effort but it will include revision by project PIs and possibly Data Protection (as Manager changed between submissions).
+Finalise submission,
+it should not require intensive effort but it will include revision by project PIs and possibly Data Protection (as Manager changed between submissions).
 
 New non-mandatory requirements that can be easily completed will be (already identified).
 
@@ -323,9 +371,12 @@ New non-mandatory requirements that can be easily completed will be (already ide
 
 While capacity is stretched with the new year we have to clarify recharges process and prepare for the announcement in May's catch up.
 
+
 #### Not doing or prioritising
 
-This month we are not leaving much out (please add anything you believe we should keep in mind), with the new FY we are doing a bit everywhere in a month characterised by planning ahead.
+This month we are not leaving much out (please add anything you believe we should keep in mind),
+with the new FY we are doing a bit everywhere in a month characterised by planning ahead.
+
 
 ### Next up: upcoming priorities and work the will be necessary
 
