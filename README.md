@@ -6,8 +6,8 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 
 - [Useful links](#useful-links)
 - [New starters checklist](#new-starters-checklist)
-    - [First steps](#first-steps-for-all-starters)
-    - [Developer steps](#next-steps-for-developers)
+  - [First steps](#first-steps-for-all-starters)
+  - [Developer steps](#next-steps-for-developers)
 - [Contacts](#contacts)
 - [Releases](#releases)
 
@@ -37,29 +37,28 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 - [SATRE spec doc repo](https://github.com/sa-tre/satre-specification) (public) repo used for hosting/writing the specification doc/ reference architecture (work package 1)
 - [SATRE backlog board](https://github.com/orgs/sa-tre/projects/1) (public) for managing issues from the above repos
 
-
 ## New starters checklist
 
 Welcome to the Data Safe Haven team! 🎉
 
 You should read this page and follow the instructions if you're joining the project for the first time at The Alan Turing Institute.
 
-### First steps for *all starters*
+### First steps for _all starters_
 
 1. **Bookmark** this page and the other [useful links](#useful-links) above
 2. **Read up:** On the [documentation site](https://data-safe-haven.readthedocs.io/en/develop/index.html), click the `Overview` tab, where you will find links to resources that explain what Data Safe Haven is and why someone would want to use it.
-    - In particular, it's worth studying the [diagram](https://figshare.com/articles/poster/Data_Safe_Havens_in_the_Cloud/11815224) which displays the overall architecture of DSH, including the distinction between the Safe Haven Management (SHM) and Secure Research Environments (SREs) and the data classification system.
+   - In particular, it's worth studying the [diagram](https://figshare.com/articles/poster/Data_Safe_Havens_in_the_Cloud/11815224) which displays the overall architecture of DSH, including the distinction between the Safe Haven Management (SHM) and Secure Research Environments (SREs) and the data classification system.
 3. **Access:** We have internal discussions about the project via Slack and manage our work via a combination of GitHub and Microsoft Sharepoint:
-    - **Slack:** Ensure you have access to the Alan Turing Institute Slack workspace and join the following channels: `#data-safe-haven` and `#data-safe-haven-team` (the latter is private and you may need to request a team member to add you, see [contacts](#contacts)).
-    - **Slack:** You can also join the external-facing Slack workspace called `Turing Data Safe Haven`, used for release announcements and other communications with the community of DSH users. Ask a team member to add you (see [contacts](#contacts)).
-    - **Sharepoint:** Internal documents are stored on [sharepoint](https://thealanturininstitute.sharepoint.com/sites/SafeHaven). You will need to have your Turing SSO set up. Ask a team member to add you to the group with access rights (see [contacts](#contacts)).
-    - **GitHub:** We use a GitHub [project board](https://github.com/orgs/alan-turing-institute/projects/40/views/1) to manage who is working on what. [Familiarise yourself](https://docs.github.com/en/github-ae@latest/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) if you haven't used one before and check you can add issues to the `data-safe-haven-team` or `data-safe-haven` repos from the project board view.
+   - **Slack:** Ensure you have access to the Alan Turing Institute Slack workspace and join the following channels: `#data-safe-haven` and `#data-safe-haven-team` (the latter is private and you may need to request a team member to add you, see [contacts](#contacts)).
+   - **Slack:** You can also join the external-facing Slack workspace called `Turing Data Safe Haven`, used for release announcements and other communications with the community of DSH users. Ask a team member to add you (see [contacts](#contacts)).
+   - **Sharepoint:** Internal documents are stored on [sharepoint](https://thealanturininstitute.sharepoint.com/sites/SafeHaven). You will need to have your Turing SSO set up. Ask a team member to add you to the group with access rights (see [contacts](#contacts)).
+   - **GitHub:** We use a GitHub [project board](https://github.com/orgs/alan-turing-institute/projects/40/views/1) to manage who is working on what. [Familiarise yourself](https://docs.github.com/en/github-ae@latest/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) if you haven't used one before and check you can add issues to the `data-safe-haven-team` or `data-safe-haven` repos from the project board view.
 4. **Explore:** Ask one of the existing Data Safe Haven team (see [contacts](#contacts)) to create a non-privileged user account in the test SRE called `sandbox`, so you can log in explore it from a user perspective and familiarise yourself with how it works. This is available at https://sandbox.prod4.turingsafehaven.ac.uk/
 
-### Next steps for *developers*
+### Next steps for _developers_
 
 1. **Deploy:** The best way to familiarise yourself with the codebase is to have a go at deploying either an SRE to an existing SHM, or if time permits, a new SHM and attached SRE. Click on the `Deployment` tab in the [DSH documentation](https://data-safe-haven.readthedocs.io/en/develop/index.html) and follow the guides available there. Either choose the latest release docs or try `develop` if you're feeling adventurous!
-    - Note: When you're done with any test SHM/SREs, you should follow the "Tear down" instructions in the respective guides.
+   - Note: When you're done with any test SHM/SREs, you should follow the "Tear down" instructions in the respective guides.
 2. **Open issues:** If you notice any bugs in the Safe Haven code when deploying an SHM or SRE, open an issue [on the main repo](https://github.com/alan-turing-institute/data-safe-haven/issues). Take care to follow the issue template.
 3. **Contribute code:** If you want to contribute changes to the code base, perhaps to fix an issue that you have identified during deployment, create a fork of the main repository on your personal Github account, modify the relevant code on your fork, and then create a [pull request](https://github.com/alan-turing-institute/data-safe-haven/pulls).
 

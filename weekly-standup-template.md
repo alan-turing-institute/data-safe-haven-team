@@ -367,7 +367,7 @@ The actions here should not be used to assign work.
 -->
 
 | Owner             | Action                               |
-| -------           | --------                             |
+| ----------------- | ------------------------------------ |
 | Meeting organiser | Open meeting record for next meeting |
 | Meeting organiser | Save meeting record (sharepoint)     |
 | Project manager   | Produce digest for monthly meeting   |
