@@ -266,8 +266,6 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 ##### [Promotion, opportunities and new work venues](https://github.com/alan-turing-institute/data-safe-haven-team/issues/68)
 
-PIs update here!
-
 ###### People and time
 
 <!--
