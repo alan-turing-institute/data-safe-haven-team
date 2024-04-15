@@ -284,7 +284,6 @@ For example, this may be an emergent task, providing support or expertise to oth
   - Draft PR to fix bug [created](https://…)
 -->
 
-
 ##### Non-story work
 
 ###### People and time
