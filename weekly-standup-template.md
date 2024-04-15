@@ -264,6 +264,26 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 #### Other
 
+##### [Promotion, opportunities and new work venues](https://github.com/alan-turing-institute/data-safe-haven-team/issues/68)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+##### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
 ##### Non-story work
 
 ###### People and time
