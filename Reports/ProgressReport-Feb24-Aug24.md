@@ -70,7 +70,7 @@ In the process we realised SAS tokens are bound to Store Access Policies which c
 we are currently considering the covenience of this approach versus potential security issues in https://github.com/alan-turing-institute/data-safe-haven/issues/1751 .
 
 Improved use of hardcoded domain names and IPs. 
-The hardcoded lists are difficult to maintain and are prone to going out of date, 
+The hardcoded lists are difficult to maintain and are prone to going out of date.
 despite not fully fixing the use of these improvements have been made for the 4.2.0 release by relaxing rules where security allows. 
 For this the team checked individuals cases and applied where possible,
  no security issues where found and we added this as a specific thing to pent test. 
