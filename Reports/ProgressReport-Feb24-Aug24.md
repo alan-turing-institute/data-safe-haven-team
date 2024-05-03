@@ -358,7 +358,9 @@ Having finalised the funding phase there is three important things to do:
 
 #### Manage grant opportunities and pipeline [51](https://github.com/alan-turing-institute/data-safe-haven-team/issues/51)
 
-It is a priority to at least think and plan, this story can be directly linked to PI work and how we better coordinate. So not a high resources story but still very important one
+It is a priority to at least think and plan,
+this story can be directly linked to PI work and how we better coordinate.
+So not a high resources story but still very important one.
 
 #### DSPT submission [37](https://github.com/alan-turing-institute/data-safe-haven-team/issues/37)
 
