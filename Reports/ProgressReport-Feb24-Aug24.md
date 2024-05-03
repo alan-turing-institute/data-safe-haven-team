@@ -80,7 +80,7 @@ An issue with Jupyter notebooks not being able to use Python when launched from 
 despite extensive work a fix was not found and decided to let it be by documenting the right workaround: launching Jupyter Notebooks from the terminal. 
 The issue is https://github.com/alan-turing-institute/data-safe-haven/issues/1584.
 
-Worked on updating documentation to reflect Azure Active Directory name change to Microsoft Entra.
+Updated documentation to reflect Azure Active Directory name change to Microsoft Entra.
 
 
 #### Identify and implement core IAC changes: [#28](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
