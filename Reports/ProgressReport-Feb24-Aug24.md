@@ -71,7 +71,7 @@ we are currently considering the covenience of this approach versus potential se
 
 Improved use of hardcoded domain names and IPs. 
 The hardcoded lists are difficult to maintain and are prone to going out of date.
-despite not fully fixing the use of these improvements have been made for the 4.2.0 release by relaxing rules where security allows. 
+Despite not fully stopping use of hardcoded domains and IPs, improvements have been made for the 4.2.0 release by relaxing rules where security allows. 
 For this the team checked individuals cases and applied where possible,
  no security issues where found and we added this as a specific thing to pent test. 
  Related PR is https://github.com/alan-turing-institute/data-safe-haven/pull/1745 and explanatory issue is https://github.com/alan-turing-institute/data-safe-haven/issues/1549 .
