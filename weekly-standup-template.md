@@ -118,26 +118,6 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 #### RAM-accountable
 
-##### [Project strategy and ways of work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/43)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Space (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
 ##### [SATRE: stakeholder engagement and community buy out](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
 
 ###### People and time
@@ -159,26 +139,6 @@ For example, this may be an emergent task, providing support or expertise to oth
 -->
 
 #### RCM-accountable
-
-##### [Review current communication streams](https://github.com/alan-turing-institute/data-safe-haven-team/issues/35)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Space (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
 
 ##### [UK TRE Community leadership](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
 
@@ -243,6 +203,26 @@ For example, this may be an emergent task, providing support or expertise to oth
 -->
 
 ##### [TRESA costs and cost recovery](https://github.com/alan-turing-institute/data-safe-haven-team/issues/36)
+
+###### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Space (y hours)
+-->
+
+###### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+##### [Manage grant opportunities and pipeline](https://github.com/alan-turing-institute/data-safe-haven-team/issues/51)
 
 ###### People and time
 
