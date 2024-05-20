@@ -118,7 +118,6 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 #### RAM-accountable
 
-
 ##### [SATRE: stakeholder engagement and community buy out](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
 
 ###### People and time
@@ -140,7 +139,6 @@ For example, this may be an emergent task, providing support or expertise to oth
 -->
 
 #### RCM-accountable
-
 
 ##### [UK TRE Community leadership](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
 
