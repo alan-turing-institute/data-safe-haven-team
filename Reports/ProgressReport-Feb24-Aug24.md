@@ -2,12 +2,35 @@
 
 **Period: [February 2024-August 2024]**
 
-This update: 8 April 2024
+This update: 08 April 2024 to 03 June 2024
 
 ## Progress
 
 This section contains a summary of progress across all stories in the [project roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1).
 It maps stories according to the (main) pillar and priority they contribute to.
+
+### April summary
+
+April was a month focused on development of the Pulumi codebase (now the development branch), wrapping up the UK TRE Community funded phase and RAM handover.
+TRESA has also updated to the latest powershell version and is preparing for the May DSG.
+
+Development has been marked by the 5.0.0rc2 milestone.
+
+The UK TRE Community work ended with the Working Groups day that was well attended with members being active in WGs (Funding & Sustainability WG re-emerged).
+The new website is ready but migration is pending, the Governance documents were published in their first iteration with a section for pending discussions.
+
+### May summary
+
+May has continued to be marked by codebase development. There are two main things to highlight:
+- [Milestone 20](https://github.com/alan-turing-institute/data-safe-haven/milestone/20) has been reprioritised to accommodate user facing features and DATE MOVED to end of June to be on time for RSEcon.
+- Upcoming patch release: TRESA discovered a bug with Guacomole preventing correct deployment, this has been fixed and a release with it will be made
+
+The UK TRE Community has been the other focus of the month,
+been marked by a transition phase towards an unfunded period,
+support for the new Working Groups and preparation of the 5 June quarterly events.
+
+While new members are stepping up resource load for project PM has prevented work on other areas.
+This made sense in the lead up to the quarterly event and wrap up of funded phase activities but is not sustainable.
 
 ### Codebase development
 
