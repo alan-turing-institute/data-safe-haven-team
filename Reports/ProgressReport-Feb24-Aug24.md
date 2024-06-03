@@ -50,6 +50,16 @@ Support for deployments of the Data Safe Haven at Turing and beyond
 
 ##### Progress
 
+###### April-May 2024
+
+Helping TRESA upgrade prod4 to v4.2.0 in place
+
+    running through scripts and necessary steps
+    debugging failed deployment of proxy servers
+
+
+###### February-March 2024
+
 Having completed development of v4.2.0 we prepared the release which included preparing a release branch and deployment in an environment for pen testing.
 
 Extensive time was allocated to deploying and the errors/bugs that arose,
@@ -77,6 +87,20 @@ Ensure that codebase is kept up-to-date with bug fixes, security updates, extern
 - Ensure that documentation is up-to-date with code base
 
 ##### Progress
+
+###### April-May 2024
+
+Working on replacing Log Analytics/OMS agent with Azure Monitor Agent
+
+    OMS agent is being retired in August 2024, and should be replaced with Azure Monitor Agent
+    Described in issue
+    Successfully added AMA to several Linux VMs and (partially) connected to Log Analytics workspace
+
+Investigating replacement of Log Analytics Agent with Azure Monitor Agent
+
+Testing possible solutions for moving to Azure Monitor Agent, as per issue
+
+###### February-March 2024
 
 Have worked on updating software used within SREs to ensure the security and functionality of the environment:
 
@@ -115,11 +139,75 @@ Make DSH deployment more robust and development easier through using IAC and con
   - Make development easier
 - Move away from non-idempotent, bespoke scripts (Powershell, bash, cloud-init)
 
+
+
 ###### Definition of done
 
 On the release of a new major version which removes legacy, script-based deployment.
 
 ##### Progress
+
+###### April-May 2024
+
+
+    Reviewed PRs
+        Merge develop branch into python-migration branch, bringing it up to parity with the latest powershell codebase PR
+        Minor fixes to python/pulumi deployment codePR
+    [name=James]
+        Got Apricot server (mostly) working!
+
+
+    Merging development branches
+        pwsh development into python
+        python into develop, the default branch
+        Represents that the Python codebase is actively developed and pwsh is deprecated
+    Fixing container image update workflow
+        Ensures container image versions are current
+        Open Issue to improve how container images and versions are specified in the repository to make this clearer and more robust
+    Apricot overview
+        Detailed look at the code we will use in v5.0.0rc2 to remove the need for domain controllers
+    Entra ID integration PR
+        Preparation for replacing domain controllers with Apricot
+        Extra functionality for admins to manage TRE users
+    Migrating new networking rules PR
+        Implementing the networking rules from v4.2.0 in Pulumi
+
+- Integrating Apricot
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1778)
+  - Important step in removing domain controllers
+  - Will reduce cost
+  - Will reduce complexity
+  - Potential for wider adoption of Apricot as an independent package
+- Add UniqueList annotated type
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1815)
+  - Simple, robust way to ensure user supplied data is valid
+- Removing magic numbers
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1819)
+  - Good code hygiene, will likely save us headaches in the future
+- Moving pulumi state from configutation
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1820)
+  - Should simplify configuration
+  - Helps multiple people manage one TRE (as it will become simpler to spot conflicts)
+  - Will attempt to also simplify local files necessary to run dsh
+- Integrating dependabot
+  - Regularly notifies and opens PRs for dependency updates
+  - Creates security alerts
+- Update dependencies and support Python version
+  - Aiming for simplicity, supporting only one Python release
+- Remove SHM DC from Pulumi code
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1805)
+  - This is unused now we have switched to Apricot
+- Fix a broken GitHub action that updates Docker images
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1822)
+- Add local DNS entry for Apricot server
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1821)
+  - Allow Apricot to be referenced by URI not just IP address
+- Fix Dependabot update logic
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1827)
+  - Replace broken Dependabot logic with a GitHub Action
+
+###### February-March 2024
+
 
 Over this period the story has not been prioritised instead focusing on identifying and scoping future work which will be a priority after v4.2.0 release.
 The DSH code repo contains milestones that reflect related and planned issues (v5.x.y milestones) https://github.com/alan-turing-institute/data-safe-haven/milestones.
@@ -154,6 +242,11 @@ there is feedback on the spec repository and, ideally, there is an active WG wit
 
 ##### Progress
 
+###### April-May 2024
+
+###### February-March 2024
+
+
 NHS-E R&D Programme Director stated during the UK TRE Community March event that SATRE has become the reference framework for TREs within the Subnational SDE programme,
 placing SATRE as a key reference for what TREs are.
 A recording of the event is available here https://youtu.be/KJVcy_ZKyVE?si=mbf64cZOLMHAxjwk and the notes of the day will be added to a report publicily available on the community website
@@ -185,6 +278,25 @@ Provide a space for those involved in building, using and responsible for govern
 - Empower the community to help influence policy decisions
 
 ##### Progress
+
+###### April-May 2024
+
+Held weekly meeting, coordinated Scriberia feedback with community and scriberia (lots of opinions!) and organised and announces WG day for the 29 April
+
+
+
+    Prep for Working Groups day on 29/04
+    Wrote up and finalised UK TRE Community WG report
+
+
+- Prep for Working Groups meeting
+    - Managing attendees
+    - Preeping agenda/content
+- Migrating to Hugo website
+    - Adding all governance docs to site - [Issue](https://github.com/uk-tre/hugo-website/issues/17)
+
+###### February-March 2024
+
 
 Funded phase came to an end on 31 March,
 along reporting,
@@ -223,6 +335,11 @@ Contributes to:
 
 ##### Progress
 
+###### April-May 2024
+
+###### February-March 2024
+
+
 AI UK has been a priority for this story and the project.
 Held on 19-20 March DSH had its own stand, through a likert scale exercise on TREs (and a bowl of sweets) we engaged attendees to introduce them to TREs and the work of the project which we stressed to be not only an open codebase but also the governance & standards and the community.
 
@@ -253,9 +370,16 @@ An agreed and formal process to recharge ATI projects being served by TRESA.
 
 ###### Progress
 
+**April-May**
+
+- Met with finance to restart conversation, was asked to prepare a clear example with numbers. Will have a meeting with Fiona next week
+
+**February-March**
+
 TRESA has now its own code, people time has been changed in forecast to this code and Azure subscriptions associated to it (although currently covered by core).
 
 Next step is to formalise the recharge process, projects engaging with TRESA have already been advised there will be a staff related cost in addittion to their specific subscription.
+
 
 ##### Review of requirements for security accreditation [37](https://github.com/alan-turing-institute/data-safe-haven-team/issues/37)
 
@@ -274,6 +398,11 @@ DSH remains DSPT compliant
 There is a documented plan for DSH to be ISO027001 compliant.
 
 ###### Progress
+
+###### April-May 2024
+
+###### February-March 2024
+
 
 Revised DSPT v6 requirement, there being no effective changes for category 3 organisations (us).
 Reviewed and copied last year answers for all mandatory requirements and made progress updating links and references (ongoing).
@@ -304,6 +433,17 @@ Through several strategy sessions we will:
 
 ##### Progress
 
+###### April-May 2024
+
+
+    Project progress and priorities report https://github.com/alan-turing-institute/data-safe-haven-team/pull/71
+    Monthly agenda
+
+Review Feb-Aug 2024 report
+
+###### February-March 2024
+
+
 On 13 February the DSH had its second strategy session, based on last year's work it tried to define and prioritise specific work and activities for the project by creating milestones by project workstream.
 While we discussed aspects of the Community workstream in depth there was no time for other workstreams.
 
@@ -319,9 +459,49 @@ All work related to agreements, policies, expenses, contracts, budget.
 
 ##### Progress
 
+###### April-May 2024
+
+Wrote up and finalised UK TRE Community WG report
+
+###### February-March 2024
+
+
 Work has focused on managing UK TRE Community grant, which included ensuring actual allocation of costs to project and workign with DARE to agree on a reprofile that allowed us to use almost the totally of funds while delivering a final event past the grant end date.
 
 Substantial work has also gone into aligning project actuals with Finance records for an appropriate management of internal and external Institute funds.
+
+- Met with Finance to ensure project codes reflect invoicing to funder
+
+- Prepared and completed [6 monthly Turing report](https://thealanturininstitute.sharepoint.com/:w:/s/rid/EQMRhhtbkLBOh7etA4dbg_QBu-Z8gDDAQFQ_82aEyhOCEA?e=MUeT7u)
+- Included preparing a [funding summary](https://thealanturininstitute.sharepoint.com/:w:/s/rid/EWr9m2ZtPPdPr6R8DriAZdMBeGUqk6y9f35XtNNzBpFauw?e=bq2JVn)
+
+#### Promotion, opportunities and new work venues
+
+##### Goal
+
+##### Progress
+
+##### April-May 2024
+
+NEW STORY!
+
+    Send email to NHS England RAP Community of Practice
+        sharepoint directory
+        Proposing talking about areas where we can align to promote reproducibility in trusted research
+        Signposting DSH, The Turing Way
+    Further email to Sam Hollings (NHS-E)
+        More signposting for The Turing Way
+    ESRC initial catch-up
+        Signposted to UK TRE Community and SATRE, no clear future next steps but was a productive chat!
+
+- Engaging with Sam Hollings from NHS-E RAP CoP
+  - [CRM](https://thealanturininstitute.sharepoint.com/:f:/s/SafeHaven/Ein6UMM7p_5HsdDCPf4qs6ABFTUWaDgZuFc72q-h2Z65WQ?e=7ZSh1G)
+  - Joined TTW collab café
+  - Talking about reproducibility, open source culture in the public sector, merging RAP CoP and TTW
+  - Expressed that DSH would be interested in improving support for reproducible workflows in collaboration
+- Prepared and delivered DSH presentation to Met Office
+
+- Meeting OpenMined to find out morea bout their work and whether there's room for collab with us 
 
 ## Plans and priorities
 
