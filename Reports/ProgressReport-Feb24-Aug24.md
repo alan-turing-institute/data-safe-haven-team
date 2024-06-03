@@ -57,6 +57,7 @@ Helping TRESA upgrade prod4 to v4.2.0 in place
     running through scripts and necessary steps
     debugging failed deployment of proxy servers
 
+- Working through a from-scratch deployment and bug-fixing along the way
 
 ###### February-March 2024
 
@@ -99,6 +100,16 @@ Working on replacing Log Analytics/OMS agent with Azure Monitor Agent
 Investigating replacement of Log Analytics Agent with Azure Monitor Agent
 
 Testing possible solutions for moving to Azure Monitor Agent, as per issue
+
+- Update to use Entra ID instead of AzureAD
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1869)
+- Add basic deployment instructions
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1867)
+- Add code coverage checks and PR comments
+    - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1866)
+    - When new code is proposed to be added to the codebase, we now check whether that code is covered by tests
+- Fix inconsistent firewall rules
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1883)
 
 ###### February-March 2024
 
@@ -206,6 +217,74 @@ On the release of a new major version which removes legacy, script-based deploym
   - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1827)
   - Replace broken Dependabot logic with a GitHub Action
 
+
+- Pulumi configuration changes
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1820)
+  - Work has grown
+  - More tidying where variables are stored
+  - Decoupling Config and Context
+  - The structure of the code should improve, less risk of circulate dependencies, less contrived logic
+  - New base class for configuration synced to Azure storage
+  - Separate base classes
+    - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1840)
+- Fix dependabot issues
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1827)
+  - This wasn't correctly updating Python packages
+- Fix automated Docker image update
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1822)
+  - This was targeting the wrong branch
+- Add local DNS record for the SRE identity server
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1821)
+  - This makes it easier to manage private-IP changes from the Azure Container Instance
+- Deployment co working
+  - Drafting user instructions for deployment
+  - Identifying bugs and improvements
+  - PRs proposing bug fixes
+  - New issues opened for later work
+
+
+
+- Finishing pulumi persistent data split PR
+- Improving package file structure PR
+- Configuration rationalisation PR
+- Examining testing framework 
+- Test deployment and debugging of problems that arose
+    - recursive attempts to login if subscription name incorrect in context file
+    - issues with identity container group when deploying SRE
+- Reviewing [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1847) for moving update servers to SRE
+- https://github.com/alan-turing-institute/data-safe-haven/pull/1853
+- Bug fix to remove circular dependency
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1853)
+- File restructuring (stylistic)
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1848)
+- Add tests for help function
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1855)
+- Update and lint Caddyfiles
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1856)
+- Bug fix to allow test suite to run
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1857)
+- Drop unnecessary SHM dependence when provisioning SRE
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1858)
+- Remove unused SHM data component
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1860)
+
+
+
+- Fix identity server deployment
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1865)
+- Fix deployment, sharing encrypted key between all pulumi projects 
+  - This bug prevented the deployment of a TRE
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1854)
+- Restructure CLI
+  - Makes the user interface more consistent, easier for users to understand
+  - Tidy directory structure for commands
+    - More idiomatic user of the typer package, easier for developers to understand
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1870)
+- Working on adding maintenance scheduling for regular installation of Linux OS updates
+    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1885)
+- Working on documenting and standardising use of custom exceptions
+    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1873)
+
 ###### February-March 2024
 
 
@@ -295,6 +374,18 @@ Held weekly meeting, coordinated Scriberia feedback with community and scriberia
 - Migrating to Hugo website
     - Adding all governance docs to site - [Issue](https://github.com/uk-tre/hugo-website/issues/17)
 
+- UK TRE Community Working Groups Day!
+
+- w/c 22 April: extensive time in preparing the [Working Groups day](https://hackmd.io/RtiQ_TH0THK0PQwnVXWzqg). Including registrations, materials (slide, agenda), travel approval for those who requested support, room booking and testing, catering order
+- Working groups day event: full day on Monday (see agenda above) very well attended with minimal no shows (20 in person, 25 online). Several attendees were relatively new in the community and got directly involved, a new working group was created on Funding and Sustainability and the recent Cybersecurity WG defined.
+    - very positive feedback from attendees
+    - several requests for connections between members
+    - All working groups advanced in their charters and plans
+    - Department of Health & Social care Senior Policy Lead interested in Funding & Sustainability WG
+    - Lesson: Pure proved a good provider for catering that can be ordered via credit card
+    - Lesson: hybrid worked better via separate general discussion and by separating groups in different physical rooms each with joining a zoom breakout room. YET the online experience can be improved, something that has been suggested is to make everyone behave "as if online" which can be difficult in large discussion but could be encouraged in breakouts (add to facilitation tips/recommendations)
+- With the event done, funding ended and our RAM gone the Community does enter into a new phase where numbers have grown and WGs started but no formal support is available for its management.
+
 ###### February-March 2024
 
 
@@ -336,6 +427,12 @@ Contributes to:
 ##### Progress
 
 ###### April-May 2024
+
+- Drafting RSECon talk
+  - [notes](https://hackmd.io/@nHslnPpLRmCxPOmQBcOW-g/BkMo-88WA/edit)
+ 
+- Prepared and submitted [talk (45 min) for RSEcon24](https://hackmd.io/pVcsy89ZR7-MnRgJlgQ2pg) which will focus on discussing the balance between productivity and security and demonstrate our approach and experience. We differentiate ourselves in that we take a more pragmatic approach enabled by our security features and the fact environments are effectively isolated, reducing risk to specific environments
+    - "we share the lessons of 6 years of working with over 50 data providers to support access to sensitive data for research under a flexible framework of information governance and technical controls."
 
 ###### February-March 2024
 
@@ -441,6 +538,9 @@ Through several strategy sessions we will:
 
 Review Feb-Aug 2024 report
 
+HARI HANDOVER (add docs and main bullets)
+- Hari's handover session [notes](https://hackmd.io/@nHslnPpLRmCxPOmQBcOW-g/H1Y3vAlGR/edit)
+
 ###### February-March 2024
 
 
@@ -474,6 +574,9 @@ Substantial work has also gone into aligning project actuals with Finance record
 
 - Prepared and completed [6 monthly Turing report](https://thealanturininstitute.sharepoint.com/:w:/s/rid/EQMRhhtbkLBOh7etA4dbg_QBu-Z8gDDAQFQ_82aEyhOCEA?e=MUeT7u)
 - Included preparing a [funding summary](https://thealanturininstitute.sharepoint.com/:w:/s/rid/EWr9m2ZtPPdPr6R8DriAZdMBeGUqk6y9f35XtNNzBpFauw?e=bq2JVn)
+
+- Some missalignment between project actuals as reported by us and the final numbers on Finance systems have required extensive revision. Sent a line by line analysis of staffing cost and a comparison between Finance record and actuals
+    - No immediate consequence for team or project
 
 #### Promotion, opportunities and new work venues
 
