@@ -91,6 +91,17 @@ Ensure that codebase is kept up-to-date with bug fixes, security updates, extern
 
 ###### April-May 2024
 
+- Working on providing clearer error messages for context related commands
+    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1916)
+    - Makes using the CLI more user friendly
+
+
+- Fixed bug in workspace resource upload
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/issues/1889)
+- Fixed bug in identity server network rules
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/issues/1882)
+
+
 Working on replacing Log Analytics/OMS agent with Azure Monitor Agent
 
     OMS agent is being retired in August 2024, and should be replaced with Azure Monitor Agent
@@ -160,6 +171,37 @@ On the release of a new major version which removes legacy, script-based deploym
 
 ###### April-May 2024
 
+- Upgrading Ubuntu VMs to Gen 2 and newer versions of Ubuntu
+    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1909)
+    - Azure will be defaulting to using Gen2 VMs at some point in the future, so we need to test them now
+    - We currently use Ubuntu 20.04, which is now 2 Long Term Support versions behind - latest is 24.04
+    - Investigating updating to 22.04, which may need further input before it can be completed
+    - Not clear if 24.04 is fully supported by Azure Update Management etc yet, but can be tested.
+- Debugging issues with user synchronisation
+    - users were not synchronising correctly between Entra ID and the workspace user databases, so was not possible to connect to workspaces
+- Configuration management and packages experimenting
+- Small bug fixes/corrections
+
+
+
+- Add protection against configuration changes
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1881)
+- Co working on maintenance configuration
+  - Adding resource f
+- v5.0.0-rc2 milestone review
+  - Review project labels
+  - Closing closed issues
+  - Moving low priority issues to future milestones, or adding non-essential label
+- Arbitrary pulumi commands
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1888)
+  - Add ability to run Pulumi CLI commands using project and stack combinations from a DSH deployment
+  - Useful for developers and admins for debugging, importing resources
+- Merged protection for configuration changes
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1881)
+- Started working on minimal workspace software + configuration management
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1892)
+- Moved firewall from SHM to SRE
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/issues/1871)
 
     Reviewed PRs
         Merge develop branch into python-migration branch, bringing it up to parity with the latest powershell codebase PR
@@ -360,6 +402,17 @@ Provide a space for those involved in building, using and responsible for govern
 
 ###### April-May 2024
 
+- June 5 event organisation
+- Running weekly meeting
+- Work on Skills grant
+
+
+- Processed expenses for Working Group day
+- Weekly meeting
+- June event organisation and list management
+- Support Funding Working group set up (mail list, shared drive, documents)
+- This is taking more RPM time than planned, natural due to transition phase (yesterday we were doing everything for the community), started to delegate back to other chairs/cmwg members
+
 Held weekly meeting, coordinated Scriberia feedback with community and scriberia (lots of opinions!) and organised and announces WG day for the 29 April
 
 
@@ -469,6 +522,8 @@ An agreed and formal process to recharge ATI projects being served by TRESA.
 
 **April-May**
 
+- Not worked on this despite priority (due to re-prioritisation of grant management)
+
 - Met with finance to restart conversation, was asked to prepare a clear example with numbers. Will have a meeting with Fiona next week
 
 **February-March**
@@ -497,6 +552,9 @@ There is a documented plan for DSH to be ISO027001 compliant.
 ###### Progress
 
 ###### April-May 2024
+
+
+- DSPT: meeting with Data Protection to review answers related to DP, 3 documents need put in place or updating (Spot check, training needs analysis, list of all project). [Details in issue](https://github.com/alan-turing-institute/trusted-research/issues/158)
 
 ###### February-March 2024
 
@@ -578,6 +636,23 @@ Substantial work has also gone into aligning project actuals with Finance record
 - Some missalignment between project actuals as reported by us and the final numbers on Finance systems have required extensive revision. Sent a line by line analysis of staffing cost and a comparison between Finance record and actuals
     - No immediate consequence for team or project
 
+#### [Manage grant opportunities and pipeline](https://github.com/alan-turing-institute/data-safe-haven-team/issues/51)
+
+##### Goal
+
+##### Progress
+
+##### April-May 2024
+
+- Co-working on proposal
+- Grant reading and preparing DSH proposal
+
+- Spent co-working discussing and prioritising grant to submit to, see notes LINK
+- Grant planning and drafting
+  - [notes](https://hackmd.io/@nHslnPpLRmCxPOmQBcOW-g/By6XSlGXC/edit)
+- High level planning of next steps
+- Target is currently both Biomedical and Skills grants, for two weeks we will "dream big" while RPM figures out practical steps
+
 #### Promotion, opportunities and new work venues
 
 ##### Goal
@@ -610,6 +685,23 @@ NEW STORY!
 
 This section contains project plans and priorities,
 currently focusing on work to be done over the next month it should eventually encompass longer term plans.
+
+### Blockers, challenges and other discussions
+
+#### May
+
+- Long weekend did wonders but motivation last week was an issue (general state of affairs)
+- So much to do for the Community, if this does not improve next week after June event I might ask for some help on it (Aida, Kirstie) and more "formally" take a step back myself
+
+
+Not exactly a blocker but spent most time on non-prioritised stories (Grants & TRE Community)
+
+- UK TRE Community is taking more RPM time than planned, natural due to transition phase (yesterday we were doing everything for the community), started to delegate back to other chairs/cmwg members. Hope to "solve" this in the short term (probably after 5 June event)
+
+
+- Need some steer from PIs on grants.
+  - What is our pitch?
+  - _Who_ is writing the proposals?
 
 ### Monthly priorities: April
 
