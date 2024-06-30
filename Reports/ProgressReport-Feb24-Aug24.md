@@ -2,7 +2,7 @@
 
 **Period: [February 2024-August 2024]**
 
-This update: 08 April 2024 to 03 June 2024
+This update: 08 April 2024 to 24 June 2024
 
 ## Progress
 
@@ -50,6 +50,12 @@ Support for deployments of the Data Safe Haven at Turing and beyond
 
 ##### Progress
 
+###### June 2024
+
+- [v4.2.2 patch release](https://github.com/alan-turing-institute/data-safe-haven/pull/1955)
+  - Fixes SSL bug
+  - Running test deployment, encountere
+
 ###### April-May 2024
 
 Helping TRESA upgrade prod4 to v4.2.0 in place
@@ -88,6 +94,17 @@ Ensure that codebase is kept up-to-date with bug fixes, security updates, extern
 - Ensure that documentation is up-to-date with code base
 
 ##### Progress
+
+###### June 2024
+
+- [Fix broken link in docs](https://github.com/alan-turing-institute/data-safe-haven/pull/1949)
+- [Fix SSL cert error](https://github.com/alan-turing-institute/data-safe-haven/pull/1939)
+  - It was possible for users to enter a domain name which isn't supported by Let's Encrypt.
+- [Fix error when deploying virtual gateway](https://github.com/alan-turing-institute/data-safe-haven/issues/1947)
+    - Azure no longer supports the use of a basic public IP address SKU
+
+- Tagged new version v4.2.1
+- Prepared PR to port 4.2.1 changes into develop
 
 ###### April-May 2024
 
@@ -168,6 +185,73 @@ Make DSH deployment more robust and development easier through using IAC and con
 On the release of a new major version which removes legacy, script-based deployment.
 
 ##### Progress
+
+Story DONE: with the merge of the Pulumi codebase into development IAC has become the sole focus of development efforts,
+the core necessary changes have been identified and implemented and [a roadmap](https://github.com/alan-turing-institute/data-safe-haven/blob/develop/ROADMAP.md), milestones and goals identified.
+This story has achieved:
+
+- New and complete Pulumi version of the codebase. See [5.0.0rc1 pre-release](https://github.com/alan-turing-institute/data-safe-haven/releases/tag/v5.0.0-rc.1)
+- More efficient and robust codebase and deployment process
+- Improved experience for TRE admnis: reduced cost, simpler user management, more coherent CLI. See [5.0.0rc2 milestone for more details](https://github.com/alan-turing-institute/data-safe-haven/milestone/20)
+
+It is no longer useful for this story to contain development efforts or to distinguish IAC work from the rest of development work.
+
+New stories will be created with specific goals for development,
+in particular [#79 'Develop outside-run inside'](https://github.com/alan-turing-institute/data-safe-haven-team/issues/79) is the immediate follow up story to the work previously reported here.
+
+[Milestone rc2 is the last one reported under this story](https://github.com/alan-turing-institute/data-safe-haven/milestone/20).
+
+###### June 2024
+
+- Milestone review
+  - Our aims for rc2
+    - Remove SHM (but really merge context and SHM)
+    - Use Ubuntu Jammy (pen test in the future to double check snap security)
+    - Get ansible/workspace software stuff in
+  - Next milestone is rc3, not a final release
+  - In the next phase we will continue outstanding bug fixes
+  - All new feature work must be related to RSECon - develop outside, run inside
+  - I will arrange some meetings for scoping that feature
+    - So that we can consider some options for this
+    - Sketch what our solution will look like
+- [Logging changes](https://github.com/alan-turing-institute/data-safe-haven/pull/1936)
+  - Cleaner console output
+  - Logs verbose/debugging information to a file by default
+- [Fixes for pulumi output through logger](https://github.com/alan-turing-institute/data-safe-haven/pull/1957)
+- [Improvement of multiline log message rendering](https://github.com/alan-turing-institute/data-safe-haven/pull/1953)
+- [Collect console formatting and user interaction functions in a new console module](https://github.com/alan-turing-institute/data-safe-haven/pull/1948)
+- [Fix OSError during tests](https://github.com/alan-turing-institute/data-safe-haven/pull/1951)
+- [Separate SHM and SRE config](https://github.com/alan-turing-institute/data-safe-haven/pull/1943)
+  - Changes user interface
+  - Removes the need to specify SREs (or explicitly specify no SREs) when creating an SHM
+  - Paves the way to combine Context/SHM and rename to SHM
+
+
+- Investigating potential issues with updating to Ubuntu 22.04 [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1909)
+    - Ubuntu 22.04+ installs some packages from the Canonical Snap store
+    - We have to provide VMs with access to the endpoints for Snap/snapcraft, but it is unclear if this risks allowing a form of egress
+    - Currently appears it is not possible to build snaps on a VM and upload to the snap store, as building snaps requires additional downloads that are blocked by existing firewall rules
+- Logging and stdout changes
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1936)
+  - Improve output format/verbsoity
+  - Cleaner CLI for users
+  - Clearer guidlines for developers
+  - Removing unused or uneeded code
+- Remove SRE index
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1930)
+  - Move towards separating SHM and SRE
+- Move log analytics to SRE
+  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1928)
+  - Move logging workspace to SRE and make a first attempt at connecting SRE resources to it
+
+
+- Co working on snapd problems
+    - Necessary for continuing work on updating to newer version of Ubuntu, see [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1909)
+- A number of small PRs focused on user experience, clarity of errors
+  - Continue working on [context command errors](https://github.com/alan-turing-institute/data-safe-haven/pull/1916)
+  - [Clarify subscription arugment of context add](https://github.com/alan-turing-institute/data-safe-haven/pull/1919)
+  - [Validate arguments for 'user' commands](https://github.com/alan-turing-institute/data-safe-haven/pull/1921)
+  - [Supress Pydantic warnings when calling `dsh config template`](https://github.com/alan-turing-institute/data-safe-haven/pull/1920)
 
 ###### April-May 2024
 
@@ -400,6 +484,21 @@ Provide a space for those involved in building, using and responsible for govern
 
 ##### Progress
 
+###### June 2024
+
+- Quarterly event on 5th June: with 60 online participants the event had a keynote by Pete Barnsley on the Crick's TRE and also focused on Working Groups, marking the official community review for these and presenting them.
+    - main hackmd with agenda for the day and notes is here https://hackmd.io/NE1-gvLtST6aJTdRzwL-gg
+    - Github view for community review https://github.com/orgs/uk-tre/projects/1/views/7
+- The other call to action during the event and recent focus is the preparation of the UKRI skills network grant. We asked for letters of support and involvement.
+    - Deadline has been extended to 2 October, which might give us the opportunity to become formally involved
+
+
+- Preparing 5 June event: agenda, community reminders, get prompts from speakers
+- Update via web PR both agenda and working groups (old web) to offer a more comprehensive view of the current work and focus
+- Weekly meeting an organisation
+- Collate working groups information (charters) which is available here https://docs.google.com/document/d/1uvqALeVixK6PqdkzLFVwDVhc0fPUuBdddyfQzZsRtm4/edit?usp=sharing
+- Cybersecurity risk WG now has a new repo
+
 ###### April-May 2024
 
 - June 5 event organisation
@@ -551,6 +650,19 @@ There is a documented plan for DSH to be ISO027001 compliant.
 
 ###### Progress
 
+###### June 2024
+
+- Two sessions to review answers, resulting in most being checked and ready but also several actions identified as needed
+    - For this submission: 
+        - MRC courses required for all team members
+        - Create unified list of project
+        - Complete recovery plan
+        - Test plan (this is actually only testing backup recovery rn)
+    - For next year submission: actions identified that will be summarised to improve compliance
+- see issue for more details: https://github.com/alan-turing-institute/trusted-research/issues/158#issuecomment-2135124214
+    - Do we want an issue per action?
+
+
 ###### April-May 2024
 
 
@@ -659,6 +771,14 @@ Substantial work has also gone into aligning project actuals with Finance record
 
 ##### Progress
 
+##### June 2024
+
+- [Conversation](https://thealanturininstitute.sharepoint.com/sites/SafeHaven/Shared%20Documents/External_engagement/University_of_Nottingham) with Philip Quinlan (Nottingham)
+  - Use of DSH at Nottingham and East Midlands NHS SDE
+  - Collaboration opportunities (TREFX)
+  - User feedback, bug reports, feature requests
+ 
+  
 ##### April-May 2024
 
 NEW STORY!
@@ -688,7 +808,32 @@ currently focusing on work to be done over the next month it should eventually e
 
 ### Blockers, challenges and other discussions
 
-#### May
+### July priorities
+
+#### Manage codebase releases and testing #50
+
+Similar to last month there is a bug that needs fixing and making an associated patch release, not made yet because focus on development but will happen.
+
+Priority yes, not a lot of time spent on it.
+
+We are in patch mode, doing what needs done but not focusing on new releases.
+
+#### UK TRE Leadership #52
+
+Continue to be a priority for @Davsarper, focusing on September event, skills grant and general community management. This comes at the expense of RPM time.
+
+WARNING: August I cannot do much of this, we need to focus on project end.
+
+#### Develop outside-run inside, RSEcon24
+
+Absolute priority for development and the main focus of effort/people.
+
+This new story will contain development efforts towards new features for ingressing code,
+this will be more detailed in rc3 milestone (scoping in progress).
+
+It will also refer to all necessary work to deliver the presentation at rsecon24
+
+### May
 
 - Long weekend did wonders but motivation last week was an issue (general state of affairs)
 - So much to do for the Community, if this does not improve next week after June event I might ask for some help on it (Aida, Kirstie) and more "formally" take a step back myself
