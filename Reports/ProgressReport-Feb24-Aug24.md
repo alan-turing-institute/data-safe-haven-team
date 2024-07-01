@@ -203,162 +203,21 @@ in particular [#79 'Develop outside-run inside'](https://github.com/alan-turing-
 
 ###### April-May 2024
 
-- Upgrading Ubuntu VMs to Gen 2 and newer versions of Ubuntu
-    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1909)
-    - Azure will be defaulting to using Gen2 VMs at some point in the future, so we need to test them now
-    - We currently use Ubuntu 20.04, which is now 2 Long Term Support versions behind - latest is 24.04
-    - Investigating updating to 22.04, which may need further input before it can be completed
-    - Not clear if 24.04 is fully supported by Azure Update Management etc yet, but can be tested.
-- Debugging issues with user synchronisation
-    - users were not synchronising correctly between Entra ID and the workspace user databases, so was not possible to connect to workspaces
-- Configuration management and packages experimenting
-- Small bug fixes/corrections
+Upgraded Ubuntu VMs to Gen 2 and newer versions of Ubuntu.
+Preiously we used Ubuntu 20.04, which is now 2 Long Term Support versions behind.
 
+Improved protection against configuration changes [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1881)
 
+Reviewed and prepared v5.0.0-rc2 milestone
 
-- Add protection against configuration changes
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1881)
-- Co working on maintenance configuration
-  - Adding resource f
-- v5.0.0-rc2 milestone review
-  - Review project labels
-  - Closing closed issues
-  - Moving low priority issues to future milestones, or adding non-essential label
-- Arbitrary pulumi commands
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1888)
-  - Add ability to run Pulumi CLI commands using project and stack combinations from a DSH deployment
-  - Useful for developers and admins for debugging, importing resources
-- Merged protection for configuration changes
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1881)
-- Started working on minimal workspace software + configuration management
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1892)
-- Moved firewall from SHM to SRE
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/issues/1871)
+Merged develop branch into python-migration branch, bringing it up to parity with the latest powershell codebase PR
 
-    Reviewed PRs
-        Merge develop branch into python-migration branch, bringing it up to parity with the latest powershell codebase PR
-        Minor fixes to python/pulumi deployment codePR
-    [name=James]
-        Got Apricot server (mostly) working!
+Integrated Apricot [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1778) which is an important step in removing domain controllers and reduces cost and complexity.
 
+Removed magic numbers [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1819) for good code hygiene, will likely save us headaches in the future.
 
-    Merging development branches
-        pwsh development into python
-        python into develop, the default branch
-        Represents that the Python codebase is actively developed and pwsh is deprecated
-    Fixing container image update workflow
-        Ensures container image versions are current
-        Open Issue to improve how container images and versions are specified in the repository to make this clearer and more robust
-    Apricot overview
-        Detailed look at the code we will use in v5.0.0rc2 to remove the need for domain controllers
-    Entra ID integration PR
-        Preparation for replacing domain controllers with Apricot
-        Extra functionality for admins to manage TRE users
-    Migrating new networking rules PR
-        Implementing the networking rules from v4.2.0 in Pulumi
-
-- Integrating Apricot
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1778)
-  - Important step in removing domain controllers
-  - Will reduce cost
-  - Will reduce complexity
-  - Potential for wider adoption of Apricot as an independent package
-- Add UniqueList annotated type
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1815)
-  - Simple, robust way to ensure user supplied data is valid
-- Removing magic numbers
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1819)
-  - Good code hygiene, will likely save us headaches in the future
-- Moving pulumi state from configutation
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1820)
-  - Should simplify configuration
-  - Helps multiple people manage one TRE (as it will become simpler to spot conflicts)
-  - Will attempt to also simplify local files necessary to run dsh
-- Integrating dependabot
-  - Regularly notifies and opens PRs for dependency updates
-  - Creates security alerts
-- Update dependencies and support Python version
-  - Aiming for simplicity, supporting only one Python release
-- Remove SHM DC from Pulumi code
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1805)
-  - This is unused now we have switched to Apricot
-- Fix a broken GitHub action that updates Docker images
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1822)
-- Add local DNS entry for Apricot server
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1821)
-  - Allow Apricot to be referenced by URI not just IP address
-- Fix Dependabot update logic
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1827)
-  - Replace broken Dependabot logic with a GitHub Action
-
-
-- Pulumi configuration changes
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1820)
-  - Work has grown
-  - More tidying where variables are stored
-  - Decoupling Config and Context
-  - The structure of the code should improve, less risk of circulate dependencies, less contrived logic
-  - New base class for configuration synced to Azure storage
-  - Separate base classes
-    - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1840)
-- Fix dependabot issues
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1827)
-  - This wasn't correctly updating Python packages
-- Fix automated Docker image update
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1822)
-  - This was targeting the wrong branch
-- Add local DNS record for the SRE identity server
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1821)
-  - This makes it easier to manage private-IP changes from the Azure Container Instance
-- Deployment co working
-  - Drafting user instructions for deployment
-  - Identifying bugs and improvements
-  - PRs proposing bug fixes
-  - New issues opened for later work
-
-
-
-- Finishing pulumi persistent data split PR
-- Improving package file structure PR
-- Configuration rationalisation PR
-- Examining testing framework 
-- Test deployment and debugging of problems that arose
-    - recursive attempts to login if subscription name incorrect in context file
-    - issues with identity container group when deploying SRE
-- Reviewing [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1847) for moving update servers to SRE
-- https://github.com/alan-turing-institute/data-safe-haven/pull/1853
-- Bug fix to remove circular dependency
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1853)
-- File restructuring (stylistic)
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1848)
-- Add tests for help function
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1855)
-- Update and lint Caddyfiles
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1856)
-- Bug fix to allow test suite to run
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1857)
-- Drop unnecessary SHM dependence when provisioning SRE
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1858)
-- Remove unused SHM data component
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1860)
-
-
-
-- Fix identity server deployment
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1865)
-- Fix deployment, sharing encrypted key between all pulumi projects 
-  - This bug prevented the deployment of a TRE
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1854)
-- Restructure CLI
-  - Makes the user interface more consistent, easier for users to understand
-  - Tidy directory structure for commands
-    - More idiomatic user of the typer package, easier for developers to understand
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1870)
-- Working on adding maintenance scheduling for regular installation of Linux OS updates
-    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1885)
-- Working on documenting and standardising use of custom exceptions
-    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1873)
-
+Fixed identity server deployment [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1865) which was major as it prevented the deployment of a TRE
+  
 ###### February-March 2024
 
 
@@ -434,60 +293,42 @@ Provide a space for those involved in building, using and responsible for govern
 
 ###### June 2024
 
-- Quarterly event on 5th June: with 60 online participants the event had a keynote by Pete Barnsley on the Crick's TRE and also focused on Working Groups, marking the official community review for these and presenting them.
-    - main hackmd with agenda for the day and notes is here https://hackmd.io/NE1-gvLtST6aJTdRzwL-gg
-    - Github view for community review https://github.com/orgs/uk-tre/projects/1/views/7
-- The other call to action during the event and recent focus is the preparation of the UKRI skills network grant. We asked for letters of support and involvement.
-    - Deadline has been extended to 2 October, which might give us the opportunity to become formally involved
+Quarterly event on 5th June: with 60 online participants the event had a keynote by Pete Barnsley on the Crick's TRE and also focused on Working Groups,
+marking the official community review for these and presenting them.
 
+- main hackmd with agenda for the day and notes is here https://hackmd.io/NE1-gvLtST6aJTdRzwL-gg
+- Github view for community review https://github.com/orgs/uk-tre/projects/1/views/7
+    
+The other call to action during the event and recent focus is the preparation of the UKRI skills network grant.
+We asked for letters of support and involvement.
 
-- Preparing 5 June event: agenda, community reminders, get prompts from speakers
-- Update via web PR both agenda and working groups (old web) to offer a more comprehensive view of the current work and focus
-- Weekly meeting an organisation
-- Collate working groups information (charters) which is available here https://docs.google.com/document/d/1uvqALeVixK6PqdkzLFVwDVhc0fPUuBdddyfQzZsRtm4/edit?usp=sharing
-- Cybersecurity risk WG now has a new repo
+- Deadline has been extended to 2 October, which might give us the opportunity to become formally involved
+
 
 ###### April-May 2024
 
-- June 5 event organisation
-- Running weekly meeting
-- Work on Skills grant
+Work focused on June 5 event organisation and on Skills grant for the CMWG.
+Simultaneously supported working groups to ensure viability, 
+updated informaiton for all of them which is now available on the [UK TRE Website](https://www.uktre.org/en/latest/structure/index.html)
+(updated old site until we do migration) and created or organised mailing list and repositories for them.
+
+Produced new Scriberia image for use in a number of situations, this image was done thinking of a variety of uses and serving to be placed on a physical banner, as sticker (only central element) and as a main illustration for website.
+Coordination with hte community was a challenge as there were lot of contradicting requirements for it, but we are happy with the result.
 
 
-- Processed expenses for Working Group day
-- Weekly meeting
-- June event organisation and list management
-- Support Funding Working group set up (mail list, shared drive, documents)
-- This is taking more RPM time than planned, natural due to transition phase (yesterday we were doing everything for the community), started to delegate back to other chairs/cmwg members
+Working groups day event: full day event very well attended with minimal no shows (20 in person, 25 online). 
+Several attendees were relatively new in the community and got directly involved,
+a new working group was created on Funding and Sustainability and the recent Cybersecurity WG defined.
 
-Held weekly meeting, coordinated Scriberia feedback with community and scriberia (lots of opinions!) and organised and announces WG day for the 29 April
-
-
-
-    Prep for Working Groups day on 29/04
-    Wrote up and finalised UK TRE Community WG report
-
-
-- Prep for Working Groups meeting
-    - Managing attendees
-    - Preeping agenda/content
-- Migrating to Hugo website
-    - Adding all governance docs to site - [Issue](https://github.com/uk-tre/hugo-website/issues/17)
-
-- UK TRE Community Working Groups Day!
-
-- w/c 22 April: extensive time in preparing the [Working Groups day](https://hackmd.io/RtiQ_TH0THK0PQwnVXWzqg). Including registrations, materials (slide, agenda), travel approval for those who requested support, room booking and testing, catering order
-- Working groups day event: full day on Monday (see agenda above) very well attended with minimal no shows (20 in person, 25 online). Several attendees were relatively new in the community and got directly involved, a new working group was created on Funding and Sustainability and the recent Cybersecurity WG defined.
-    - very positive feedback from attendees
-    - several requests for connections between members
-    - All working groups advanced in their charters and plans
-    - Department of Health & Social care Senior Policy Lead interested in Funding & Sustainability WG
-    - Lesson: Pure proved a good provider for catering that can be ordered via credit card
-    - Lesson: hybrid worked better via separate general discussion and by separating groups in different physical rooms each with joining a zoom breakout room. YET the online experience can be improved, something that has been suggested is to make everyone behave "as if online" which can be difficult in large discussion but could be encouraged in breakouts (add to facilitation tips/recommendations)
+- very positive feedback from attendees
+- several requests for connections between members
+- All working groups advanced in their charters and plans
+- Department of Health & Social care Senior Policy Lead interested in Funding & Sustainability WG
+- Lesson: Pure proved a good provider for catering that can be ordered via credit card
+- Lesson: hybrid worked better via separate general discussion and by separating groups in different physical rooms each with joining a zoom breakout room. YET the online experience can be improved, something that has been suggested is to make everyone behave "as if online" which can be difficult in large discussion but could be encouraged in breakouts (add to facilitation tips/recommendations)
 - With the event done, funding ended and our RAM gone the Community does enter into a new phase where numbers have grown and WGs started but no formal support is available for its management.
 
 ###### February-March 2024
-
 
 Funded phase came to an end on 31 March,
 along reporting,
@@ -600,16 +441,12 @@ There is a documented plan for DSH to be ISO027001 compliant.
 
 ###### June 2024
 
-- Two sessions to review answers, resulting in most being checked and ready but also several actions identified as needed
-    - For this submission: 
-        - MRC courses required for all team members
-        - Create unified list of project
-        - Complete recovery plan
-        - Test plan (this is actually only testing backup recovery rn)
-    - For next year submission: actions identified that will be summarised to improve compliance
-- see issue for more details: https://github.com/alan-turing-institute/trusted-research/issues/158#issuecomment-2135124214
-    - Do we want an issue per action?
+DSPT submission completed! thanks to everyone involved.
+The last stretch required a bit of work and putting some things in place like a spot check or new ROPA specific for TRESA.
+Several areas of improvement have been identified and we need to follow up soon with the team and DP how to improve.
 
+For next year submission: actions identified that will be summarised to improve compliance
+- see issue for more details: https://github.com/alan-turing-institute/trusted-research/issues/158#issuecomment-2135124214
 
 ###### April-May 2024
 
