@@ -9,15 +9,17 @@ This update: 08 April 2024 to 24 June 2024
 This section contains a summary of progress across all stories in the [project roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1).
 It maps stories according to the (main) pillar and priority they contribute to.
 
-### April summary
+### June summary 
 
-April was a month focused on development of the Pulumi codebase (now the development branch), wrapping up the UK TRE Community funded phase and RAM handover.
-TRESA has also updated to the latest powershell version and is preparing for the May DSG.
+June has continued to be focused on development and UK TRE community, with the addition of DSPT submission.
 
-Development has been marked by the 5.0.0rc2 milestone.
+Development saw the completion (or very near, this week) of [rc2 milestone](https://github.com/alan-turing-institute/data-safe-haven/milestone/20). This milestone had two main goals: for users to reduce costs, simplify user management and a more coherent CLI; For developers a simpler deployed architecture and a better structure for configuration and command line.
 
-The UK TRE Community work ended with the Working Groups day that was well attended with members being active in WGs (Funding & Sustainability WG re-emerged).
-The new website is ready but migration is pending, the Governance documents were published in their first iteration with a section for pending discussions.
+Previous bulk of the work was to migrate, now we are entering actual changes and improvements (no longer the same thing with a different deployment technology).
+
+The UK TRE Community work has been lighter, as all co-chairs needed a breather after quarterly event. But we have been organising for very important things: September annual in person meeting and UKRI Skills grant. The latter we might be able to jump back into as partners.
+
+DSPT submission completed! thanks to everyone involved. The last stretch required a bit of work and putting some things in place like a spot check or new ROPA specific for TRESA. Several areas of improvement have been identified and we need to follow up soon with the team and DP how to improve.
 
 ### May summary
 
@@ -31,6 +33,17 @@ support for the new Working Groups and preparation of the 5 June quarterly event
 
 While new members are stepping up resource load for project PM has prevented work on other areas.
 This made sense in the lead up to the quarterly event and wrap up of funded phase activities but is not sustainable.
+
+### April summary
+
+April was a month focused on development of the Pulumi codebase (now the development branch), wrapping up the UK TRE Community funded phase and RAM handover.
+TRESA has also updated to the latest powershell version and is preparing for the May DSG.
+
+Development has been marked by the 5.0.0rc2 milestone.
+
+The UK TRE Community work ended with the Working Groups day that was well attended with members being active in WGs (Funding & Sustainability WG re-emerged).
+The new website is ready but migration is pending, the Governance documents were published in their first iteration with a section for pending discussions.
+
 
 ### Codebase development
 
@@ -52,18 +65,13 @@ Support for deployments of the Data Safe Haven at Turing and beyond
 
 ###### June 2024
 
-- [v4.2.2 patch release](https://github.com/alan-turing-institute/data-safe-haven/pull/1955)
+Patch release [v4.2.2](https://github.com/alan-turing-institute/data-safe-haven/pull/1955)
   - Fixes SSL bug
-  - Running test deployment, encountere
+  - Running test deployment
 
 ###### April-May 2024
 
-Helping TRESA upgrade prod4 to v4.2.0 in place
-
-    running through scripts and necessary steps
-    debugging failed deployment of proxy servers
-
-- Working through a from-scratch deployment and bug-fixing along the way
+Helping TRESA upgrade prod4 to v4.2.0 in place and Working through a from-scratch deployment and bug-fixing along the way
 
 ###### February-March 2024
 
@@ -97,47 +105,21 @@ Ensure that codebase is kept up-to-date with bug fixes, security updates, extern
 
 ###### June 2024
 
+Over this period we have identified bugs in production that have been fixed, resulting in a new v4.2.1:
+
 - [Fix broken link in docs](https://github.com/alan-turing-institute/data-safe-haven/pull/1949)
 - [Fix SSL cert error](https://github.com/alan-turing-institute/data-safe-haven/pull/1939)
   - It was possible for users to enter a domain name which isn't supported by Let's Encrypt.
 - [Fix error when deploying virtual gateway](https://github.com/alan-turing-institute/data-safe-haven/issues/1947)
     - Azure no longer supports the use of a basic public IP address SKU
 
-- Tagged new version v4.2.1
-- Prepared PR to port 4.2.1 changes into develop
-
 ###### April-May 2024
 
-- Working on providing clearer error messages for context related commands
-    - [Draft PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1916)
-    - Makes using the CLI more user friendly
+Worked on providing clearer error messages for context related commands, making using the CLI more user friendly.
 
-
-- Fixed bug in workspace resource upload
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/issues/1889)
-- Fixed bug in identity server network rules
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/issues/1882)
-
-
-Working on replacing Log Analytics/OMS agent with Azure Monitor Agent
-
-    OMS agent is being retired in August 2024, and should be replaced with Azure Monitor Agent
-    Described in issue
-    Successfully added AMA to several Linux VMs and (partially) connected to Log Analytics workspace
-
-Investigating replacement of Log Analytics Agent with Azure Monitor Agent
-
-Testing possible solutions for moving to Azure Monitor Agent, as per issue
-
-- Update to use Entra ID instead of AzureAD
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1869)
-- Add basic deployment instructions
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1867)
-- Add code coverage checks and PR comments
-    - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1866)
-    - When new code is proposed to be added to the codebase, we now check whether that code is covered by tests
-- Fix inconsistent firewall rules
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1883)
+Also worked in replacing Log Analytics/OMS agent with Azure Monitor Agent as OMS agent is being retired in August 2024, and should be replaced with Azure Monitor Agent.
+In the same way updated to using Entra ID instad of Azure AD
+   
 
 ###### February-March 2024
 
