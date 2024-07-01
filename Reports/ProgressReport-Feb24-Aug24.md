@@ -185,55 +185,21 @@ in particular [#79 'Develop outside-run inside'](https://github.com/alan-turing-
 
 ###### June 2024
 
-- Milestone review
-  - Our aims for rc2
-    - Remove SHM (but really merge context and SHM)
-    - Use Ubuntu Jammy (pen test in the future to double check snap security)
-    - Get ansible/workspace software stuff in
-  - Next milestone is rc3, not a final release
-  - In the next phase we will continue outstanding bug fixes
-  - All new feature work must be related to RSECon - develop outside, run inside
-  - I will arrange some meetings for scoping that feature
-    - So that we can consider some options for this
-    - Sketch what our solution will look like
-- [Logging changes](https://github.com/alan-turing-institute/data-safe-haven/pull/1936)
-  - Cleaner console output
-  - Logs verbose/debugging information to a file by default
-- [Fixes for pulumi output through logger](https://github.com/alan-turing-institute/data-safe-haven/pull/1957)
-- [Improvement of multiline log message rendering](https://github.com/alan-turing-institute/data-safe-haven/pull/1953)
-- [Collect console formatting and user interaction functions in a new console module](https://github.com/alan-turing-institute/data-safe-haven/pull/1948)
-- [Fix OSError during tests](https://github.com/alan-turing-institute/data-safe-haven/pull/1951)
-- [Separate SHM and SRE config](https://github.com/alan-turing-institute/data-safe-haven/pull/1943)
-  - Changes user interface
-  - Removes the need to specify SREs (or explicitly specify no SREs) when creating an SHM
-  - Paves the way to combine Context/SHM and rename to SHM
+Story DONE: with the merge of the Pulumi codebase into development IAC has become the sole focus of development efforts,
+the core necessary changes have been identified and implemented and [a roadmap](https://github.com/alan-turing-institute/data-safe-haven/blob/develop/ROADMAP.md), milestones and goals identified.
+This story has achieved:
 
+- New and complete Pulumi version of the codebase. See [5.0.0rc1 pre-release](https://github.com/alan-turing-institute/data-safe-haven/releases/tag/v5.0.0-rc.1)
+- More efficient and robust codebase and deployment process
+- Improved experience for TRE admnis: reduced cost, simpler user management, more coherent CLI. See [5.0.0rc2 milestone for more details](https://github.com/alan-turing-institute/data-safe-haven/milestone/20)
 
-- Investigating potential issues with updating to Ubuntu 22.04 [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1909)
-    - Ubuntu 22.04+ installs some packages from the Canonical Snap store
-    - We have to provide VMs with access to the endpoints for Snap/snapcraft, but it is unclear if this risks allowing a form of egress
-    - Currently appears it is not possible to build snaps on a VM and upload to the snap store, as building snaps requires additional downloads that are blocked by existing firewall rules
-- Logging and stdout changes
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1936)
-  - Improve output format/verbsoity
-  - Cleaner CLI for users
-  - Clearer guidlines for developers
-  - Removing unused or uneeded code
-- Remove SRE index
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1930)
-  - Move towards separating SHM and SRE
-- Move log analytics to SRE
-  - [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1928)
-  - Move logging workspace to SRE and make a first attempt at connecting SRE resources to it
+It is no longer useful for this story to contain development efforts or to distinguish IAC work from the rest of development work.
 
+New stories will be created with specific goals for development,
+in particular [#79 'Develop outside-run inside'](https://github.com/alan-turing-institute/data-safe-haven-team/issues/79) is the immediate follow up story to the work previously reported here.
 
-- Co working on snapd problems
-    - Necessary for continuing work on updating to newer version of Ubuntu, see [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1909)
-- A number of small PRs focused on user experience, clarity of errors
-  - Continue working on [context command errors](https://github.com/alan-turing-institute/data-safe-haven/pull/1916)
-  - [Clarify subscription arugment of context add](https://github.com/alan-turing-institute/data-safe-haven/pull/1919)
-  - [Validate arguments for 'user' commands](https://github.com/alan-turing-institute/data-safe-haven/pull/1921)
-  - [Supress Pydantic warnings when calling `dsh config template`](https://github.com/alan-turing-institute/data-safe-haven/pull/1920)
+[Milestone rc2 is the last one reported under this story](https://github.com/alan-turing-institute/data-safe-haven/milestone/20).
+
 
 ###### April-May 2024
 
