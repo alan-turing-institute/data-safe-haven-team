@@ -28,6 +28,7 @@ This is a project management repo for the Data Safe Havens in the Cloud team at 
 - [Trusted research repo](https://github.com/alan-turing-institute/trusted-research) (private) which contains the code for the Turing TRE docs and issues for the 2 project boards below
 - [TRESA - SRE board](https://github.com/orgs/alan-turing-institute/projects/25/views/1?layout=board) (private) which contains info of all the current/future/past SRE deployments at Turing under the production (prod4) SHM
 - [TRESA management board](https://github.com/orgs/alan-turing-institute/projects/52/views/1?layout=board) (private) which is for managing service area general issues
+- [DSG Slack monitoring](https://github.com/orgs/alan-turing-institute/projects/215/views/1)
 
 ### Standardised Architecture for Trusted Research Environments (SATRE)
 
