@@ -56,7 +56,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 #### REG-accountable
 
-##### [Codebase maintenance](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
+##### [Release 5.0.1](https://github.com/alan-turing-institute/data-safe-haven/milestone/30)
 
 ###### People and time
 
@@ -76,27 +76,7 @@ For example, this may be an emergent task, providing support or expertise to oth
   - Draft PR to fix bug [created](https://…)
 -->
 
-##### [Identify and implement core IAC changes](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-##### [Manage codebase releases and testing](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
+##### [Release 5.1.0](https://github.com/alan-turing-institute/data-safe-haven/milestone/28)
 
 ###### People and time
 
