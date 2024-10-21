@@ -42,7 +42,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 ###### People and time
 
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 
 ###### Updates
 
@@ -62,7 +62,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -82,7 +82,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -102,7 +102,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -124,7 +124,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -146,7 +146,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -168,7 +168,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -188,7 +188,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -208,7 +208,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -228,7 +228,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -250,7 +250,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ##### Updates
@@ -270,7 +270,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
