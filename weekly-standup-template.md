@@ -56,7 +56,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 #### REG-accountable
 
-##### [Release 5.0.1](https://github.com/alan-turing-institute/data-safe-haven/milestone/30)
+##### [Hotfixes and patch releases](https://github.com/alan-turing-institute/data-safe-haven/issues?q=is%3Aopen+is%3Aissue+label%3Ahotfix)
 
 ###### People and time
 
