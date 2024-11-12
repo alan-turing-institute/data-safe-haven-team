@@ -42,7 +42,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 ###### People and time
 
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 
 ###### Updates
 
@@ -56,13 +56,13 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 #### REG-accountable
 
-##### [Codebase maintenance](https://github.com/alan-turing-institute/data-safe-haven-team/issues/47)
+##### [Hotfixes and patch releases](https://github.com/alan-turing-institute/data-safe-haven/issues?q=is%3Aopen+is%3Aissue+label%3Ahotfix)
 
 ###### People and time
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -76,33 +76,13 @@ For example, this may be an emergent task, providing support or expertise to oth
   - Draft PR to fix bug [created](https://…)
 -->
 
-##### [Identify and implement core IAC changes](https://github.com/alan-turing-institute/data-safe-haven-team/issues/28)
+##### [Release 5.1.0](https://github.com/alan-turing-institute/data-safe-haven/milestone/28)
 
 ###### People and time
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-##### [Manage codebase releases and testing](https://github.com/alan-turing-institute/data-safe-haven-team/issues/50)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -124,7 +104,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -146,7 +126,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -168,7 +148,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -188,7 +168,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -208,7 +188,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -228,7 +208,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
@@ -250,7 +230,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ##### Updates
@@ -270,7 +250,7 @@ For example, this may be an emergent task, providing support or expertise to oth
 
 <!--
 - Harry Lime (x hours)
-- Sam Space (y hours)
+- Sam Spade (y hours)
 -->
 
 ###### Updates
