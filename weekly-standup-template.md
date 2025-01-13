@@ -37,14 +37,14 @@ For example, this may be an emergent task, providing support or expertise to oth
 -->
 
 <!--
-##### [Story](https://…)
+#### [Story](https://…)
 
-###### People and time
+##### People and time
 
 - Harry Lime (x hours)
 - Sam Spade (y hours)
 
-###### Updates
+##### Updates
 
 - Added feature α
   - Implemented in [PR](https://…)
@@ -54,179 +54,9 @@ For example, this may be an emergent task, providing support or expertise to oth
   - Draft PR to fix bug [created](https://…)
 -->
 
-#### REG-accountable
+#### Development
 
-##### [Hotfixes and patch releases](https://github.com/alan-turing-institute/data-safe-haven/issues?q=is%3Aopen+is%3Aissue+label%3Ahotfix)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-##### [Release 5.1.0](https://github.com/alan-turing-institute/data-safe-haven/milestone/28)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-#### RAM-accountable
-
-##### [SATRE: stakeholder engagement and community buy out](https://github.com/alan-turing-institute/data-safe-haven-team/issues/66)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-#### RCM-accountable
-
-##### [UK TRE Community leadership](https://github.com/alan-turing-institute/data-safe-haven-team/issues/52)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-#### RPM-accountable
-
-##### [Contracts, legal and budget work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/53)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-##### [Manage project reporting, impact capture, ways of work](https://github.com/alan-turing-institute/data-safe-haven-team/issues/54)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-##### [TRESA costs and cost recovery](https://github.com/alan-turing-institute/data-safe-haven-team/issues/36)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-##### [Manage grant opportunities and pipeline](https://github.com/alan-turing-institute/data-safe-haven-team/issues/51)
-
-###### People and time
-
-<!--
-- Harry Lime (x hours)
-- Sam Spade (y hours)
--->
-
-###### Updates
-
-<!--
-- Added feature α
-  - Implemented in [PR](https://…)
-- Working on bug β
-  - This is a critical bug which prevent users from …
-  - Opened [issue describing bug](https://…)
-  - Draft PR to fix bug [created](https://…)
--->
-
-#### Other
-
-##### [Promotion, opportunities and new work venues](https://github.com/alan-turing-institute/data-safe-haven-team/issues/68)
-
-###### People and time
+##### People and time
 
 <!--
 - Harry Lime (x hours)
@@ -244,16 +74,96 @@ For example, this may be an emergent task, providing support or expertise to oth
   - Draft PR to fix bug [created](https://…)
 -->
 
-##### Non-story work
+#### Production
 
-###### People and time
+##### People and time
 
 <!--
 - Harry Lime (x hours)
 - Sam Spade (y hours)
 -->
 
-###### Updates
+##### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### Management
+
+##### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Spade (y hours)
+-->
+
+##### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### Community
+
+##### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Spade (y hours)
+-->
+
+##### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### Comms
+
+##### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Spade (y hours)
+-->
+
+##### Updates
+
+<!--
+- Added feature α
+  - Implemented in [PR](https://…)
+- Working on bug β
+  - This is a critical bug which prevent users from …
+  - Opened [issue describing bug](https://…)
+  - Draft PR to fix bug [created](https://…)
+-->
+
+#### Other
+
+##### People and time
+
+<!--
+- Harry Lime (x hours)
+- Sam Spade (y hours)
+-->
+
+##### Updates
 
 <!--
 - Added feature α
@@ -304,6 +214,7 @@ Other issues can be dealt with in coworking time.
 
 1. Identify blockers and arrange to solve.
    Do not spend time fixing problems in this meeting.
+1. Review project board.
 1. Write plans for the week.
    Meeting organisers leads a group discussion on task prioritisation.
 
