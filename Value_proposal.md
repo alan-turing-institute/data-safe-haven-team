@@ -9,7 +9,7 @@ Data Safe Haven is a unique open source project for you to safely and effectivel
 "As secure as necessary and as usable as possible" 'Data Safe Haven' brings years of technical and practical expertise to every project and organisation.
 
 The Infrastructure as code software platform allows you to deploy your own Trusted Research Environment within an hour,
-ready with all the tools necessary for research. 
+ready with all the tools necessary for research.
 If those are not enough you can fully customize it and even develop research and analysis code outside of the TRE then run them against the sensitive data.
 
 The guidelines and policies available as part of the codebase will streamline setting up the necessary processes and and agreements, 
