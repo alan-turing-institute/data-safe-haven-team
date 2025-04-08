@@ -15,7 +15,7 @@ If those are not enough you can fully customize it and even develop research and
 The guidelines and policies available as part of the codebase will streamline setting up the necessary processes and and agreements,
 offering all stakeholders the reassurances they need and easily complying with current (DSPT) and emerging (SATRE) standards.
 
-Navigate and balance your security needs to appropriately select between available Security Tiers. 
+Navigate and balance your security needs to appropriately select between available Security Tiers.
 Security starts with risk minimisation and Data Safe Haven will help you to identify pre-data-ingress actions that simultaneously minimises risk and improves the effectiveness of research by offering a wider set of features.
 
 ## Context
