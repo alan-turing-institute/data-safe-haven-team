@@ -4,6 +4,7 @@ Created: 2024 07 18
 Version: 0.1
 
 ## Value proposal
+
 Data Safe Haven is a unique open source project for you to safely and effectively research with sensitive data.
 "As secure as necessary and as usable as possible" 'Data Safe Haven' brings years of technical and practical expertise to every project and organisation.
 
