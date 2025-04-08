@@ -12,7 +12,7 @@ The Infrastructure as code software platform allows you to deploy your own Trust
 ready with all the tools necessary for research.
 If those are not enough you can fully customize it and even develop research and analysis code outside of the TRE then run them against the sensitive data.
 
-The guidelines and policies available as part of the codebase will streamline setting up the necessary processes and and agreements, 
+The guidelines and policies available as part of the codebase will streamline setting up the necessary processes and and agreements,
 offering all stakeholders the reassurances they need and easily complying with current (DSPT) and emerging (SATRE) standards.
 
 Navigate and balance your security needs to appropriately select between available Security Tiers. 
