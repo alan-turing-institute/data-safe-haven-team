@@ -135,7 +135,7 @@ The SATRE specification continues to increase its impact, even without dedicated
 - The [DARE federation blueprint v2](https://zenodo.org/records/14192786) builds on it.
 - In Europe the EOSC-ENTRUST have used SATRE and the DARE blueprint as the basis for [their own federation blueprint](https://zenodo.org/records/14362388).
 
- ### Funding: Further funding, leveraged funding/support, in-kind contributions
+### Funding: Further funding, leveraged funding/support, in-kind contributions
  
 The [FRIDGE project](https://www.turing.ac.uk/research/research-projects/fridge-federated-research-infrastructure-data-governance-extension) which was [awarded by DARE UK](https://dareuk.org.uk/news-and-events/dare-uk-launches-six-projects-to-support-early-adoption-of-new-capabilities-for-sensitive-data-research/) will develop a new platform agnostic TRE that targets High-Performance Computing Centres ([starting with AIRR sites](https://www.ukri.org/news/300-million-to-launch-first-phase-of-new-ai-research-resource/)) based on the learnings through the Data Safe Haven project lifecycle.
 The project has a budget of £500k and includes UCL as well as both AIRR sites, DAWN and ISAMBARDAI, as project partners with Turing as lead.
