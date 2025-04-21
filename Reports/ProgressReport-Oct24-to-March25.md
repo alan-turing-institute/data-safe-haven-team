@@ -106,8 +106,11 @@ with releases reflecting requested and necessary changes for research project an
 
 Therefore these releases focus on improved usability for production teams (or TRE operators) as well as researchers.
 
+A key highlight is that the new version of Data Safe Haven now minimises shared resources across projects,
+this not only allows to track and allocate costs better but hugely decreases ongoing central costs.
+
 - [See releases](https://github.com/alan-turing-institute/data-safe-haven/releases)
-- 
+
 The FRIDGE project has created its repository and can be accessed [here](https://github.com/alan-turing-institute/fridge)
 
 ### New datasets created/accessed  
