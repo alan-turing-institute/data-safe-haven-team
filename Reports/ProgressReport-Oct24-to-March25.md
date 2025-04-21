@@ -71,23 +71,24 @@ It is anticipated that both the standards and community work Turing has been lea
     
 ### Notable/substantive activity/outcomes in research progress 
 
-- released version 5.1 to 5.4.1
-- V5 is now the one in production and have been used
-- Pen tested
+- released [version 5.1 to 5.4.1](https://github.com/alan-turing-institute/data-safe-haven/releases)
+- Pulumi based codebase (v5) is now the one in production and have been used in Data Study Groups and is supporting Turing projects (CVD-net)
+- Conducted pen test of latest version in production
 
 ### Status of progress against goals/milestones, any blockers to progress 
 
-Succeded in producing a stable open source TRE
+The Data Safe Haven team has succeded in producing an open source TRE that can be used by anyone while satisfying Turing needs for its own projects with sensitive data.
+The project was launched after identifying a gap in the features of existing TRE that were too rigid for research project needs, the resulting codebase reflects the approach 'as secure as needed, as flexible as possible' towards which the TRE space is slowly shifting following the Data Safe Haven example.
 
-Secured funding to continue evolution
+The project is now closing formally as a research project but it has succesfully morfed into a permanent internal area of the Insittute,
+now focused on support to other projects.
 
-Merged development and production teams and moving into a new phase as a stable Trusted Research Service Area 
+At the same time the team has secured funding to continue developing new iterations of open source TREs,
+in particular the [FRIDGE project](https://www.turing.ac.uk/research/research-projects/fridge-federated-research-infrastructure-data-governance-extension) which was [awarded by DARE UK](https://dareuk.org.uk/news-and-events/dare-uk-launches-six-projects-to-support-early-adoption-of-new-capabilities-for-sensitive-data-research/) will develop a new platform agnostic TRE that targets High-Performance Computing Centres ([starting with AIRR sites](https://www.ukri.org/news/300-million-to-launch-first-phase-of-new-ai-research-resource/)) based on the learnings through the Data Safe Haven project lifecycle.
 
 ### Conference/workshop talks presented
 
-As FRIDGE: project presentation
-
-Any other?
+The project Technical Lead Jim Madge [presented the data Safe Haven project](https://virtual.oxfordabstracts.com/event/49081/session/118339) during [RSEcon24](https://rsecon24.society-rse.org/) with a focus on its disctinctive security approach and how the codebase actualises it.
 
 ### Papers submitted or published
 
@@ -99,8 +100,15 @@ no update
 
 ### Software/code/tools/methods developed/released 
 
-- DSH: v5.4.1 see releases
-- FRIDGE: in development, repository here
+The data Safe Haven team has made several releases, with v5.4.1 being the latest, over this period.
+This reflects a lower time to release that is related with the merge between the production and development teams, 
+with releases reflecting requested and necessary changes for research project and Data Study Group teams.
+
+Therefore these releases focus on improved usability for production teams (or TRE operators) as well as researchers.
+
+- [See releases](https://github.com/alan-turing-institute/data-safe-haven/releases)
+- 
+The FRIDGE project has created its repository and can be accessed [here](https://github.com/alan-turing-institute/fridge)
 
 ### New datasets created/accessed  
 
@@ -108,16 +116,20 @@ No update/non applicable
 
 ### External engagement, influence, impact (Academic/ industry/ government/ public/ international) 
 
-- TRE community events
-- SATRE continued adoption
-  - In the UK
-  - In EU
+The Data Safe Haven team has continued the support for the UK TRE Community which has held its annual conference as well as quarterly events for December and March,
+on top of that the Community has run specialised events lead by Working Groups which is a highly positive sign of its activity and members involvement.
+All events can be accessed through the [Community's page](https://www.uktre.org/en/latest/events/index.html), with links to presentations in [Zenodo](https://zenodo.org/communities/uktre/records?q=&l=list&p=1&s=10&sort=newest) and [recordings available on YouTube](https://www.youtube.com/channel/UCd7AZjyH33aCmIojGHMfqEg).
+
+The SATRE specification continues to increase its impact, even without dedicated resources for its promotion:
+
+- All Scottish safe havens/TREs are evaluating and comparing themselves using SATRE, as part of a Scottish federation project.
+- The [DARE federation blueprint v2](https://zenodo.org/records/14192786) builds on it.
+- In Europe the EOSC-ENTRUST have used SATRE and the DARE blueprint as the basis for [their own federation blueprint](https://zenodo.org/records/14362388).
 
  ### Funding: Further funding, leveraged funding/support, in-kind contributions 
 
- - FRIDGE secured
- - UKRI network plus worked on but not submitted
- - DARE UK community maangement offered but not submitted
+ - The [FRIDGE project](https://www.turing.ac.uk/research/research-projects/fridge-federated-research-infrastructure-data-governance-extension) which was [awarded by DARE UK](https://dareuk.org.uk/news-and-events/dare-uk-launches-six-projects-to-support-early-adoption-of-new-capabilities-for-sensitive-data-research/) will develop a new platform agnostic TRE that targets High-Performance Computing Centres ([starting with AIRR sites](https://www.ukri.org/news/300-million-to-launch-first-phase-of-new-ai-research-resource/)) based on the learnings through the Data Safe Haven project lifecycle. The project has a budget of £500k and includes UCL as well as both AIRR sites, DAWN and ISAMBARDAI, as project partners with Turing as lead.
+
 
 ### Patents (drafted/applied for/granted) 
 
