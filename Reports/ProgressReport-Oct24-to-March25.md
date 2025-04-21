@@ -83,7 +83,7 @@ The project was launched after identifying a gap in the features of existing TRE
 
 The project is now closing formally as a research project but it has succesfully morfed into a permanent internal area of the Insittute,
 now focused on support to other projects (production).
-In this role the team has supported a 2-week online DSG in January which had  55 participants,
+In this role the team has supported a 2-week online DSG in January which had 55 participants,
 from 12 different countries.
 The team has also deployed TREs for the project CVD-Net and support is embedded in the project to ensure Data Safe Haven continues to provide the necessary features.
 
@@ -104,7 +104,7 @@ none
 
 no update
 
-### Software/code/tools/methods developed/released 
+### Software/code/tools/methods developed/released
 
 The data Safe Haven team has made several releases, with v5.4.1 being the latest, over this period.
 This reflects a lower time to release that is related with the merge between the production and development teams,
@@ -136,9 +136,9 @@ The SATRE specification continues to increase its impact, even without dedicated
 - In Europe the EOSC-ENTRUST have used SATRE and the DARE blueprint as the basis for [their own federation blueprint](https://zenodo.org/records/14362388).
 
  ### Funding: Further funding, leveraged funding/support, in-kind contributions
-
- - The [FRIDGE project](https://www.turing.ac.uk/research/research-projects/fridge-federated-research-infrastructure-data-governance-extension) which was [awarded by DARE UK](https://dareuk.org.uk/news-and-events/dare-uk-launches-six-projects-to-support-early-adoption-of-new-capabilities-for-sensitive-data-research/) will develop a new platform agnostic TRE that targets High-Performance Computing Centres ([starting with AIRR sites](https://www.ukri.org/news/300-million-to-launch-first-phase-of-new-ai-research-resource/)) based on the learnings through the Data Safe Haven project lifecycle. The project has a budget of £500k and includes UCL as well as both AIRR sites, DAWN and ISAMBARDAI, as project partners with Turing as lead.
-
+ 
+The [FRIDGE project](https://www.turing.ac.uk/research/research-projects/fridge-federated-research-infrastructure-data-governance-extension) which was [awarded by DARE UK](https://dareuk.org.uk/news-and-events/dare-uk-launches-six-projects-to-support-early-adoption-of-new-capabilities-for-sensitive-data-research/) will develop a new platform agnostic TRE that targets High-Performance Computing Centres ([starting with AIRR sites](https://www.ukri.org/news/300-million-to-launch-first-phase-of-new-ai-research-resource/)) based on the learnings through the Data Safe Haven project lifecycle.
+The project has a budget of £500k and includes UCL as well as both AIRR sites, DAWN and ISAMBARDAI, as project partners with Turing as lead.
 
 ### Patents (drafted/applied for/granted)
 
