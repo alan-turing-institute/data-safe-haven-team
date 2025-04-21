@@ -71,9 +71,10 @@ It is anticipated that both the standards and community work Turing has been lea
     
 ### Notable/substantive activity/outcomes in research progress 
 
-- released [version 5.1 to 5.4.1](https://github.com/alan-turing-institute/data-safe-haven/releases)
-- Pulumi based codebase (v5) is now the one in production and have been used in Data Study Groups and is supporting Turing projects (CVD-net)
-- Conducted pen test of latest version in production
+- released [version 5.1 to 5.4.1](https://github.com/alan-turing-institute/data-safe-haven/releases).
+- Pulumi based codebase (v5) is now the one in production and have been used in Data Study Groups and is supporting Turing projects (CVD-net).
+- Conducted pen test of latest version in production.
+- Updated production processes and approach towards DSPT acreditation, now including tier 2 within DSPT project as well as more flexibily including external researchers in project teams.
 
 ### Status of progress against goals/milestones, any blockers to progress 
 
@@ -81,7 +82,12 @@ The Data Safe Haven team has succeded in producing an open source TRE that can b
 The project was launched after identifying a gap in the features of existing TRE that were too rigid for research project needs, the resulting codebase reflects the approach 'as secure as needed, as flexible as possible' towards which the TRE space is slowly shifting following the Data Safe Haven example.
 
 The project is now closing formally as a research project but it has succesfully morfed into a permanent internal area of the Insittute,
-now focused on support to other projects.
+now focused on support to other projects (production).
+In this role the team has supported a 2-week online DSG in January which had  55 participants,
+from 12 different countries.
+The team has also deployed TREs for the project CVD-Net and support is embedded in the project to ensure Data Safe Haven continues to provide the necessary features.
+
+The team has also prepared its self assessment for NHS's DSPT in advance of next submission, adapting its approach to be more flexible and include external researchers while maintaining security.
 
 At the same time the team has secured funding to continue developing new iterations of open source TREs,
 in particular the [FRIDGE project](https://www.turing.ac.uk/research/research-projects/fridge-federated-research-infrastructure-data-governance-extension) which was [awarded by DARE UK](https://dareuk.org.uk/news-and-events/dare-uk-launches-six-projects-to-support-early-adoption-of-new-capabilities-for-sensitive-data-research/) will develop a new platform agnostic TRE that targets High-Performance Computing Centres ([starting with AIRR sites](https://www.ukri.org/news/300-million-to-launch-first-phase-of-new-ai-research-resource/)) based on the learnings through the Data Safe Haven project lifecycle.
