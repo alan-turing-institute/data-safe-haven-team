@@ -2,12 +2,48 @@
 
 **Period: [February 2024-August 2024]**
 
-This update: 8 April 2024
+This update: 08 April 2024 to 24 June 2024
 
 ## Progress
 
 This section contains a summary of progress across all stories in the [project roadmap](https://github.com/orgs/alan-turing-institute/projects/111/views/1).
 It maps stories according to the (main) pillar and priority they contribute to.
+
+### June summary 
+
+June has continued to be focused on development and UK TRE community, with the addition of DSPT submission.
+
+Development saw the completion (or very near, this week) of [rc2 milestone](https://github.com/alan-turing-institute/data-safe-haven/milestone/20). This milestone had two main goals: for users to reduce costs, simplify user management and a more coherent CLI; For developers a simpler deployed architecture and a better structure for configuration and command line.
+
+Previous bulk of the work was to migrate, now we are entering actual changes and improvements (no longer the same thing with a different deployment technology).
+
+The UK TRE Community work has been lighter, as all co-chairs needed a breather after quarterly event. But we have been organising for very important things: September annual in person meeting and UKRI Skills grant. The latter we might be able to jump back into as partners.
+
+DSPT submission completed! thanks to everyone involved. The last stretch required a bit of work and putting some things in place like a spot check or new ROPA specific for TRESA. Several areas of improvement have been identified and we need to follow up soon with the team and DP how to improve.
+
+### May summary
+
+May has continued to be marked by codebase development. There are two main things to highlight:
+- [Milestone 20](https://github.com/alan-turing-institute/data-safe-haven/milestone/20) has been reprioritised to accommodate user facing features and DATE MOVED to end of June to be on time for RSEcon.
+- Upcoming patch release: TRESA discovered a bug with Guacomole preventing correct deployment, this has been fixed and a release with it will be made
+
+The UK TRE Community has been the other focus of the month,
+been marked by a transition phase towards an unfunded period,
+support for the new Working Groups and preparation of the 5 June quarterly events.
+
+While new members are stepping up resource load for project PM has prevented work on other areas.
+This made sense in the lead up to the quarterly event and wrap up of funded phase activities but is not sustainable.
+
+### April summary
+
+April was a month focused on development of the Pulumi codebase (now the development branch), wrapping up the UK TRE Community funded phase and RAM handover.
+TRESA has also updated to the latest powershell version and is preparing for the May DSG.
+
+Development has been marked by the 5.0.0rc2 milestone.
+
+The UK TRE Community work ended with the Working Groups day that was well attended with members being active in WGs (Funding & Sustainability WG re-emerged).
+The new website is ready but migration is pending, the Governance documents were published in their first iteration with a section for pending discussions.
+
 
 ### Codebase development
 
@@ -26,6 +62,18 @@ Contributes to:
 Support for deployments of the Data Safe Haven at Turing and beyond
 
 ##### Progress
+
+###### June 2024
+
+Patch release [v4.2.2](https://github.com/alan-turing-institute/data-safe-haven/pull/1955)
+  - Fixes SSL bug
+  - Running test deployment
+
+###### April-May 2024
+
+Helping TRESA upgrade prod4 to v4.2.0 in place and Working through a from-scratch deployment and bug-fixing along the way
+
+###### February-March 2024
 
 Having completed development of v4.2.0 we prepared the release which included preparing a release branch and deployment in an environment for pen testing.
 
@@ -54,6 +102,26 @@ Ensure that codebase is kept up-to-date with bug fixes, security updates, extern
 - Ensure that documentation is up-to-date with code base
 
 ##### Progress
+
+###### June 2024
+
+Over this period we have identified bugs in production that have been fixed, resulting in a new v4.2.1:
+
+- [Fix broken link in docs](https://github.com/alan-turing-institute/data-safe-haven/pull/1949)
+- [Fix SSL cert error](https://github.com/alan-turing-institute/data-safe-haven/pull/1939)
+  - It was possible for users to enter a domain name which isn't supported by Let's Encrypt.
+- [Fix error when deploying virtual gateway](https://github.com/alan-turing-institute/data-safe-haven/issues/1947)
+    - Azure no longer supports the use of a basic public IP address SKU
+
+###### April-May 2024
+
+Worked on providing clearer error messages for context related commands, making using the CLI more user friendly.
+
+Also worked in replacing Log Analytics/OMS agent with Azure Monitor Agent as OMS agent is being retired in August 2024, and should be replaced with Azure Monitor Agent.
+In the same way updated to using Entra ID instad of Azure AD
+   
+
+###### February-March 2024
 
 Have worked on updating software used within SREs to ensure the security and functionality of the environment:
 
@@ -92,11 +160,66 @@ Make DSH deployment more robust and development easier through using IAC and con
   - Make development easier
 - Move away from non-idempotent, bespoke scripts (Powershell, bash, cloud-init)
 
+
+
 ###### Definition of done
 
 On the release of a new major version which removes legacy, script-based deployment.
 
 ##### Progress
+
+Story DONE: with the merge of the Pulumi codebase into development IAC has become the sole focus of development efforts,
+the core necessary changes have been identified and implemented and [a roadmap](https://github.com/alan-turing-institute/data-safe-haven/blob/develop/ROADMAP.md), milestones and goals identified.
+This story has achieved:
+
+- New and complete Pulumi version of the codebase. See [5.0.0rc1 pre-release](https://github.com/alan-turing-institute/data-safe-haven/releases/tag/v5.0.0-rc.1)
+- More efficient and robust codebase and deployment process
+- Improved experience for TRE admnis: reduced cost, simpler user management, more coherent CLI. See [5.0.0rc2 milestone for more details](https://github.com/alan-turing-institute/data-safe-haven/milestone/20)
+
+It is no longer useful for this story to contain development efforts or to distinguish IAC work from the rest of development work.
+
+New stories will be created with specific goals for development,
+in particular [#79 'Develop outside-run inside'](https://github.com/alan-turing-institute/data-safe-haven-team/issues/79) is the immediate follow up story to the work previously reported here.
+
+[Milestone rc2 is the last one reported under this story](https://github.com/alan-turing-institute/data-safe-haven/milestone/20).
+
+###### June 2024
+
+Story DONE: with the merge of the Pulumi codebase into development IAC has become the sole focus of development efforts,
+the core necessary changes have been identified and implemented and [a roadmap](https://github.com/alan-turing-institute/data-safe-haven/blob/develop/ROADMAP.md), milestones and goals identified.
+This story has achieved:
+
+- New and complete Pulumi version of the codebase. See [5.0.0rc1 pre-release](https://github.com/alan-turing-institute/data-safe-haven/releases/tag/v5.0.0-rc.1)
+- More efficient and robust codebase and deployment process
+- Improved experience for TRE admnis: reduced cost, simpler user management, more coherent CLI. See [5.0.0rc2 milestone for more details](https://github.com/alan-turing-institute/data-safe-haven/milestone/20)
+
+It is no longer useful for this story to contain development efforts or to distinguish IAC work from the rest of development work.
+
+New stories will be created with specific goals for development,
+in particular [#79 'Develop outside-run inside'](https://github.com/alan-turing-institute/data-safe-haven-team/issues/79) is the immediate follow up story to the work previously reported here.
+
+[Milestone rc2 is the last one reported under this story](https://github.com/alan-turing-institute/data-safe-haven/milestone/20).
+
+
+###### April-May 2024
+
+Upgraded Ubuntu VMs to Gen 2 and newer versions of Ubuntu.
+Preiously we used Ubuntu 20.04, which is now 2 Long Term Support versions behind.
+
+Improved protection against configuration changes [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1881)
+
+Reviewed and prepared v5.0.0-rc2 milestone
+
+Merged develop branch into python-migration branch, bringing it up to parity with the latest powershell codebase PR
+
+Integrated Apricot [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1778) which is an important step in removing domain controllers and reduces cost and complexity.
+
+Removed magic numbers [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1819) for good code hygiene, will likely save us headaches in the future.
+
+Fixed identity server deployment [PR](https://github.com/alan-turing-institute/data-safe-haven/pull/1865) which was major as it prevented the deployment of a TRE
+  
+###### February-March 2024
+
 
 Over this period the story has not been prioritised instead focusing on identifying and scoping future work which will be a priority after v4.2.0 release.
 The DSH code repo contains milestones that reflect related and planned issues (v5.x.y milestones) https://github.com/alan-turing-institute/data-safe-haven/milestones.
@@ -131,6 +254,11 @@ there is feedback on the spec repository and, ideally, there is an active WG wit
 
 ##### Progress
 
+###### April-May 2024
+
+###### February-March 2024
+
+
 NHS-E R&D Programme Director stated during the UK TRE Community March event that SATRE has become the reference framework for TREs within the Subnational SDE programme,
 placing SATRE as a key reference for what TREs are.
 A recording of the event is available here https://youtu.be/KJVcy_ZKyVE?si=mbf64cZOLMHAxjwk and the notes of the day will be added to a report publicily available on the community website
@@ -162,6 +290,45 @@ Provide a space for those involved in building, using and responsible for govern
 - Empower the community to help influence policy decisions
 
 ##### Progress
+
+###### June 2024
+
+Quarterly event on 5th June: with 60 online participants the event had a keynote by Pete Barnsley on the Crick's TRE and also focused on Working Groups,
+marking the official community review for these and presenting them.
+
+- main hackmd with agenda for the day and notes is here https://hackmd.io/NE1-gvLtST6aJTdRzwL-gg
+- Github view for community review https://github.com/orgs/uk-tre/projects/1/views/7
+    
+The other call to action during the event and recent focus is the preparation of the UKRI skills network grant.
+We asked for letters of support and involvement.
+
+- Deadline has been extended to 2 October, which might give us the opportunity to become formally involved
+
+
+###### April-May 2024
+
+Work focused on June 5 event organisation and on Skills grant for the CMWG.
+Simultaneously supported working groups to ensure viability, 
+updated informaiton for all of them which is now available on the [UK TRE Website](https://www.uktre.org/en/latest/structure/index.html)
+(updated old site until we do migration) and created or organised mailing list and repositories for them.
+
+Produced new Scriberia image for use in a number of situations, this image was done thinking of a variety of uses and serving to be placed on a physical banner, as sticker (only central element) and as a main illustration for website.
+Coordination with hte community was a challenge as there were lot of contradicting requirements for it, but we are happy with the result.
+
+
+Working groups day event: full day event very well attended with minimal no shows (20 in person, 25 online). 
+Several attendees were relatively new in the community and got directly involved,
+a new working group was created on Funding and Sustainability and the recent Cybersecurity WG defined.
+
+- very positive feedback from attendees
+- several requests for connections between members
+- All working groups advanced in their charters and plans
+- Department of Health & Social care Senior Policy Lead interested in Funding & Sustainability WG
+- Lesson: Pure proved a good provider for catering that can be ordered via credit card
+- Lesson: hybrid worked better via separate general discussion and by separating groups in different physical rooms each with joining a zoom breakout room. YET the online experience can be improved, something that has been suggested is to make everyone behave "as if online" which can be difficult in large discussion but could be encouraged in breakouts (add to facilitation tips/recommendations)
+- With the event done, funding ended and our RAM gone the Community does enter into a new phase where numbers have grown and WGs started but no formal support is available for its management.
+
+###### February-March 2024
 
 Funded phase came to an end on 31 March,
 along reporting,
@@ -200,6 +367,17 @@ Contributes to:
 
 ##### Progress
 
+###### April-May 2024
+
+- Drafting RSECon talk
+  - [notes](https://hackmd.io/@nHslnPpLRmCxPOmQBcOW-g/BkMo-88WA/edit)
+ 
+- Prepared and submitted [talk (45 min) for RSEcon24](https://hackmd.io/pVcsy89ZR7-MnRgJlgQ2pg) which will focus on discussing the balance between productivity and security and demonstrate our approach and experience. We differentiate ourselves in that we take a more pragmatic approach enabled by our security features and the fact environments are effectively isolated, reducing risk to specific environments
+    - "we share the lessons of 6 years of working with over 50 data providers to support access to sensitive data for research under a flexible framework of information governance and technical controls."
+
+###### February-March 2024
+
+
 AI UK has been a priority for this story and the project.
 Held on 19-20 March DSH had its own stand, through a likert scale exercise on TREs (and a bowl of sweets) we engaged attendees to introduce them to TREs and the work of the project which we stressed to be not only an open codebase but also the governance & standards and the community.
 
@@ -230,9 +408,18 @@ An agreed and formal process to recharge ATI projects being served by TRESA.
 
 ###### Progress
 
+**April-May**
+
+- Not worked on this despite priority (due to re-prioritisation of grant management)
+
+- Met with finance to restart conversation, was asked to prepare a clear example with numbers. Will have a meeting with Fiona next week
+
+**February-March**
+
 TRESA has now its own code, people time has been changed in forecast to this code and Azure subscriptions associated to it (although currently covered by core).
 
 Next step is to formalise the recharge process, projects engaging with TRESA have already been advised there will be a staff related cost in addittion to their specific subscription.
+
 
 ##### Review of requirements for security accreditation [37](https://github.com/alan-turing-institute/data-safe-haven-team/issues/37)
 
@@ -251,6 +438,23 @@ DSH remains DSPT compliant
 There is a documented plan for DSH to be ISO027001 compliant.
 
 ###### Progress
+
+###### June 2024
+
+DSPT submission completed! thanks to everyone involved.
+The last stretch required a bit of work and putting some things in place like a spot check or new ROPA specific for TRESA.
+Several areas of improvement have been identified and we need to follow up soon with the team and DP how to improve.
+
+For next year submission: actions identified that will be summarised to improve compliance
+- see issue for more details: https://github.com/alan-turing-institute/trusted-research/issues/158#issuecomment-2135124214
+
+###### April-May 2024
+
+
+- DSPT: meeting with Data Protection to review answers related to DP, 3 documents need put in place or updating (Spot check, training needs analysis, list of all project). [Details in issue](https://github.com/alan-turing-institute/trusted-research/issues/158)
+
+###### February-March 2024
+
 
 Revised DSPT v6 requirement, there being no effective changes for category 3 organisations (us).
 Reviewed and copied last year answers for all mandatory requirements and made progress updating links and references (ongoing).
@@ -281,6 +485,20 @@ Through several strategy sessions we will:
 
 ##### Progress
 
+###### April-May 2024
+
+
+    Project progress and priorities report https://github.com/alan-turing-institute/data-safe-haven-team/pull/71
+    Monthly agenda
+
+Review Feb-Aug 2024 report
+
+HARI HANDOVER (add docs and main bullets)
+- Hari's handover session [notes](https://hackmd.io/@nHslnPpLRmCxPOmQBcOW-g/H1Y3vAlGR/edit)
+
+###### February-March 2024
+
+
 On 13 February the DSH had its second strategy session, based on last year's work it tried to define and prioritise specific work and activities for the project by creating milestones by project workstream.
 While we discussed aspects of the Community workstream in depth there was no time for other workstreams.
 
@@ -296,14 +514,124 @@ All work related to agreements, policies, expenses, contracts, budget.
 
 ##### Progress
 
+###### April-May 2024
+
+Wrote up and finalised UK TRE Community WG report
+
+###### February-March 2024
+
+
 Work has focused on managing UK TRE Community grant, which included ensuring actual allocation of costs to project and workign with DARE to agree on a reprofile that allowed us to use almost the totally of funds while delivering a final event past the grant end date.
 
 Substantial work has also gone into aligning project actuals with Finance records for an appropriate management of internal and external Institute funds.
+
+- Met with Finance to ensure project codes reflect invoicing to funder
+
+- Prepared and completed [6 monthly Turing report](https://thealanturininstitute.sharepoint.com/:w:/s/rid/EQMRhhtbkLBOh7etA4dbg_QBu-Z8gDDAQFQ_82aEyhOCEA?e=MUeT7u)
+- Included preparing a [funding summary](https://thealanturininstitute.sharepoint.com/:w:/s/rid/EWr9m2ZtPPdPr6R8DriAZdMBeGUqk6y9f35XtNNzBpFauw?e=bq2JVn)
+
+- Some missalignment between project actuals as reported by us and the final numbers on Finance systems have required extensive revision. Sent a line by line analysis of staffing cost and a comparison between Finance record and actuals
+    - No immediate consequence for team or project
+
+#### [Manage grant opportunities and pipeline](https://github.com/alan-turing-institute/data-safe-haven-team/issues/51)
+
+##### Goal
+
+##### Progress
+
+##### April-May 2024
+
+- Co-working on proposal
+- Grant reading and preparing DSH proposal
+
+- Spent co-working discussing and prioritising grant to submit to, see notes LINK
+- Grant planning and drafting
+  - [notes](https://hackmd.io/@nHslnPpLRmCxPOmQBcOW-g/By6XSlGXC/edit)
+- High level planning of next steps
+- Target is currently both Biomedical and Skills grants, for two weeks we will "dream big" while RPM figures out practical steps
+
+#### Promotion, opportunities and new work venues
+
+##### Goal
+
+##### Progress
+
+##### June 2024
+
+- [Conversation](https://thealanturininstitute.sharepoint.com/sites/SafeHaven/Shared%20Documents/External_engagement/University_of_Nottingham) with Philip Quinlan (Nottingham)
+  - Use of DSH at Nottingham and East Midlands NHS SDE
+  - Collaboration opportunities (TREFX)
+  - User feedback, bug reports, feature requests
+ 
+  
+##### April-May 2024
+
+NEW STORY!
+
+    Send email to NHS England RAP Community of Practice
+        sharepoint directory
+        Proposing talking about areas where we can align to promote reproducibility in trusted research
+        Signposting DSH, The Turing Way
+    Further email to Sam Hollings (NHS-E)
+        More signposting for The Turing Way
+    ESRC initial catch-up
+        Signposted to UK TRE Community and SATRE, no clear future next steps but was a productive chat!
+
+- Engaging with Sam Hollings from NHS-E RAP CoP
+  - [CRM](https://thealanturininstitute.sharepoint.com/:f:/s/SafeHaven/Ein6UMM7p_5HsdDCPf4qs6ABFTUWaDgZuFc72q-h2Z65WQ?e=7ZSh1G)
+  - Joined TTW collab café
+  - Talking about reproducibility, open source culture in the public sector, merging RAP CoP and TTW
+  - Expressed that DSH would be interested in improving support for reproducible workflows in collaboration
+- Prepared and delivered DSH presentation to Met Office
+
+- Meeting OpenMined to find out morea bout their work and whether there's room for collab with us 
 
 ## Plans and priorities
 
 This section contains project plans and priorities,
 currently focusing on work to be done over the next month it should eventually encompass longer term plans.
+
+### Blockers, challenges and other discussions
+
+### July priorities
+
+#### Manage codebase releases and testing #50
+
+Similar to last month there is a bug that needs fixing and making an associated patch release, not made yet because focus on development but will happen.
+
+Priority yes, not a lot of time spent on it.
+
+We are in patch mode, doing what needs done but not focusing on new releases.
+
+#### UK TRE Leadership #52
+
+Continue to be a priority for @Davsarper, focusing on September event, skills grant and general community management. This comes at the expense of RPM time.
+
+WARNING: August I cannot do much of this, we need to focus on project end.
+
+#### Develop outside-run inside, RSEcon24
+
+Absolute priority for development and the main focus of effort/people.
+
+This new story will contain development efforts towards new features for ingressing code,
+this will be more detailed in rc3 milestone (scoping in progress).
+
+It will also refer to all necessary work to deliver the presentation at rsecon24
+
+### May
+
+- Long weekend did wonders but motivation last week was an issue (general state of affairs)
+- So much to do for the Community, if this does not improve next week after June event I might ask for some help on it (Aida, Kirstie) and more "formally" take a step back myself
+
+
+Not exactly a blocker but spent most time on non-prioritised stories (Grants & TRE Community)
+
+- UK TRE Community is taking more RPM time than planned, natural due to transition phase (yesterday we were doing everything for the community), started to delegate back to other chairs/cmwg members. Hope to "solve" this in the short term (probably after 5 June event)
+
+
+- Need some steer from PIs on grants.
+  - What is our pitch?
+  - _Who_ is writing the proposals?
 
 ### Monthly priorities: April
 
