@@ -1,12 +1,19 @@
 ---
-tags: dsh
+title: Trusted Research Monthly Meeting
+date: yyyy-mm-dd
+author:
+  - Trusted Research Team
+abstract: |
+  Trusted Research Team monthly meeting
+tags: [trusted research, dsh, monthly]
+# Pandoc LaTeX variables
+papersize: a4
+fontfamily: fourier
+fontsize: 12pt
+colorlinks: true
 ---
 
-# Data Safe Haven Monthly Meeting xx Month
-
-::: spoiler TOC
 [TOC]
-:::
 
 ## Schedule
 
@@ -21,31 +28,34 @@ tags: dsh
 
 ### In attendance
 
+<!---
+- Harry Lime
+- Sam Spade
+--->
+
 ### Apologies
+
+<!---
+- Harry Lime
+- Sam Spade
+--->
 
 ## Agenda
 
-- Overview of Project updates by story
-- [name=RPM/facilitator] Last month's action points
-- Stories for discussion
-- [name=TRESA lead] TRESA updates
-- Other discussion points
-- Next month plans and priorities
+- [name=chair] Last month's action points
+- [name=project leads] Project updates
+- [name=TRESA lead] Production update
+- [name=chair] Discussion points
+- [name=chair] Next month plans and priorities
 
-## Project updates
+## Notes
 
-DSH repos and boards explainer issue [here](https://github.com/alan-turing-institute/data-safe-haven-team#useful-links)
+### Last month's action points
 
-[Project unified board](https://github.com/orgs/alan-turing-institute/projects/111)
+### Project updates
 
-[Monthly Priorities](https://github.com/orgs/alan-turing-institute/projects/111/views/11)
+### Production updates
 
-## Last month's action points
+### Discussion points
 
-## Stories for discussion
-
-## TRESA
-
-## Other agenda items
-
-## Next month plans and priorities
+### Next month plans and priorities
